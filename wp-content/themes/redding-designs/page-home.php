@@ -14,55 +14,20 @@
 
 get_header();
 ?>
-
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
-        
-        <nav>
-            <section data-aos="fade-in">
-                <a href="index.html" title="Home"><div class="logo" data-aos="fade-in"></div></a>
-                
-                <button id="nav" data-aos="slide-left">Menu</button>
-
-                <div id="palette" class="palette">
-
-                    <ul>
-                        <li><a onclick="modern()" title="Modern">
-                            <span>Modern Look</span></a></li>
-                        <li><a onclick="vintage()" title="Vintage">
-                            <span>Vintage Feel</span></a></li>
-                        <li><a onclick="eighties()" title="80s">
-                            <span>80's Vibe</span></a></li>
-                        <li><a onclick="monochromatic()" title="Monochromatic">
-                            <span>Monochromatic</span></a></li>
-                    </ul>
-                </div>
-                
-                <br>
-                
-                <ul id="main-menu">
-                    <li><a href="index.html" title="Home">Home<br>
-                        <span>This page gives you an overview of everything we have to offer.</span></a></li>
-                    
-                    <li><a href="about/" title="About">About<br>
-                        <span>Find out who we are and what is up with the Beard Seal of Approval.</span></a></li>
-                    
-                    <li><a href="portfolio/" title="Portfolio">Portfolio<br>
-                        <span>We have a lot of work to show you so come back regularily to see what's new.</span></a></li>
-                    
-                    <li><a href="services/" title="Services">Services<br>
-                        <span>Check out the services we offer to help you get your business off the ground.</span></a></li>
-                    
-                    <li><a href="contact/" title="Contact">Contact<br>
-                        <span>Get a quote, call us or send us a message. We would love to hear from you!</span></a></li>
-                    
-                    <li><div class="palette"></div><br>
-                        <span>Change the theme of this website for your viewing pleasure.</span></li>
-                </ul>
-                
-                <div class="clear"></div>
-            </section>
-        </nav>
+        <style>
+            .desktop:before {
+                background-image: url('<?php the_field( "desktop" ); ?>');
+            }
+            .laptop:before {
+                background-image: url('<?php the_field( "laptop" ); ?>');
+            }
+            .tablet:before {
+                background-image: url('<?php the_field( "tablet" ); ?>');
+            }
+            .phone:before {
+                background-image: url('<?php the_field( "phone" ); ?>');
+            }
+        </style>
         
         <div class="banner-home" data-aos="fade-in">
             <section>

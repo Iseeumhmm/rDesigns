@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700');
+
+#vitality-coordinator,
+#define-your-vitality,
+#staff-matching,
+#service-delivery,
+#service-satisfaction,
+#golden-age,
+#silver-age,
+#iron-age,
+#training-together,
+#qualifications,
+#screening-insurance,
+#tracking-logs {
+    display: none;
+    padding:25px 0;
+}
+
+.thumbnail {
+    width: 100%;
+}
+
+input {
+    display: none;
+}
+
+.tab-title {
+	font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+	color:#333;
+	font-size:21px;
+	display:none;
+	margin:20px 0;
+	text-align:left;
+}
+
+label {
+    width: 300px;
+    display: block;
+    margin: 0;
+    padding: 10px;
+    color: #7f7f7f;
+    border-right:2px solid white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    float: left;
+    clear: left;
+}
+
+label:before {
+    margin-right: 5px;
+    width:25px; 
+    height:25px; 
+    display:block; 
+    vertical-align:middle; 
+}
+
+label:before {
+	display: none;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	transform: translate(0, 0);
+}
+label[for*='1']:before { content:'\f0f4'; }
+label[for*='2']:before { content:'\f0f5'; }
+label[for*='3']:before { content:'\f095'; }
+
+label:hover {
+    color: #888;
+    cursor: pointer;
+}
+
+input:checked + label {
+    color: #25b6c8;
+    border-right: 2px solid #25b6c8;
+    font-weight: 400;
+}
+
+#vitality-coordinator:checked ~ #vitality-coordinator,
+#define-your-vitality:checked ~ #define-your-vitality,
+#staff-matching:checked ~ #staff-matching,
+#service-delivery:checked ~ #service-delivery,
+#service-satisfaction:checked ~ #service-satisfaction,
+#golden-age:checked ~ #golden-age,
+#silver-age:checked ~ #silver-age,
+#iron-age:checked ~ #iron-age,
+#training-together:checked ~ #training-together,
+#qualifications:checked ~ #qualifications,
+#screening-insurance:checked ~ #screening-insurance,
+#tracking-logs:checked ~ #tracking-logs {
+    display: block;
+    width: calc(100% - 350px);
+    padding-left: 50px;
+    float: left;
+    margin-top: -225px;
+}
+#golden-age:checked ~ #golden-age,
+#silver-age:checked ~ #silver-age,
+#iron-age:checked ~ #iron-age,
+#training-together:checked ~ #training-together {
+    margin-top: -175px;
+}
+#qualifications:checked ~ #qualifications,
+#screening-insurance:checked ~ #screening-insurance,
+#tracking-logs:checked ~ #tracking-logs {
+    margin-top: -125px;
+}
+
+@media screen and (max-width: 768px) {
+    label {
+      width: 200px;
+      font-size: 18px;
+    }
+    #vitality-coordinator:checked ~ #vitality-coordinator,
+    #define-your-vitality:checked ~ #define-your-vitality,
+    #staff-matching:checked ~ #staff-matching,
+    #service-delivery:checked ~ #service-delivery,
+    #service-satisfaction:checked ~ #service-satisfaction,
+    #golden-age:checked ~ #golden-age,
+    #silver-age:checked ~ #silver-age,
+    #iron-age:checked ~ #iron-age,
+    #training-together:checked ~ #training-together,
+    #qualifications:checked ~ #qualifications,
+    #screening-insurance:checked ~ #screening-insurance,
+    #tracking-logs:checked ~ #tracking-logs {
+        width: calc(100% - 200px);
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width:532px) {
+    label {
+        width: 100%;
+        float: none;
+        padding-left: 0;
+    }
+    #vitality-coordinator:checked ~ #vitality-coordinator,
+    #define-your-vitality:checked ~ #define-your-vitality,
+    #staff-matching:checked ~ #staff-matching,
+    #service-delivery:checked ~ #service-delivery,
+    #service-satisfaction:checked ~ #service-satisfaction,
+    #golden-age:checked ~ #golden-age,
+    #silver-age:checked ~ #silver-age,
+    #iron-age:checked ~ #iron-age,
+    #training-together:checked ~ #training-together,
+    #qualifications:checked ~ #qualifications,
+    #screening-insurance:checked ~ #screening-insurance,
+    #tracking-logs:checked ~ #tracking-logs {
+        width: 100%;
+        padding-left: 0;
+        float: none;
+        margin: 0;
+    }
+}
