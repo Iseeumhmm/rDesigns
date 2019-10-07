@@ -24,7 +24,8 @@
 	<link href="<?php echo get_stylesheet_directory_uri() ?>/css/framework.css" rel="stylesheet" type="text/css">
 	<link id="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/css/modern.css" rel="stylesheet" type="text/css">
 	
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet">        
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet">      
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
 	<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 	
 	
@@ -99,54 +100,92 @@
 				
 					<button id="nav" data-aos="slide-left">Menu</button>
 
-					<!-- <div id="palette" class="palette">
+					<div id="palette" class="palette">
 
 						<ul>
-							<li><a onclick="modern();" title="Modern">
+							<li><a onclick="modern();" title="Modern">Modern Look<br>
 								<span>Modern Look</span></a></li>
-							<li><a onclick="vintage();" title="Vintage">
+							<li><a onclick="vintage();" title="Vintage">Victorian<br>
 								<span>Victorian</span></a></li>
-							<li><a onclick="eighties();" title="80s">
+							<li><a onclick="eighties();" title="80s">80's Vibe<br>
 								<span>80's Vibe</span></a></li>
-							<li><a onclick="monochromatic();" title="Monochromatic">
+							<li><a onclick="monochromatic();" title="Monochromatic">Monochromatic<br>
 								<span>Monochromatic</span></a></li>
 						</ul>
-					</div> -->
+					</div>
 					
 
-					<div id="palette" class="palette">
-						
-						<!-- <ul>
-							<li><a onclick="modern();" title="Modern">
-								<span>Modern Look</span></a></li>
-							<li><a onclick="vintage();" title="Vintage">
-								<span>Victorian</span></a></li>
-							<li><a onclick="eighties();" title="80s">
-								<span>80's Vibe</span></a></li>
-							<li><a onclick="monochromatic();" title="Monochromatic">
-								<span>Monochromatic</span></a></li>
-						</ul> -->
-					</div>
+					
 					<br>
 					
 					<ul id="main-menu">
-						<li><a href="<?php echo get_site_url(); ?>/" title="Home">Home<br>
-							<span>This page gives you an overview of everything we have to offer.</span></a></li>
-						
-						<li><a href="<?php echo get_site_url(); ?>/about/" title="About">About<br>
-							<span>Find out who we are and what is up with the Beard Seal of Approval.</span></a></li>
-						
-						<li><a href="<?php echo get_site_url(); ?>/portfolio/" title="Portfolio">Portfolio<br>
-							<span>We have a lot of work to show you so come back regularily to see what's new.</span></a></li>
-						
-						<li><a href="<?php echo get_site_url(); ?>/services/" title="Services">Services<br>
-							<span>Check out the services we offer to help you get your business off the ground.</span></a></li>
-						
-						<li><a href="<?php echo get_site_url(); ?>/contact/" title="Contact">Contact<br>
-							<span>Get a quote, call us or send us a message. We would love to hear from you!</span></a></li>
-						
-						<li><div class="palette"></div><br>
-							<span>Change the theme of this website for your viewing pleasure.</span></li>
+						<li>
+							<div class="container-fluid w-100">
+								<div class="row w-100">
+									<div class="col-3">
+										<div class="menu-icon"></div>
+									</div>
+									<div class="col-9">
+										<a href="<?php echo get_site_url(); ?>/" title="Home">Home<br>
+										<span>This page gives you an overview of everything we have to offer.</span></a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="container-fluid w-100">
+								<div class="row w-100">
+									<div class="col-3">
+										<div class="menu-icon"></div>
+									</div>
+									<div class="col-9">
+										<a href="<?php echo get_site_url(); ?>/about/" title="About">About<br>
+										<span>Find out who we are and what is up with the Beard Seal of Approval.</span></a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="container-fluid w-100">
+								<div class="row w-100">
+									<div class="col-3">
+										<div class="menu-icon"></div>
+									</div>
+									<div class="col-9">
+										<a href="<?php echo get_site_url(); ?>/portfolio/" title="Portfolio">Portfolio<br>
+										<span>We have a lot of work to show you so come back regularily to see what's new.</span></a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="container-fluid w-100">
+								<div class="row w-100">
+									<div class="col-3">
+										<div class="menu-icon"></div>
+									</div>
+									<div class="col-9">
+										<a href="<?php echo get_site_url(); ?>/services/" title="Services">Services<br>
+										<span>Check out the services we offer to help you get your business off the ground.</span></a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="container-fluid w-100">
+								<div class="row w-100">
+									<div class="col-3">
+										<div class="menu-icon"></div>
+									</div>
+									<div class="col-9">
+										<a href="<?php echo get_site_url(); ?>/contact/" title="Contact">Contact<br>
+										<span>Get a quote, call us or send us a message. We would love to hear from you!</span></a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<!-- <li><div class="palette"></div><br>
+							<span>Change the theme of this website for your viewing pleasure.</span></li> -->
 					</ul>
 					
 					<div class="clear"></div>

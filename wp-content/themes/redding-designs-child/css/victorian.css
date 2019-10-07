@@ -41,7 +41,7 @@ ol {
     font-size: 18px;
     line-height: 24px;
     margin: 18px auto;
-    color: #998675;
+    color: #212529;
 }
 
 h1 {
@@ -68,12 +68,16 @@ h1 {
     font-family: 'Crimson', serif;
     font-size: 21px;
     font-style: italic;
-    padding: 10px 20px;
+    padding: 0 !important;
+    padding-top: 15px !important;
     color: #534741;
     border: 1px solid #534741;
 }
 .btn a:link {
-    color: #534741;
+    color: #212529;
+    padding: 5px 0 10px;
+    border-top: double;
+    border-bottom: double;
 }
 .btn:hover,
 .btn:focus {
@@ -91,7 +95,13 @@ hr {
     background: #c7b299;
 }
 
-.icon-service {
+.cell-service {
+    border: none !important;
+    border-top: 2px solid #212529 !important;
+    border-bottom: 2px solid #212529 !important;
+}
+
+/* .icon-service {
 	width: 150px;
     height: 150px;
     border: 1px dashed #c7b299;
@@ -128,7 +138,7 @@ hr {
 .beard-support {
 	background: url(../assets/vintage/images/icons/beard-support.png) no-repeat center;
     background-size: 90%;
-}
+} */
 
 .desktop {
 	width: 752px;
@@ -218,9 +228,9 @@ hr {
 
 /*LINKS*/
 a:link {
-    color: #534741;
+    color:#212529;
     font-style: italic;
-    font-weight: bold;
+    font-weight: lighter;
 }
 a:hover,
 a:focus {
@@ -319,8 +329,12 @@ nav ul .palette {
     font-size: 3.1vw;
 }
 .banner-home section > p {
+    padding-top: 15px;
+    font-size: 18px;
+    color: #212529;
+}
+.banner-home section .btn {
     font-size: 24px;
-    color: #534741;
 }
 
 .container-white {
@@ -341,7 +355,7 @@ nav ul .palette {
 }
 .container-grey strong {
     font-size: 24px;
-    color: #534741;
+    color: #212529;
 }
 
 .container-feed {
@@ -363,22 +377,24 @@ nav ul .palette {
 }
 
 .cell-service {
-    text-align: center;
-    border: 1px solid #c7b299;
+    text-align: left;
+    border: 1px solid #212529;
 }
 .cell-service:hover,
 .cell-service:focus {
-    border: 1px solid #534741;
+    border: 1px solid #212529;
 }
 .cell-service h2 {
+    color: #212529;
+    font-size: 48px;
     font-family: 'Playfair Display', serif;
-    font-weight: 700;
+    font-weight: bold;
 }
 .cell-service p:last-child {
-    opacity: 0.1;
+    font-weight: bold;
 }
 .cell-service p:last-child:hover {
-    color: #534741;
+    color: #212529;
 }
 .cell-service:hover p:last-child {
     opacity: 1;
@@ -406,7 +422,8 @@ nav ul .palette {
 }
 
 .client {
-    border: 1px solid #c7b299;
+    border: 2px solid #212529;
+    border-radius: 0px;
 }
 .client-review strong {
     font-family: 'Playfair Display', serif;

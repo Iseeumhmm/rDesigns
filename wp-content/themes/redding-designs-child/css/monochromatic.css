@@ -25,7 +25,7 @@
 body {
     font-family: 'Source Code Pro', monospace;
     color: #00ff00;
-    background: black;
+    background: black !important;
     font-size: 16px;
     line-height: 24px;
 }
@@ -274,8 +274,9 @@ nav ul .palette {
 }
 
 .banner-home {
-	width: 90%;
-    padding: 50px 0;
+    width: 90%;
+    height: auto;
+    padding: 150px 0;
     margin: 0 auto;
     border-bottom: 2px dashed #00ff00;
 }

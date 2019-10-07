@@ -55,10 +55,13 @@
 				$('#stylesheet').attr('href','<?php echo get_stylesheet_directory_uri(); ?>/css/monochromatic.css');
 			}
 			$(document).ready(function() {
+				
 				$('#nav').click(function() {
+					$('#palette ul').hide();
 					$('#main-menu').slideToggle("fast");
 				});
 				$('#palette').click(function() {
+					$('#main-menu').hide();
 					$('#palette ul').slideToggle("fast");
 				});
 			});
