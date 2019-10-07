@@ -1,0 +1,44 @@
+.portfolio .container-grey {
+  background-color: #dadada !important;
+  padding: 0;
+}
+
+.portfolio .latest {
+  background-color: #dadada;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.sub-banner {
+  background-color: black;
+  position: relative;
+  width: 100%;
+  height: 175px;
+}
+
+.sub-banner section {
+  color: white;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 175px;
+}
+
+.sub-banner section h1 {
+  font-weight: normal !important;
+}
+
+.portfolio-text-banner {
+  height: 300px;
+  margin: 0 150px;
+  position: relative;
+}
+
+.portfolio-text-banner section {
+  overflow-wrap: break-word;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+

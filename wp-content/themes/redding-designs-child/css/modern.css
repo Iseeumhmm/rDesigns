@@ -1,3 +1,5 @@
+@import url("../sass/modern/style.css");
+
 /*RESET*/
 * {
 	padding: 0;
@@ -710,3 +712,7 @@ textarea:focus {
         height: 50px;
     }
 }
+
+/* Sub page compiledSASS */
+@import"/sass/base/style.css";
+@import"../sass/modern/style.css";

@@ -17801,10 +17801,21 @@ module.exports = g;
 
 /***/ }),
 
-/***/ "./sass/style.scss":
-/*!*************************!*\
-  !*** ./sass/style.scss ***!
-  \*************************/
+/***/ "./sass/base/style.scss":
+/*!******************************!*\
+  !*** ./sass/base/style.scss ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "./sass/modern/style.scss":
+/*!********************************!*\
+  !*** ./sass/modern/style.scss ***!
+  \********************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -17813,14 +17824,15 @@ module.exports = g;
 /***/ }),
 
 /***/ 0:
-/*!*******************************************!*\
-  !*** multi ./js/app.js ./sass/style.scss ***!
-  \*******************************************/
+/*!*************************************************************************!*\
+  !*** multi ./js/app.js ./sass/base/style.scss ./sass/modern/style.scss ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! /Applications/MAMP/htdocs/ReddingDesigns/wp-content/themes/redding-designs-child/js/app.js */"./js/app.js");
-module.exports = __webpack_require__(/*! /Applications/MAMP/htdocs/ReddingDesigns/wp-content/themes/redding-designs-child/sass/style.scss */"./sass/style.scss");
+__webpack_require__(/*! /Applications/MAMP/htdocs/ReddingDesigns/wp-content/themes/redding-designs-child/sass/base/style.scss */"./sass/base/style.scss");
+module.exports = __webpack_require__(/*! /Applications/MAMP/htdocs/ReddingDesigns/wp-content/themes/redding-designs-child/sass/modern/style.scss */"./sass/modern/style.scss");
 
 
 /***/ })

@@ -1,4 +1,5 @@
 {
     "/app.js": "/app.js",
-    "/style.css": "/style.css"
+    "/sass/base/style.css": "/sass/base/style.css",
+    "/sass/modern/style.css": "/sass/modern/style.css"
 }
