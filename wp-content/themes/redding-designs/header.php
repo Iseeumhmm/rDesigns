@@ -99,20 +99,34 @@
 				
 					<button id="nav" data-aos="slide-left">Menu</button>
 
-					<div id="palette" class="palette">
+					<!-- <div id="palette" class="palette">
 
 						<ul>
 							<li><a onclick="modern();" title="Modern">
 								<span>Modern Look</span></a></li>
 							<li><a onclick="vintage();" title="Vintage">
-								<span>Vintage Feel</span></a></li>
+								<span>Victorian</span></a></li>
 							<li><a onclick="eighties();" title="80s">
 								<span>80's Vibe</span></a></li>
 							<li><a onclick="monochromatic();" title="Monochromatic">
 								<span>Monochromatic</span></a></li>
 						</ul>
-					</div>
+					</div> -->
 					
+
+					<div id="palette" class="palette">
+						
+						<!-- <ul>
+							<li><a onclick="modern();" title="Modern">
+								<span>Modern Look</span></a></li>
+							<li><a onclick="vintage();" title="Vintage">
+								<span>Victorian</span></a></li>
+							<li><a onclick="eighties();" title="80s">
+								<span>80's Vibe</span></a></li>
+							<li><a onclick="monochromatic();" title="Monochromatic">
+								<span>Monochromatic</span></a></li>
+						</ul> -->
+					</div>
 					<br>
 					
 					<ul id="main-menu">

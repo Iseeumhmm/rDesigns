@@ -104,12 +104,12 @@ get_header();
                     </div>
 
                     <div class="cell-service" data-aos="zoom-in">
-                        <a href="services/#beard-support" title="Check for Updates">
+                        <a href="services/#beard-support" title="Custom Photography/Videography">
                             <div class="icon-service beard-support"></div>
 
-                            <h2>The Beard Support</h2>
+                            <h2>Photography & Videography</h2>
 
-                            <p>Sometimes things go wrong with no explaination. It’s a good thing we have the support you need to ensure you can stay on top of your business.</p>
+                            <p>Custom asset creations</p>
 
                             <p>Check for Updates</p>
                         </a>

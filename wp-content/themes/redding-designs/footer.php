@@ -15,14 +15,6 @@
 
 		<footer id="colophon" class="site-footer">
 			<section>
-				<p>Are you looking for web development in London, Aylmer, Ontario or a London Ontario web design company? Redding Designs Inc. is a web development firm based in Aylmer Ontario that has been serving the London and surrounding area since 2001.</p>
-				
-				<p>Redding Designs Inc. has over 14 years experience in web design, hosting, wordpress, print media design and small business web development.</p>
-				
-				<p>If you are looking for a web development or design team, you have found it with Redding Designs Inc. We are Beard Approved!</p>
-				
-				<hr>
-				
 				<ul>
 					<li><a href="privacy-policy/" title="Privacy Policy">Privacy Policy</a></li>
 					<li>|</li>
@@ -54,7 +46,7 @@
 				$('#stylesheet').attr('href','<?php echo get_stylesheet_directory_uri(); ?>/css/modern.css');
 			}
 			function vintage() {
-				$('#stylesheet').attr('href','<?php echo get_stylesheet_directory_uri(); ?>/css/vintage.css');
+				$('#stylesheet').attr('href','<?php echo get_stylesheet_directory_uri(); ?>/css/victorian.css');
 			}
 			function eighties() {
 				$('#stylesheet').attr('href','<?php echo get_stylesheet_directory_uri(); ?>/css/80s.css');
