@@ -31,14 +31,16 @@ get_header();
             <div class="portfolio">
                 <div class="header-spacer"></div>
                 <div class="sub-banner" data-aos="fade-in">
-                    <section>
+                    <div class="sub-banner--text_container">
                         <h1 data-aos="slide-right">Our Portfolio<br>
-                    </section>
+                    </div>
                 </div>
                 
                 <div class="container-white portfolio-text-banner">
                     <section>
-                        <p>After being in the business of designing and developing websites for over 10 years, we’ve accumulated a lot of work that we’re proud of. As the internet world (constantly) changes, our designs and services have changed in order to keep up the pace. Take a peak at what we’ve done so far.</p>
+                        <div class="portfolio-text--container">
+                            <p>After being in the business of designing and developing websites for over 10 years, we’ve accumulated a lot of work that we’re proud of. As the internet world (constantly) changes, our designs and services have changed in order to keep up the pace. Take a peak at what we’ve done so far.</p>
+                        </div>
                     </section>
                 </div>
                 
@@ -60,41 +62,124 @@ get_header();
                         <div class="phone" data-aos="slide-right"></div>
                     </div>
                 </div>
-                
+
                 <div class="container-white">
-                    <section class="narrow">
-                        <div class="owl-carousel owl-theme">
-                            <div class="item" data-aos="slide-right">
-                                <div class="client paul-lafrance"></div>
-                                
-                                <div class="client-review">
-                                    <p class="black"><strong>Exceeded beyond my own creative vision.</strong></p>
-                                    
-                                    <p>"I have worked with a number of different website companies over the years and have always been left wanting, until I worked with Redding Designs. Their personal service and ability to exceed beyond my own creative vision makes Redding Designs a very rare company that I feel very fortunate to have found."</p>
-                                    
-                                    <p><a href="https://paullafrancedesign.com/" title="Visit Paul Lafrance's Website" target="_blank">Visit paullafrancedesign.com</a></p>
-                                    
-                                    <p class="client-name">~ Paul Lafrance, HGTV</p>
+                    <section>
+                        <div class="cards container-fluid">
+                            <div class="row">
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="card">
+                                        <div class="card-border">
+                                            <img class="card-img-top" src="https://www.fillmurray.com/300/200" alt="website">
+                                            <div class="card-body">
+                                                <h5 class="card-title">William James Murray</h5>
+                                                <p>(Born September 21, 1950)</p>
+                                                <div class="menu-icon"></div>
+                                                <p class="card-text">Contact</p><br>
+                                                <div class="menu-icon"></div>
+                                                <p class="card-text">Contact</p><br>
+                                                <div class="menu-icon"></div>
+                                                <p class="card-text">Contact</p><br>
+                                                <a href="#" class="btn btn-primary">visit website</a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            
-                            <div class="item" data-aos="zoom-in">
-                                <div class="client kate-campbell"></div>
-                                
-                                <div class="client-review">
-                                    <p class="black"><strong>Extremely responsive, creative &amp; attentive.</strong></p>
-                                    
-                                    <p>"Rob Redding and his team are the real deal. Not only are they complete professionals, they're extremely responsive, creative and attentive. I've felt totally at ease throughout the whole website design and logo design process which is no small feat because my website and logo are integral to my business."</p>
-                                    
-                                    <p><a href="https://katebuilds.ca/" title="Visit Kate Campbell's Website" target="_blank">Visit katebuilds.ca</a></p>
-                                    
-                                    <p class="client-name">~ Kate Campbell, HGTV</p>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="card">
+                                        <div class="card-border">
+                                            <img class="card-img-top" src="https://www.fillmurray.com/300/200" alt="website">
+                                            <div class="card-body">
+                                                <h5 class="card-title">William James Murray</h5>
+                                                <p>(Born September 21, 1950)</p>
+                                                <div class="menu-icon"></div>
+                                                <p class="card-text">Contact</p><br>
+                                                <div class="menu-icon"></div>
+                                                <p class="card-text">Contact</p><br>
+                                                <div class="menu-icon"></div>
+                                                <p class="card-text">Contact</p><br>
+                                                <a href="#" class="btn btn-primary">visit website</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="card">
+                                        <div class="card-border">
+                                            <img class="card-img-top" src="https://www.fillmurray.com/300/200" alt="website">
+                                            <div class="card-body">
+                                                <h5 class="card-title">William James Murray</h5>
+                                                <p>(Born September 21, 1950)</p>
+                                                <div class="menu-icon"></div>
+                                                <p class="card-text">Contact</p><br>
+                                                <div class="menu-icon"></div>
+                                                <p class="card-text">Contact</p><br>
+                                                <div class="menu-icon"></div>
+                                                <p class="card-text">Contact</p><br>
+                                                <a href="#" class="btn btn-primary">visit website</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="card">
+                                        <div class="card-border">
+                                            <img class="card-img-top" src="https://www.fillmurray.com/300/200" alt="website">
+                                            <div class="card-body">
+                                                <h5 class="card-title">William James Murray</h5>
+                                                <p>(Born September 21, 1950)</p>
+                                                <div class="menu-icon"></div>
+                                                <p class="card-text">Contact</p><br>
+                                                <div class="menu-icon"></div>
+                                                <p class="card-text">Contact</p><br>
+                                                <div class="menu-icon"></div>
+                                                <p class="card-text">Contact</p><br>
+                                                <a href="#" class="btn btn-primary">visit website</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="card">
+                                        <div class="card-border">
+                                            <img class="card-img-top" src="https://www.fillmurray.com/300/200" alt="website">
+                                            <div class="card-body">
+                                                <h5 class="card-title">William James Murray</h5>
+                                                <p>(Born September 21, 1950)</p>
+                                                <div class="menu-icon"></div>
+                                                <p class="card-text">Contact</p><br>
+                                                <div class="menu-icon"></div>
+                                                <p class="card-text">Contact</p><br>
+                                                <div class="menu-icon"></div>
+                                                <p class="card-text">Contact</p><br>
+                                                <a href="#" class="btn btn-primary">visit website</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="card">
+                                        <div class="card-border">
+                                            <img class="card-img-top" src="https://www.fillmurray.com/300/200" alt="website">
+                                            <div class="card-body">
+                                                <h5 class="card-title">William James Murray</h5>
+                                                <p>(Born September 21, 1950)</p>
+                                                <div class="menu-icon"></div>
+                                                <p class="card-text">Contact</p><br>
+                                                <div class="menu-icon"></div>
+                                                <p class="card-text">Contact</p><br>
+                                                <div class="menu-icon"></div>
+                                                <p class="card-text">Contact</p><br>
+                                                <a href="#" class="btn btn-primary">visit website</a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </section>
                 </div>
-                
+
                 <div class="container-social-media">
                     <a href="https://www.facebook.com/ReddingDesigns" title="Like us on Facebook" target="_blank">
                         <i class="fa fa-facebook" data-aos="zoom-in"></i>

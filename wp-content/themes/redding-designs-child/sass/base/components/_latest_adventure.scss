@@ -1,11 +1,13 @@
 .portfolio {
     & .container-grey {
-        background-color: #dadada !important;
+        background-color:transparent !important;
         padding: 0;
     }
     & .latest {
-        background-color: #dadada;
-        padding-top: 50px;
+        // background-color: #dadada;
         padding-bottom: 50px;
+    }
+    .btn a:link {
+        color: #808080;
     }
 }

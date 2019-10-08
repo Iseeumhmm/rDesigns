@@ -1,0 +1,9 @@
+.card p:first-of-type {
+  font-size: 16px;
+  color: #29abe2;
+}
+
+.card-text {
+  color: #808080 !important;
+}
+
