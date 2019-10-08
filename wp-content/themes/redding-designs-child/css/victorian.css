@@ -314,9 +314,9 @@ nav ul li span {
 nav ul li a:link {
     color: #534741;
 }
-nav ul li:last-child {
+/* nav ul li:last-child {
     display: none;
-}
+} */
 nav ul .palette {
     float: left;
     margin: 25px 10px 0 0;
