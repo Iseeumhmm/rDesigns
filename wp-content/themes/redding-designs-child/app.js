@@ -17823,16 +17823,28 @@ module.exports = g;
 
 /***/ }),
 
+/***/ "./sass/victorian/style.scss":
+/*!***********************************!*\
+  !*** ./sass/victorian/style.scss ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ 0:
-/*!*************************************************************************!*\
-  !*** multi ./js/app.js ./sass/base/style.scss ./sass/modern/style.scss ***!
-  \*************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** multi ./js/app.js ./sass/base/style.scss ./sass/modern/style.scss ./sass/victorian/style.scss ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! /Applications/MAMP/htdocs/ReddingDesigns/wp-content/themes/redding-designs-child/js/app.js */"./js/app.js");
 __webpack_require__(/*! /Applications/MAMP/htdocs/ReddingDesigns/wp-content/themes/redding-designs-child/sass/base/style.scss */"./sass/base/style.scss");
-module.exports = __webpack_require__(/*! /Applications/MAMP/htdocs/ReddingDesigns/wp-content/themes/redding-designs-child/sass/modern/style.scss */"./sass/modern/style.scss");
+__webpack_require__(/*! /Applications/MAMP/htdocs/ReddingDesigns/wp-content/themes/redding-designs-child/sass/modern/style.scss */"./sass/modern/style.scss");
+module.exports = __webpack_require__(/*! /Applications/MAMP/htdocs/ReddingDesigns/wp-content/themes/redding-designs-child/sass/victorian/style.scss */"./sass/victorian/style.scss");
 
 
 /***/ })

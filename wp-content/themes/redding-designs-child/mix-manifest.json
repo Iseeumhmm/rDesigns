@@ -1,5 +1,6 @@
 {
     "/app.js": "/app.js",
     "/sass/base/style.css": "/sass/base/style.css",
-    "/sass/modern/style.css": "/sass/modern/style.css"
+    "/sass/modern/style.css": "/sass/modern/style.css",
+    "/sass/victorian/style.css": "/sass/victorian/style.css"
 }

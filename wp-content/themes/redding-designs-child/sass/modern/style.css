@@ -1,3 +1,7 @@
+.portfolio .btn {
+  display: table;
+}
+
 .card p:first-of-type {
   font-size: 16px;
   color: #29abe2;

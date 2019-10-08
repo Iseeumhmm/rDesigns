@@ -80,7 +80,7 @@ get_header();
                                                 <p class="card-text">Contact</p><br>
                                                 <div class="menu-icon"></div>
                                                 <p class="card-text">Contact</p><br>
-                                                <a href="#" class="btn btn-primary">visit website</a>
+                                                <p class="btn"><a href="#">Visit Website</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -98,7 +98,7 @@ get_header();
                                                 <p class="card-text">Contact</p><br>
                                                 <div class="menu-icon"></div>
                                                 <p class="card-text">Contact</p><br>
-                                                <a href="#" class="btn btn-primary">visit website</a>
+                                                <p class="btn"><a href="#">Visit Website</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -116,7 +116,7 @@ get_header();
                                                 <p class="card-text">Contact</p><br>
                                                 <div class="menu-icon"></div>
                                                 <p class="card-text">Contact</p><br>
-                                                <a href="#" class="btn btn-primary">visit website</a>
+                                                <p class="btn"><a href="#">Visit Website</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -134,7 +134,7 @@ get_header();
                                                 <p class="card-text">Contact</p><br>
                                                 <div class="menu-icon"></div>
                                                 <p class="card-text">Contact</p><br>
-                                                <a href="#" class="btn btn-primary">visit website</a>
+                                                <p class="btn"><a href="#">Visit Website</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -152,7 +152,7 @@ get_header();
                                                 <p class="card-text">Contact</p><br>
                                                 <div class="menu-icon"></div>
                                                 <p class="card-text">Contact</p><br>
-                                                <a href="#" class="btn btn-primary">visit website</a>
+                                                <p class="btn"><a href="#">Visit Website</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -170,7 +170,7 @@ get_header();
                                                 <p class="card-text">Contact</p><br>
                                                 <div class="menu-icon"></div>
                                                 <p class="card-text">Contact</p><br>
-                                                <a href="#" class="btn btn-primary">visit website</a>
+                                                <p class="btn"><a href="#">Visit Website</a></p>
                                             </div>
                                         </div>
                                     </div>
