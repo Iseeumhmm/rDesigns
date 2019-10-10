@@ -1,3 +1,7 @@
+.contact .container-white {
+  padding: 45px 0;
+}
+
 .about-us .container-white {
   padding: 0;
 }
@@ -39,10 +43,6 @@
 
 .about-us .cell-service p:last-child {
   color: #808080;
-}
-
-.contact .container-white {
-  padding: 0;
 }
 
 .contact .meet-the-team h1 {
