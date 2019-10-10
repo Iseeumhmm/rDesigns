@@ -1,3 +1,73 @@
+.about-us .container-white {
+  padding: 0;
+}
+
+.about-us .meet-the-team h1 {
+  text-align: center;
+  color: #29abe2;
+  padding: 100px 0 45px;
+}
+
+.about-us .beard-container {
+  background: #f9f9f9;
+  height: 400px;
+  width: 100%;
+}
+
+.about-us .card-image-top {
+  height: 250px;
+  width: 250px;
+  margin: 25px auto;
+  border-radius: 150px;
+  background-image: url("https://www.fillmurray.com/300/200");
+  background-size: cover;
+  background-position: center center;
+}
+
+.about-us h2 {
+  font-size: 24px;
+}
+
+.about-us p {
+  color: #808080;
+  opacity: 1 !important;
+}
+
+.about-us .cell-service p:last-child:hover {
+  color: #808080;
+}
+
+.about-us .cell-service p:last-child {
+  color: #808080;
+}
+
+.contact .container-white {
+  padding: 0;
+}
+
+.contact .meet-the-team h1 {
+  text-align: center;
+  color: #29abe2;
+  padding: 100px 0 45px;
+}
+
+.contact h2 {
+  font-size: 24px;
+}
+
+.contact p {
+  color: #808080;
+  opacity: 1 !important;
+}
+
+.contact .cell-service p:last-child:hover {
+  color: #808080;
+}
+
+.contact .cell-service p:last-child {
+  color: #808080;
+}
+
 .portfolio .cell-service {
   padding: 0;
 }

@@ -139,7 +139,7 @@
 										<div class="menu-icon"></div>
 									</div>
 									<div class="col-9">
-										<a href="<?php echo get_site_url(); ?>/about/" title="About">About<br>
+										<a href="<?php echo get_site_url(); ?>/about-us/" title="About">About<br>
 										<span>Find out who we are and what is up with the Beard Seal of Approval.</span></a>
 									</div>
 								</div>

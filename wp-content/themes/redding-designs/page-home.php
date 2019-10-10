@@ -182,20 +182,6 @@ get_header();
                 </div>
             </section>
         </div>
-        
-        <div class="container-social-media">
-            <a href="https://www.facebook.com/ReddingDesigns" title="Like us on Facebook" target="_blank">
-                <i class="fa fa-facebook" data-aos="zoom-in"></i>
-            </a>
-                
-            <a href="https://twitter.com/ReddingDesigns" title="Follow us on Twitter" target="_blank">
-                <i class="fa fa-twitter" data-aos="zoom-in"></i>
-            </a>
-                
-            <a href="https://www.instagram.com/reddingdesigns/" title="Follow us on Instagram" target="_blank">
-                <i class="fa fa-instagram" data-aos="zoom-in"></i>
-            </a>
-        </div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
