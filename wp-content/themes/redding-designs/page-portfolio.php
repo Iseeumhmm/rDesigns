@@ -63,7 +63,115 @@ get_header();
                     </div>
                 </div>
 
-                <div class="container-white">
+                <div class="container-white container-white--services">
+                    <section>
+                        <div class="flex">
+                            <div class="cell-service" data-aos="zoom-in">
+                                <a href="services/#web-design-development" title="Create Your Presence">
+                                    <img class="card-img-top" src="https://www.fillmurray.com/300/200" alt="website">
+                                    <div class="card-body">
+                                        <h2>Web Design &amp; Development</h2>
+                                        <p>Virtual Presence</p>
+                                        <div class="menu-icon"></div>
+                                        <p class="card-text">Contact</p><br>
+                                        <div class="menu-icon"></div>
+                                        <p class="card-text">Contact</p><br>
+                                        <div class="menu-icon"></div>
+                                        <p class="card-text">Contact</p><br>
+                                        <p class="btn"><a href="#">the specifics</a></p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="cell-service" data-aos="zoom-in">
+                                <a href="services/#digital-marketing" title="Let's Raise the Bar">
+                                    <img class="card-img-top" src="https://www.fillmurray.com/300/200" alt="website">
+                                        <div class="card-body">
+                                        <h2>Digital Marketing</h2>
+                                        <p>Raising the Bar</p>
+                                        <div class="menu-icon"></div>
+                                        <p class="card-text">Contact</p><br>
+                                        <div class="menu-icon"></div>
+                                        <p class="card-text">Contact</p><br>
+                                        <div class="menu-icon"></div>
+                                        <p class="card-text">Contact</p><br>
+                                        <p class="btn"><a href="#">the specifics</a></p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="cell-service" data-aos="zoom-in">
+                                <a href="services/#print-media-design" title="Go Tangible">
+                                    <img class="card-img-top" src="https://www.fillmurray.com/300/200" alt="website">
+                                        <div class="card-body">
+                                        <h2>Print Media Design</h2>
+                                        <p>Tangible is nice</p>
+                                        <div class="menu-icon"></div>
+                                        <p class="card-text">Contact</p><br>
+                                        <div class="menu-icon"></div>
+                                        <p class="card-text">Contact</p><br>
+                                        <div class="menu-icon"></div>
+                                        <p class="card-text">Contact</p><br>
+                                        <p class="btn"><a href="#">the specifics</a></p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="cell-service" data-aos="zoom-in">
+                                <a href="services/#logo-design-branding" title="Make a Name">
+                                    <img class="card-img-top" src="https://www.fillmurray.com/300/200" alt="website">
+                                        <div class="card-body">
+                                        <h2>Logo Design &amp; Branding</h2>
+                                        <p>Making a Name</p>
+                                        <div class="menu-icon"></div>
+                                        <p class="card-text">Contact</p><br>
+                                        <div class="menu-icon"></div>
+                                        <p class="card-text">Contact</p><br>
+                                        <div class="menu-icon"></div>
+                                        <p class="card-text">Contact</p><br>
+                                        <p class="btn"><a href="#">the specifics</a></p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="cell-service" data-aos="zoom-in">
+                                <a href="services/#internet-services" title="We'll Spin the Web">
+                                    <img class="card-img-top" src="https://www.fillmurray.com/300/200" alt="website">
+                                        <div class="card-body">
+                                        <h2>Internet Services</h2>
+                                        <p>Spider Work</p>
+                                        <div class="menu-icon"></div>
+                                        <p class="card-text">Contact</p><br>
+                                        <div class="menu-icon"></div>
+                                        <p class="card-text">Contact</p><br>
+                                        <div class="menu-icon"></div>
+                                        <p class="card-text">Contact</p><br>
+                                        <p class="btn"><a href="#">the specifics</a></p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="cell-service" data-aos="zoom-in">
+                                <a href="services/#beard-support" title="Custom Photography/Videography">
+                                    <img class="card-img-top" src="https://www.fillmurray.com/300/200" alt="website">
+                                        <div class="card-body">
+                                        <h2>Photography &amp; Videography</h2>
+                                        <p>Virtual Presence</p>
+                                        <div class="menu-icon"></div>
+                                        <p class="card-text">Contact</p><br>
+                                        <div class="menu-icon"></div>
+                                        <p class="card-text">Contact</p><br>
+                                        <div class="menu-icon"></div>
+                                        <p class="card-text">Contact</p><br>
+                                        <p class="btn"><a href="#">the specifics</a></p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- <div class="container-white">
                     <section>
                         <div class="cards container-fluid">
                             <div class="row">
@@ -178,7 +286,7 @@ get_header();
                             </div>
                         </div>
                     </section>
-                </div>
+                </div> -->
 
                 <div class="container-social-media">
                     <a href="https://www.facebook.com/ReddingDesigns" title="Like us on Facebook" target="_blank">

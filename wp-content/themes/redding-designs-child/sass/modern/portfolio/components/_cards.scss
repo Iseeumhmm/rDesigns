@@ -1,9 +1,14 @@
-.card {
-    p:first-of-type {
-        font-size: 16px;
-        color: #29abe2;
+.portfolio {
+    .cell-service {
+        padding: 0;
     }
-    &-text {
-        color:#808080 !important;
+    .card {
+        p:first-of-type {
+            font-size: 16px;
+            color: #29abe2;
+        }
+    }
+    .container-white--services {
+        margin: 45px 0;
     }
 }

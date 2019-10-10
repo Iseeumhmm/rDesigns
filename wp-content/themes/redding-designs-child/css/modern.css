@@ -444,6 +444,18 @@ nav ul .palette {
     background-size: 100%;
 }
 
+/* Services Icons */
+
+.webDevelopment {
+    background: url(../assets/modern/images/icons/web-design-development.png) no-repeat center;
+}
+.digitalMarketing {
+    background: url(../assets/modern/images/icons/digital-marketing.png) no-repeat center;
+}
+.printMedia {
+    background: url(../assets/modern/images/icons/print-media-design.png) no-repeat center;
+}
+
 .menu-icon {
     background: url(../assets/modern/images/icons/logo-design-branding.png) no-repeat center;
     background-size: contain;

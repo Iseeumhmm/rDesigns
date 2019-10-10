@@ -1,9 +1,70 @@
-.card p:first-of-type {
+.portfolio .cell-service {
+  padding: 0;
+}
+
+.portfolio .card p:first-of-type {
   font-size: 16px;
   color: #29abe2;
 }
 
-.card-text {
+.portfolio .container-white--services {
+  margin: 45px 0;
+}
+
+.services .container-white--services {
+  padding-top: 0;
+}
+
+.services .cell-service p:last-child {
+  opacity: 1;
+}
+
+.services .card-icons {
+  width: calc(230px * .50);
+  height: calc(230px * .50);
+  background-size: cover;
+  padding: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.services .card-icons--container {
+  width: 100%;
+  height: 230px;
+  position: relative;
+}
+
+.services .card-icons--outer_circle {
+  width: calc(230px * .85);
+  height: calc(230px * .85);
+  background-color: #eeeeee;
+  border-radius: 125px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.services .card-body {
+  text-align: left;
+}
+
+.services .card-body .menu-icon {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  top: 7px;
+  display: inline-block;
+}
+
+.services .card-body p:first-of-type {
+  font-size: 16px;
+  color: #29abe2;
+}
+
+.services .card-text {
   color: #808080 !important;
 }
 
