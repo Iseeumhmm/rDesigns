@@ -222,8 +222,13 @@ hr {
 
 
 /*LINKS*/
+.banner-home a:link {
+        color: #29abe2 !important;
+        text-decoration: none !important;
+    }
+}
 a:link {
-    color: #29abe2;
+    text-decoration: none !important;
 }
 a:hover,
 a:focus {
@@ -395,7 +400,7 @@ nav ul .palette {
 }
 .cell-service p:last-child {
     color: #29abe2;
-    opacity: 0.1;
+    /* opacity: 0.1; */
 }
 .cell-service p:last-child:hover {
     color: #222;

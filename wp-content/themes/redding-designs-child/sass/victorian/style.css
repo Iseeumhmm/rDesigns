@@ -2,6 +2,12 @@
   background-color: #ECE7E3 !important;
 }
 
+.card-body p:first-of-type {
+  font-size: 18px;
+  color: #212529;
+  font-weight: bold;
+}
+
 .portfolio .container-grey {
   padding-top: 45px;
 }
@@ -13,5 +19,14 @@
 .sub-banner h1 {
   font-weight: bold !important;
   color: #21252A !important;
+}
+
+body {
+  font-family: 'Playfair Display', serif !important;
+}
+
+.fa {
+  opacity: 1 !important;
+  transform: scale(1.6);
 }
 

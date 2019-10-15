@@ -399,9 +399,9 @@ nav ul .palette {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
 }
-.cell-service p:last-child {
+/* .cell-service p:last-child {
     font-weight: bold;
-}
+} */
 .cell-service p:last-child:hover {
     color: #212529;
 }
