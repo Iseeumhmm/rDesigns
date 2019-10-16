@@ -23,6 +23,9 @@
 	
 	<link href="<?php echo get_stylesheet_directory_uri() ?>/css/framework.css" rel="stylesheet" type="text/css">
 	<link id="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/css/modern.css" rel="stylesheet" type="text/css">
+	<script>
+		let selectedStyle = "modern";
+	</script>
 	<!-- <link id="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/css/victorian.css" rel="stylesheet" type="text/css">
 	 -->
 	
@@ -86,7 +89,6 @@
 		})(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
 	</script> -->
 
-	
 	<?php wp_head(); ?>
 </head>
 <body id="top"  <?php body_class(); ?>>

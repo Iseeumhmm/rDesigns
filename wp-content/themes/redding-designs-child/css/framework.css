@@ -234,6 +234,7 @@ footer ul li {
 }
 
 .client {
+    background-size: cover;
     width: 300px;
     height: 300px;
     display: inline-block;

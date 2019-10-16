@@ -54,17 +54,37 @@
 		
 		<!--navigation-->
 		<script>
+			
+			function changeStyle(style) {
+				let clients = $( ".client" ).toArray();
+				for (i = 0; i < clients.length/3; i++) {
+					console.log('inside loop: ' + i);
+					let client = $( ".client_" + i ).toArray();
+					client.forEach(function(c) {
+						c.removeAttribute('style');
+						clientNum = "client_" + i;
+						const theStyle = style + "_" + i;
+						c.className = '';
+						c.className = "client " + clientNum + " " + theStyle;
+					});
+				}
+			}
+			
 			function modern() {
 				$('#stylesheet').attr('href','<?php echo get_stylesheet_directory_uri(); ?>/css/modern.css');
+				changeStyle("modern");
 			}
 			function vintage() {
 				$('#stylesheet').attr('href','<?php echo get_stylesheet_directory_uri(); ?>/css/victorian.css');
+				changeStyle("victorian");
 			}
 			function eighties() {
 				$('#stylesheet').attr('href','<?php echo get_stylesheet_directory_uri(); ?>/css/80s.css');
+				changeStyle("eighties");
 			}
 			function monochromatic() {
 				$('#stylesheet').attr('href','<?php echo get_stylesheet_directory_uri(); ?>/css/monochromatic.css');
+				changeStyle("monochrome");
 			}
 			$(document).ready(function() {
 				
