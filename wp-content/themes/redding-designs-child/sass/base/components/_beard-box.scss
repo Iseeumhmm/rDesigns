@@ -1,0 +1,41 @@
+.about-us {
+    .beard-container {
+        height: 60vh;
+        .row { 
+            height: 100%; 
+            padding: 0 200px;
+        }
+        &-text {
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+        section {
+            position: absolute;
+            top: 23%;
+            left: 0;
+            h3 { 
+                font-size: 48px;
+            }
+            p { font-weight: 100; }
+            width: 100%;
+        }
+            .beard_logo {
+                &-container {
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+                }
+                position: absolute;
+                right: 75px;
+                top: 50%;
+                transform: translateY(-50%);
+                background-size: cover;
+                background-position: center center;
+                background-repeat: no-repeat;
+                height: 400px;
+                width: 400px;
+            }
+        
+    }
+}

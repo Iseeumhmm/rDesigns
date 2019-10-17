@@ -1,3 +1,5 @@
+@import"../sass/modern/style.css";
+
 /*RESET*/
 * {
 	padding: 0;
@@ -674,3 +676,4 @@ textarea:focus {
         height: 50px;
     }
 }
+

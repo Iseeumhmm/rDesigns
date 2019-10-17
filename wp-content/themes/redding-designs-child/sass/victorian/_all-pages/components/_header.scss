@@ -1,0 +1,15 @@
+.logo {
+    &-text {
+        display: block;
+        p:first-child {
+            font-family: 'Playfair Display', serif;
+            font-weight: 900;
+            font-size: 36px;
+        }
+        p {
+            font-family: 'PT Serif', serif;
+            font-weight: 400;
+            font-size: 18px;
+        }
+    }
+}

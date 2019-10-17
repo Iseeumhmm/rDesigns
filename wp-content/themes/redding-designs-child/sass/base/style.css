@@ -15,6 +15,13 @@
   color: #29abe2;
 }
 
+.card-body-text {
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 18px;
+  color: #808080 !important;
+}
+
 .card-text {
   display: inline-block;
 }
@@ -32,6 +39,58 @@
   .portfolio .cards {
     margin-top: 200px;
   }
+}
+
+.about-us .beard-container {
+  height: 60vh;
+}
+
+.about-us .beard-container .row {
+  height: 100%;
+  padding: 0 200px;
+}
+
+.about-us .beard-container-text {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.about-us .beard-container section {
+  position: absolute;
+  top: 23%;
+  left: 0;
+  width: 100%;
+}
+
+.about-us .beard-container section h3 {
+  font-size: 48px;
+}
+
+.about-us .beard-container section p {
+  font-weight: 100;
+}
+
+.about-us .beard-container .beard_logo {
+  position: absolute;
+  right: 75px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 400px;
+}
+
+.about-us .beard-container .beard_logo-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.logo-text {
+  display: none;
 }
 
 .portfolio .container-grey {
@@ -58,10 +117,9 @@
 
 .sub-banner h1 {
   color: white !important;
-  font-weight: normal !important;
   margin: 0 !important;
   position: absolute;
-  top: 32%;
+  top: 26%;
   transform: translateY(-50%);
 }
 

@@ -38,7 +38,7 @@ get_header();
                 </section>
             </div>
             
-            <div class="container-white">
+            <div class="container-white home-page">
                 <section>
                     <div class="flex">
                         <div class="cell-service" data-aos="zoom-in">
@@ -149,7 +149,7 @@ get_header();
                 </section>
             </div>
 
-            <div class="container-white">
+            <div class="container-white container-white-borders">
                 <section class="narrow">
                     <div class="owl-carousel owl-theme">
                         <?php 
@@ -175,7 +175,7 @@ get_header();
                             
                             <?php $wpb_all_query->the_post(); ?>
                                 <div class="item" data-aos="slide-right">
-                                    <div id="testimonial_portrait" class="client client_<?php echo $i; ?>" style="background-image: url('<?php echo the_field( "modern_image" ); ?>');"></div>
+                                    <div id="testimonial_portrait" class="client dynamic client_<?php echo $i; ?>" style="background-image: url('<?php echo the_field( "modern_image" ); ?>');"></div>
                                     <div class="client-review">
                                         <p class="black"><strong><?php echo get_field( 'tag_line' ); ?></strong></p>
                                         

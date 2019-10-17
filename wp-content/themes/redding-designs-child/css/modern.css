@@ -23,15 +23,16 @@
 	background:#ddd;
 }
 
-body {
-    font-family: 'Heebo', sans-serif;
-    font-weight: 300;
-    color: #222;
+/*FONTS*/
+/* @import url('https://fonts.googleapis.com/css?family=Heebo:300,800'); */
+/* @import"https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans&display=swap"; */
+
+body p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    color: #808080;
 }
 
-
-/*FONTS*/
-@import url('https://fonts.googleapis.com/css?family=Heebo:300,800');
 strong {
     font-weight: 800;
 }
@@ -45,8 +46,21 @@ ol {
     color: #808080;
 }
 
-h1 {
-    font-weight: 800 !important;
+
+
+body h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+}
+body h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+}
+body h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 60px;
 }
 
@@ -71,14 +85,12 @@ h1 {
 
 /*OBJECTS*/
 .btn {
-    font-family: 'Heebo', sans-serif;
-    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
     padding: 10px 15px !important;
-    /* background: #29abe2 !important; */
-    background: transparent !important;
     border-radius: 50px !important;
-    color: #808080 !important;
-    border: 1px solid #808080!important;
+    color: white !important;
+    border: 1px solid white !important;
 }
 .btn a:link {
     color: white;
@@ -223,7 +235,6 @@ hr {
 
 /*LINKS*/
 .banner-home a:link {
-        color: #29abe2 !important;
         text-decoration: none !important;
     }
 }
@@ -327,13 +338,14 @@ nav ul .palette {
     margin: 0 0 0 5%;
 }
 .banner-home h1 {
-    font-size: 3.1vw;
     color: white;
 }
 .banner-home h1 span {
     color: #29abe2;
 }
 .banner-home section > p {
+    font-family: "Open Sans", sans-serif; 
+    font-weight: 300;
     padding: 15px 0;
     font-size: 24px;
     color: white;
@@ -370,8 +382,9 @@ nav ul .palette {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#eeeeee',GradientType=0 );
 }
 .container-grey strong {
+    font-family: 'Montserrat', sans-serif;
+    color: #29abe2;
     font-size: 24px;
-    color: #333;
 }
 
 .container-feed {
@@ -399,6 +412,8 @@ nav ul .palette {
     color: #222;
 }
 .cell-service p:last-child {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     color: #29abe2;
     /* opacity: 0.1; */
 }
@@ -435,7 +450,10 @@ nav ul .palette {
     box-shadow: 0 0 20px rgba(0,0,0,0.05);
 }
 .client-review strong {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 24px;
+    color: #29abe2;
 }
 .client-name {
 	font-style: italic;
@@ -510,8 +528,7 @@ textarea:focus {
 
 /*MODIFIERS*/
 .heading {
-    font-family: 'Heebo', sans-serif;
-    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
 }
 .sub-heading {
     font-family: 'Heebo', sans-serif;

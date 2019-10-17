@@ -29,7 +29,7 @@ get_header();
                                 <div class="card-body">
                                     <h2>Web Design &amp; Development</h2>
                                     <p>Virtual Presence</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisc- ing elit. Curabitur interdum et quam aliquet laoreet. Vestibulum egestas volutpat tempus. Cras quis auctor diam. Quisque at commodo diam. Duis pre- tium tincidunt mauris, at placerat lorem ornare lac- inia. Nam elementum nisi quam, vitae rutrum felis consequat ac. Quisque urna nulla, ornare vitae arcu sed, lacinia varius eros.</p>
+                                    <p class="card-body-text">Lorem ipsum dolor sit amet, consectetur adipisc- ing elit. Curabitur interdum et quam aliquet laoreet. Vestibulum egestas volutpat tempus. Cras quis auctor diam. Quisque at commodo diam. Duis pre- tium tincidunt mauris, at placerat lorem ornare lac- inia. Nam elementum nisi quam, vitae rutrum felis consequat ac. Quisque urna nulla, ornare vitae arcu sed, lacinia varius eros.</p>
                                 </div>
                             </div>
                             <div class="cell-service" data-aos="zoom-in">
@@ -37,7 +37,7 @@ get_header();
                                 <div class="card-body">
                                     <h2>Web Design &amp; Development</h2>
                                     <p>Virtual Presence</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisc- ing elit. Curabitur interdum et quam aliquet laoreet. Vestibulum egestas volutpat tempus. Cras quis auctor diam. Quisque at commodo diam. Duis pre- tium tincidunt mauris, at placerat lorem ornare lac- inia. Nam elementum nisi quam, vitae rutrum felis consequat ac. Quisque urna nulla, ornare vitae arcu sed, lacinia varius eros.</p>
+                                    <p class="card-body-text">Lorem ipsum dolor sit amet, consectetur adipisc- ing elit. Curabitur interdum et quam aliquet laoreet. Vestibulum egestas volutpat tempus. Cras quis auctor diam. Quisque at commodo diam. Duis pre- tium tincidunt mauris, at placerat lorem ornare lac- inia. Nam elementum nisi quam, vitae rutrum felis consequat ac. Quisque urna nulla, ornare vitae arcu sed, lacinia varius eros.</p>
                                 </div>
                             </div>
                             <div class="cell-service" data-aos="zoom-in">
@@ -45,7 +45,7 @@ get_header();
                                 <div class="card-body">
                                     <h2>Web Design &amp; Development</h2>
                                     <p>Virtual Presence</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisc- ing elit. Curabitur interdum et quam aliquet laoreet. Vestibulum egestas volutpat tempus. Cras quis auctor diam. Quisque at commodo diam. Duis pre- tium tincidunt mauris, at placerat lorem ornare lac- inia. Nam elementum nisi quam, vitae rutrum felis consequat ac. Quisque urna nulla, ornare vitae arcu sed, lacinia varius eros.</p>
+                                    <p class="card-body-text">Lorem ipsum dolor sit amet, consectetur adipisc- ing elit. Curabitur interdum et quam aliquet laoreet. Vestibulum egestas volutpat tempus. Cras quis auctor diam. Quisque at commodo diam. Duis pre- tium tincidunt mauris, at placerat lorem ornare lac- inia. Nam elementum nisi quam, vitae rutrum felis consequat ac. Quisque urna nulla, ornare vitae arcu sed, lacinia varius eros.</p>
                                 </div>
                             </div>
                             <div class="cell-service" data-aos="zoom-in">
@@ -53,7 +53,7 @@ get_header();
                                 <div class="card-body">
                                     <h2>Web Design &amp; Development</h2>
                                     <p>Virtual Presence</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisc- ing elit. Curabitur interdum et quam aliquet laoreet. Vestibulum egestas volutpat tempus. Cras quis auctor diam. Quisque at commodo diam. Duis pre- tium tincidunt mauris, at placerat lorem ornare lac- inia. Nam elementum nisi quam, vitae rutrum felis consequat ac. Quisque urna nulla, ornare vitae arcu sed, lacinia varius eros.</p>
+                                    <p class="card-body-text">Lorem ipsum dolor sit amet, consectetur adipisc- ing elit. Curabitur interdum et quam aliquet laoreet. Vestibulum egestas volutpat tempus. Cras quis auctor diam. Quisque at commodo diam. Duis pre- tium tincidunt mauris, at placerat lorem ornare lac- inia. Nam elementum nisi quam, vitae rutrum felis consequat ac. Quisque urna nulla, ornare vitae arcu sed, lacinia varius eros.</p>
                                 </div>
                             </div>
                             <div class="cell-service" data-aos="zoom-in">
@@ -61,7 +61,7 @@ get_header();
                                 <div class="card-body">
                                     <h2>Web Design &amp; Development</h2>
                                     <p>Virtual Presence</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisc- ing elit. Curabitur interdum et quam aliquet laoreet. Vestibulum egestas volutpat tempus. Cras quis auctor diam. Quisque at commodo diam. Duis pre- tium tincidunt mauris, at placerat lorem ornare lac- inia. Nam elementum nisi quam, vitae rutrum felis consequat ac. Quisque urna nulla, ornare vitae arcu sed, lacinia varius eros.</p>
+                                    <p class="card-body-text">Lorem ipsum dolor sit amet, consectetur adipisc- ing elit. Curabitur interdum et quam aliquet laoreet. Vestibulum egestas volutpat tempus. Cras quis auctor diam. Quisque at commodo diam. Duis pre- tium tincidunt mauris, at placerat lorem ornare lac- inia. Nam elementum nisi quam, vitae rutrum felis consequat ac. Quisque urna nulla, ornare vitae arcu sed, lacinia varius eros.</p>
                                 </div>
                             </div>
                             <div class="cell-service" data-aos="zoom-in">
@@ -69,7 +69,7 @@ get_header();
                                 <div class="card-body">
                                     <h2>Web Design &amp; Development</h2>
                                     <p>Virtual Presence</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisc- ing elit. Curabitur interdum et quam aliquet laoreet. Vestibulum egestas volutpat tempus. Cras quis auctor diam. Quisque at commodo diam. Duis pre- tium tincidunt mauris, at placerat lorem ornare lac- inia. Nam elementum nisi quam, vitae rutrum felis consequat ac. Quisque urna nulla, ornare vitae arcu sed, lacinia varius eros.</p>
+                                    <p class="card-body-text">Lorem ipsum dolor sit amet, consectetur adipisc- ing elit. Curabitur interdum et quam aliquet laoreet. Vestibulum egestas volutpat tempus. Cras quis auctor diam. Quisque at commodo diam. Duis pre- tium tincidunt mauris, at placerat lorem ornare lac- inia. Nam elementum nisi quam, vitae rutrum felis consequat ac. Quisque urna nulla, ornare vitae arcu sed, lacinia varius eros.</p>
                                 </div>
                             </div>
 

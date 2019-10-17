@@ -6,7 +6,7 @@
 	margin: 0;
 	box-sizing: border-box;
 	text-decoration: none;
-	outline: #c7b299;
+	/* outline: #000000; */
     -webkit-transition: all .2s ease;
     transition: all .2s ease;    
 }
@@ -20,45 +20,49 @@
 }
  
 ::-webkit-scrollbar-thumb {
-	background:#c7b299;
+	background:#000000;
 }
 
 body {
-    font-family: 'Crimson', serif;
-    font-weight: 300;
-    color: #534741;
-    background: url(../assets/vintage/images/backgrounds/bg-l.jpg) repeat fixed #f4f0eb;
+    color: #000000 !important;
+    background-color: #f2f2f2 !important;
+    /* background: url(../assets/vintage/images/backgrounds/bg-l.jpg) repeat fixed #f4f0eb; */
 }
 
 
 /*FONTS*/
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,700i|Playfair+Display:700');
 strong {
     font-weight: 700;
 }
 
+body h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px !important;
+    font-weight: 900;
+}
+
+
 p,
 li,
 ol {
+    font-family: 'PT Serif', serif;
     font-size: 18px;
     line-height: 24px;
     margin: 18px auto;
-    color: #212529;
+    color: #000000;
 }
 
-h1 {
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
-    font-size: 60px;
+.owl-item {
+    padding: 10px 0 10px;
 }
 
 
 /*COLORS*/
 .brown {
-    color: #534741;
+    color: #000000;
 }
 .beige {
-    color: #c7b299;
+    color: #000000;
 }
 .white {
     color: #f4f0eb;
@@ -67,16 +71,17 @@ h1 {
 
 /*OBJECTS*/
 .btn {
-    font-family: 'Crimson', serif;
-    font-size: 21px;
-    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px !important;
     padding: 0 !important;
     padding-top: 15px !important;
-    color: #534741;
-    border: 1px solid #534741;
+    color: #000000;
+    border: 1px solid #000000;
 }
+
 .btn a:link {
-    color: #212529;
+    color: #000000;
+    font-weight: 900 !important;
     padding: 10px 0 10px;
     border-top: double;
     border-bottom: double;
@@ -94,13 +99,13 @@ hr {
     margin: 50px auto;
     width: 100%;
     height: 1px;
-    background: #c7b299;
+    background: #000000;
 }
 
 .cell-service {
     border: none !important;
-    border-top: 2px solid #212529 !important;
-    border-bottom: 2px solid #212529 !important;
+    border-top: 2px solid #000000 !important;
+    border-bottom: 2px solid #000000 !important;
 }
 
 .menu-icon {
@@ -113,14 +118,14 @@ hr {
 /* .icon-service {
 	width: 150px;
     height: 150px;
-    border: 1px dashed #c7b299;
+    border: 1px dashed #000000;
     border-radius: 150px;
     display: inline-block;
     margin: 20px auto;
 }
 .cell-service:hover .icon-service,
 .cell-service:focus .icon-service {
-    border: 1px dashed #534741;
+    border: 1px dashed #000000;
     width: 145px;
     height: 145px;
 }
@@ -237,20 +242,20 @@ hr {
 
 /*LINKS*/
 a:link {
-    color:#212529;
-    font-style: italic;
-    font-weight: lighter;
+    color:#000000;
+    font-weight: 400;
 }
 a:hover,
 a:focus {
-    color: #534741;
+    color: #000000;
 }
 
 
 /*DIVS*/
 nav {
-    background: url(../assets/vintage/images/backgrounds/bg-l.jpg) repeat fixed #f4f0eb;
-    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    /* background: url(../assets/vintage/images/backgrounds/bg-l.jpg) repeat fixed #f4f0eb; */
+    height: 85px;
+    background-color: #f2f2f2;
 }
 
 nav .logo {
@@ -259,8 +264,8 @@ nav .logo {
     margin-top: 10px;
     margin-left: 20px;
     float: left;
-    background: url(../assets/vintage/images/logos/redding-designs-logo.png) no-repeat center left;
-    background-size: contain;
+    /* background: url(../assets/vintage/images/logos/redding-designs-logo.png) no-repeat center left;
+    background-size: contain; */
 }
 nav .logo:hover,
 nav .logo:focus {
@@ -271,14 +276,13 @@ nav .logo:focus {
 nav button {
     font-size: 21px;
     padding-left: 35px;
-    padding-top: 5px;
-    background: url("data:image/svg+xml;charset=utf8,%3C!--?xml version='1.0' encoding='utf-8'?--%3E%3C!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3Csvg version='1.1' id='facbc781-1096-42d7-aa63-7e37b4a581c3' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 162 88' style='' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0{fill:none;stroke:%23998675;stroke-width:13;stroke-miterlimit:10;} %3C/style%3E%3Ctitle%3Ehamburger%3C/title%3E%3Cpath class='st0 OmjeGJdw_0' d='M0,44L140,44'%3E%3C/path%3E%3Cpath class='st0 OmjeGJdw_1' d='M0,6.5L162,6.5'%3E%3C/path%3E%3Cpath class='st0 OmjeGJdw_2' d='M0,81.5L118,81.5'%3E%3C/path%3E%3Cstyle data-made-with='vivus-instant'%3E.OmjeGJdw_0{stroke-dasharray:140 142;stroke-dashoffset:141;animation:OmjeGJdw_draw_0 3200ms ease 0ms infinite,OmjeGJdw_fade 3200ms linear 0ms infinite;}.OmjeGJdw_1{stroke-dasharray:162 164;stroke-dashoffset:163;animation:OmjeGJdw_draw_1 3200ms ease 0ms infinite,OmjeGJdw_fade 3200ms linear 0ms infinite;}.OmjeGJdw_2{stroke-dasharray:118 120;stroke-dashoffset:119;animation:OmjeGJdw_draw_2 3200ms ease 0ms infinite,OmjeGJdw_fade 3200ms linear 0ms infinite;}@keyframes OmjeGJdw_draw{100%25{stroke-dashoffset:0;}}@keyframes OmjeGJdw_fade{0%25{stroke-opacity:1;}87.5%25{stroke-opacity:1;}100%25{stroke-opacity:0;}}@keyframes OmjeGJdw_draw_0{25%25{stroke-dashoffset: 141}56.25%25{ stroke-dashoffset: 0;}100%25{ stroke-dashoffset: 0;}}@keyframes OmjeGJdw_draw_1{25%25{stroke-dashoffset: 163}56.25%25{ stroke-dashoffset: 0;}100%25{ stroke-dashoffset: 0;}}@keyframes OmjeGJdw_draw_2{25%25{stroke-dashoffset: 119}56.25%25{ stroke-dashoffset: 0;}100%25{ stroke-dashoffset: 0;}}%3C/style%3E%3C/svg%3E") no-repeat;
+    background: url("data:image/svg+xml;base64,PHN2ZyBpZD0iZmFjYmM3ODEtMTA5Ni00MmQ3LWFhNjMtN2UzN2I0YTU4MWMzIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNjIgODguMTgiPjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDpub25lO3N0cm9rZTojMDAwO3N0cm9rZS1taXRlcmxpbWl0OjEwO3N0cm9rZS13aWR0aDoxM3B4O308L3N0eWxlPjwvZGVmcz48dGl0bGU+aGFtYnVyZ2VyPC90aXRsZT48bGluZSBjbGFzcz0iY2xzLTEiIHkxPSI2LjUiIHgyPSIxNjIiIHkyPSI2LjUiLz48bGluZSBjbGFzcz0iY2xzLTEiIHkxPSI0NCIgeDI9IjE2MiIgeTI9IjQ0Ii8+PGxpbmUgY2xhc3M9ImNscy0xIiB5MT0iODEuNjgiIHgyPSIxNjIiIHkyPSI4MS42OCIvPjwvc3ZnPg==") no-repeat;
     background-size: 30px 30px;
     font-family: 'Crimson', serif;
 }
 nav button:hover,
 nav button:focus {
-    color: #534741;
+    color: #000000;
 }
 nav button img {
     width: 28px;
@@ -289,30 +293,31 @@ nav .palette {
     width: 30px;
     height: 30px;
     margin: 20px;
-    background: url(../assets/vintage/images/icons/palette.svg) no-repeat;
+    background: url("data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMzEuMDIgMjMxLjAzIj48ZGVmcz48c3R5bGU+LmNscy0xLC5jbHMtMiwuY2xzLTMsLmNscy00LC5jbHMtNSwuY2xzLTZ7ZmlsbDpub25lO3N0cm9rZTojMDAwO3N0cm9rZS1taXRlcmxpbWl0OjEwO30uY2xzLTF7c3Ryb2tlLXdpZHRoOjVweDt9LmNscy0ye3N0cm9rZS13aWR0aDoyMHB4O30uY2xzLTN7c3Ryb2tlLXdpZHRoOjE5cHg7fS5jbHMtNHtzdHJva2Utd2lkdGg6MjFweDt9LmNscy01e3N0cm9rZS13aWR0aDoyNnB4O30uY2xzLTZ7c3Ryb2tlLXdpZHRoOjI4cHg7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5wYWxldHRlPC90aXRsZT48ZyBpZD0iYTZlOTFiNTUtOGY3NS00M2EyLWI0YTItZDk3M2QwNDlkOTE0Ij48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0xMTQuNSwyLjVjLTYxLC41Ni0xMTAuOTEsNTAtMTEyLDExMWExMTIuNzUsMTEyLjc1LDAsMCwwLC44LDE1LjY5YzIuMTIsMTcuNjEsMjQuMDYsMjQuNzUsMzYuMjYsMTEuODcsNi02LjMzLDEzLTExLDIwLjQyLTExYTQxLDQxLDAsMCwxLDQxLDQxYzAsNy40NC00LjY5LDE0LjQxLTExLDIwLjQyLTEyLjg4LDEyLjItNS43NCwzNC4xNCwxMS44NywzNi4yNmExMTMuNjIsMTEzLjYyLDAsMCwwLDE1LjY1Ljc2YzYwLjkzLTEuMDcsMTEwLjQtNTEsMTExLTExMS45M0ExMTMsMTEzLDAsMCwwLDExNi41OCwyLjVaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAyIDApIi8+PGVsbGlwc2UgY2xhc3M9ImNscy0yIiBjeD0iNTUuNzciIGN5PSI4Ny42IiByeD0iMTIuMjUiIHJ5PSI5Ljg1Ii8+PGVsbGlwc2UgY2xhc3M9ImNscy0zIiBjeD0iMTAxLjUyIiBjeT0iNDcuNSIgcng9IjExLjUiIHJ5PSI5LjU4Ii8+PGVsbGlwc2UgY2xhc3M9ImNscy00IiBjeD0iMTYyLjUyIiBjeT0iNjkiIHJ4PSIxMC4zIiByeT0iMTEiLz48ZWxsaXBzZSBjbGFzcz0iY2xzLTUiIGN4PSIxNzcuMDIiIGN5PSIxMjciIHJ4PSIxNiIgcnk9IjEyLjUxIi8+PGVsbGlwc2UgY2xhc3M9ImNscy02IiBjeD0iMTQ1LjUyIiBjeT0iMTgwIiByeD0iMTUuOTEiIHJ5PSIxNCIvPjwvZz48L3N2Zz4=") no-repeat;
     background-size: contain;
 }
 
 nav ul {
-    background: url(../assets/vintage/images/backgrounds/bg-l.jpg) repeat fixed #f4f0eb;
-    border-bottom: 1px solid #c7b299;
+    background-color: #f2f2f2;
+    /* background: url(../assets/vintage/images/backgrounds/bg-l.jpg) repeat fixed #f4f0eb; */
+    border-bottom: 1px solid #000000;
 }
 nav ul li {
-    color: #534741;
+    color: #000000;
     font-size: 24px;
     font-weight: 800;
     border: 1px solid transparent;
 }
 nav ul li:hover {
-    border: 1px solid #c7b299;
+    border: 1px solid #000000;
 }
 nav ul li span {
     font-weight: 300;
     font-size: 16px;
-    color: #998675;
+    color: #000000;
 }
 nav ul li a:link {
-    color: #534741;
+    color: #000000;
 }
 /* nav ul li:last-child {
     display: none;
@@ -326,50 +331,54 @@ nav ul .palette {
 
 .banner-home {
 	width: 100%;
-    background: url(../assets/vintage/images/banners/home-page.jpg) no-repeat center fixed grey;
+    background: url(../assets/vintage/images/banners/home-page.jpg) no-repeat center right fixed grey;
     background-size: cover;
     padding: 250px 0;
 }
 .banner-home section {
-    width: 50%;
+    width: 65%;
     margin: 0 0 0 5%;
 }
 .banner-home h1 {
     font-size: 3.1vw;
 }
 .banner-home section > p {
-    padding-top: 15px;
-    font-size: 18px;
-    color: #212529;
+    font-size: 21px;
+    color: #000000;
 }
-.banner-home section .btn {
-    font-size: 24px;
+.banner-home section .btn a:link {
+    font-size: 36px;
+    padding: 0 0 7px 0 !important;
 }
 
-.container-white {
+/* .container-white {
     background: url(../assets/vintage/images/backgrounds/bg-l.jpg) repeat fixed #f4f0eb;
-}
+} */
 .container-grey {
-    background: url(../assets/vintage/images/backgrounds/bg-m.jpg) repeat fixed;
+    background-color: #e6e6e6;
+    /* background: url(../assets/vintage/images/backgrounds/bg-m.jpg) repeat fixed; */
     position: relative;
 }
 .container-grey:before {
     content: '';
     width: 100%;
     height: 200px;
-    background: url(../assets/vintage/images/backgrounds/bg-d.jpg) repeat fixed;
+    background-color: #d9d9d9;
+    /* background: url(../assets/vintage/images/backgrounds/bg-d.jpg) repeat fixed; */
     display: block;
     position: absolute;
     bottom: 0;
 }
 .container-grey strong {
-    font-size: 24px;
-    color: #212529;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 900;
+    color: #000000;
 }
 
-.container-feed {
-	background: url(../assets/vintage/images/backgrounds/bg-m.jpg) repeat fixed #c7b299;    
-}
+/* .container-feed {
+	background: url(../assets/vintage/images/backgrounds/bg-m.jpg) repeat fixed #000000;    
+} */
 .container-feed .phone-back {
     background: url(../assets/vintage/images/thumbs/phone-back.png) no-repeat center top;
     background-size: contain;
@@ -382,19 +391,19 @@ nav ul .palette {
 	filter: grayscale(1);
 }
 .container-feed .white {
-    color: #534741;
+    color: #000000;
 }
 
 .cell-service {
     text-align: left;
-    border: 1px solid #212529;
+    border: 1px solid #000000;
 }
 .cell-service:hover,
 .cell-service:focus {
-    border: 1px solid #212529;
+    border: 1px solid #000000;
 }
 .cell-service h2 {
-    color: #212529;
+    color: #000000;
     font-size: 48px;
     font-family: 'Playfair Display', serif;
     font-weight: bold;
@@ -403,14 +412,14 @@ nav ul .palette {
     font-weight: bold;
 } */
 .cell-service p:last-child:hover {
-    color: #212529;
+    color: #000000;
 }
 .cell-service:hover p:last-child {
     opacity: 1;
 }
 
 .container-social-media {
-    background: url(../assets/vintage/images/backgrounds/bg-m.jpg) repeat fixed #c7b299;
+    /* background: url(../assets/vintage/images/backgrounds/bg-m.jpg) repeat fixed #000000; */
     text-align: center;
 }
 .container-social-media i.fa {
@@ -418,26 +427,27 @@ nav ul .palette {
     height: 40px;
     font-size: 28px;
     padding-top: 5px;
-    color: #534741;
+    color: #000000;
     display: inline-block;
     margin: 0 5px;
-    border: 1px solid #534741;
+    border: 3px solid #000000;
     border-radius: 5px;
 }
 .container-social-media i.fa:hover,
 .container-social-media i.fa:focus {
-	color: #c7b299;
-    border: 1px solid #c7b299;
+	color: #000000;
+    border: 1px solid #000000;
 }
 
 .client {
-    border: 2px solid #212529;
+    border: 2px solid #000000;
     border-radius: 0px;
 }
 .client-review strong {
     font-family: 'Playfair Display', serif;
-    font-size: 24px;
-    color: #534741;
+    font-size: 48px;
+    font-weight: 900;
+    color: #000000;
 }
 .client-name {
 	font-style: italic;
@@ -450,22 +460,21 @@ nav ul .palette {
 	background: url(../assets/vintage/images/thumbs/kate-campbell.jpg) no-repeat center #f9f9f9;
     background-size: 100%;
 }
-
 footer {
-    background: url(../assets/vintage/images/backgrounds/bg-l.jpg) repeat fixed #f4f0eb;
+    padding: 0 0 50px;
 }
 footer p {
-    color: #534741;
+    color: #000000;
 }
 footer hr {
-    background: #c7b299;
+    background: #000000;
 }
 footer a:link {
-    color: #534741;
+    color: #000000;
 }
 footer a:hover,
 footer a:focus {
-    color: #c7b299;    
+    color: #000000;    
 }
 
 
@@ -477,7 +486,7 @@ form button {
 input,
 textarea,
 select {
-    background: #c7b299;
+    background: #000000;
     border: 2px solid #f4f0eb;
     border-radius: 5px;
     font-family: 'Open Sans', sans-serif;
@@ -497,8 +506,9 @@ textarea:focus {
 /*MODIFIERS*/
 .heading {
     font-family: 'Playfair Display', serif;
-    font-weight: 700;
-    font-size: 60px;
+    font-weight: 900;
+    font-size: 48px !important;
+    padding-bottom: 45px;
 }
 .sub-heading {
     font-family: 'Playfair Display', serif;
@@ -516,10 +526,10 @@ textarea:focus {
 }
 
 .owl-theme .owl-dots .owl-dot span {
-      background: #c7b299;
+      background: #000000;
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-      background: #534741;
+      background: #000000;
 }
 
 
@@ -600,10 +610,10 @@ textarea:focus {
     }
     .banner-home p.btn {
         font-size: 16px;
-        border: 1px solid #c7b299;        
+        border: 1px solid #000000;        
     }
     .banner-home p.btn a {
-        color: #c7b299;
+        color: #000000;
     }
     .banner-home section {
         background: rgba(83,71,65,0.7);

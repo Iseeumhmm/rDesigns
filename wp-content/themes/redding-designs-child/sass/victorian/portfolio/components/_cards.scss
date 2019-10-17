@@ -1,5 +1,14 @@
   .card {
       background-color: #ECE7E3 !important;
+      &-image-top {
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 250px;
+        width: 85%;
+        margin: 0 auto;
+        border: 2px solid #212529;
+      }
   }
   .card-body p:first-of-type {
     font-size: 18px;

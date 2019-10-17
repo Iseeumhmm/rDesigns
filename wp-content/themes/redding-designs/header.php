@@ -61,6 +61,7 @@
 	<link rel="manifest" href="<?php echo get_stylesheet_directory_uri() ?>/favicons/site.webmanifest">
 	<link rel="mask-icon" href="<?php echo get_stylesheet_directory_uri() ?>/favicons/safari-pinned-tab.svg" color="#1a1a1a">
 	<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri() ?>/favicons/favicon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400|PT+Serif|Playfair+Display:400,900&display=swap" rel="stylesheet">
 	<meta name="msapplication-TileColor" content="#1a1a1a">
 	<meta name="msapplication-config" content="<?php echo get_stylesheet_directory_uri() ?>/favicons/browserconfig.xml">
 	<meta name="theme-color" content="#ffffff">
@@ -100,7 +101,12 @@
 		<main id="main" class="site-main">
 			<nav>
 				<section data-aos="fade-in">
-					<a href="<?php echo get_site_url(); ?>/" title="Home"><div class="logo" data-aos="fade-in"></div></a>
+					<a href="<?php echo get_site_url(); ?>/" title="Home"><div class="logo" data-aos="fade-in">
+						<div class="logo-text">
+							<p>Redding Designs Inc.</p>
+							<p>Digital Marketing & Web Development</p>
+						</div>
+					</div></a>
 				
 					<button id="nav" data-aos="slide-left">Menu</button>
 

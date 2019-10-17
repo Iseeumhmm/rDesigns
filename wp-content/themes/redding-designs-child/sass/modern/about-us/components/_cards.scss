@@ -4,7 +4,6 @@
         width: 250px;
         margin: 25px auto;
         border-radius: 150px;
-        background-image: url('https://www.fillmurray.com/300/200');
         background-size: cover;
         background-position: center center;
     }
@@ -18,6 +17,8 @@
         color: #808080;
     }
     .cell-service p:last-child {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
         color: #808080;
     }
 }

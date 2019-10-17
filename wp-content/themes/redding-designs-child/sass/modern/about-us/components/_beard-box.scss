@@ -1,7 +1,10 @@
 .about-us {
     .beard-container {
-        background:  rgba(249,249,249,1);
-        height: 400px;
-        width: 100%;
+        background: rgb(249,249,249);
+        section {
+            h3 { 
+                color: #29abe2;
+            }
+        }
     }
 }

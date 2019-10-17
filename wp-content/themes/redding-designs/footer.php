@@ -56,16 +56,23 @@
 		<script>
 			
 			function changeStyle(style) {
-				let clients = $( ".client" ).toArray();
-				for (i = 0; i < clients.length/3; i++) {
-					console.log('inside loop: ' + i);
+				let clients = $( ".dynamic" ).toArray();
+				let clientsLength = clients.length;
+				let classes = "";
+				if ( $( '.home-page' ).length ) {
+					clientsLength = clients.length/3;
+					classes = "client ";
+				} else if ( $( '.about-us' ).length) {
+					classes = "card-image-top "
+				}
+				for (i = 0; i < clientsLength; i++) {
 					let client = $( ".client_" + i ).toArray();
 					client.forEach(function(c) {
 						c.removeAttribute('style');
 						clientNum = "client_" + i;
 						const theStyle = style + "_" + i;
 						c.className = '';
-						c.className = "client " + clientNum + " " + theStyle;
+						c.className = classes + clientNum + " dynamic " + theStyle;
 					});
 				}
 			}

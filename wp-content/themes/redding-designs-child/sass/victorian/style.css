@@ -1,5 +1,65 @@
+.container-white-borders {
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+}
+
+.sub-banner {
+  background-color: #000000;
+}
+
+.sub-banner h1 {
+  font-weight: 900;
+  color: #f2f2f2 !important;
+}
+
+.logo-text {
+  display: block;
+}
+
+.logo-text p:first-child {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 36px;
+}
+
+.logo-text p {
+  font-family: 'PT Serif', serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+body {
+  font-family: 'Playfair Display', serif !important;
+}
+
+nav {
+  width: 90%;
+  max-width: 1700px;
+}
+
+.page {
+  width: 90%;
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+.fa {
+  opacity: 1 !important;
+  transform: scale(1.6);
+}
+
 .card {
   background-color: #ECE7E3 !important;
+}
+
+.card-image-top {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 85%;
+  margin: 0 auto;
+  border: 2px solid #212529;
 }
 
 .card-body p:first-of-type {
@@ -12,21 +72,16 @@
   padding-top: 45px;
 }
 
-.sub-banner {
-  background-color: #D9CFC5;
+.portfolio-text-banner {
+  padding-bottom: 0;
 }
 
-.sub-banner h1 {
-  font-weight: bold !important;
-  color: #21252A !important;
+.cell-service p:last-child {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
 }
 
-body {
-  font-family: 'Playfair Display', serif !important;
-}
-
-.fa {
-  opacity: 1 !important;
-  transform: scale(1.6);
+.cell-service:hover p:last-child {
+  color: #999999;
 }
 

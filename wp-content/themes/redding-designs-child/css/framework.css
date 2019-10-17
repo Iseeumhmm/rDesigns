@@ -22,6 +22,10 @@ div[class^="col-"] {
     padding-right: 0 !important;
 }
 
+a:focus, button:focus {
+    outline: none !important;
+}
+
 /*OBJECTS*/
 .btn {
     font-family: sans-serif;
@@ -152,9 +156,10 @@ nav ul li {
     padding: 200px 0;
     overflow: hidden;
     position: relative;
+    font-size: 18px;
 }
 .container-feed .heading {
-    font-size: 3.1vw;
+    font-size: 60px;
 }
 .container-feed .phone-back {
     width: 400px;

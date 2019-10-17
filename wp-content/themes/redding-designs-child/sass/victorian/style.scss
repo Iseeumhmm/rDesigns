@@ -1,4 +1,15 @@
+//All Pages
+@import"../victorian/_all-pages/components/container-white";
+@import"../victorian/_all-pages/components/subpage-banner";
+@import"../victorian/_all-pages/components/header";
+@import"../victorian/_all-pages/reset";
+
+//portfolio
 @import"../victorian/portfolio/components/cards";
 @import"../victorian/portfolio/components/latest_adventure";
-@import"../victorian/base/components/subpage-banner";
-@import"../victorian/base/reset";
+
+//about
+@import"../victorian/about/components/portfolio-text-banner";
+
+//home
+@import"../victorian/home/components/cell-service";

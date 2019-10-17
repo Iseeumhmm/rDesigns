@@ -1,0 +1,9 @@
+.cell-service {
+    p:last-child {
+        font-family: 'Playfair Display', serif;
+        font-weight: 900;
+    }
+    &:hover p:last-child {
+        color: #999999;
+    }
+}
