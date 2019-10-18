@@ -54,12 +54,13 @@
 		
 		<!--navigation-->
 		<script>
-			
+			// This function changes classes switch themes
 			function changeStyle(style) {
 				let clients = $( ".dynamic" ).toArray();
 				let clientsLength = clients.length;
 				let classes = "";
 				if ( $( '.home-page' ).length ) {
+					// have to divide by 3 on homepage because owl carousel clones the divs 3 times
 					clientsLength = clients.length/3;
 					classes = "client ";
 				} else if ( $( '.about-us' ).length) {
@@ -80,21 +81,41 @@
 			function modern() {
 				$('#stylesheet').attr('href','<?php echo get_stylesheet_directory_uri(); ?>/css/modern.css');
 				changeStyle("modern");
+				localStorage.setItem('currentStyle', 'modern');
 			}
 			function vintage() {
 				$('#stylesheet').attr('href','<?php echo get_stylesheet_directory_uri(); ?>/css/victorian.css');
 				changeStyle("victorian");
+				localStorage.setItem('currentStyle', 'victorian');
 			}
 			function eighties() {
 				$('#stylesheet').attr('href','<?php echo get_stylesheet_directory_uri(); ?>/css/80s.css');
 				changeStyle("eighties");
+				localStorage.setItem('currentStyle', 'eighties');
 			}
 			function monochromatic() {
 				$('#stylesheet').attr('href','<?php echo get_stylesheet_directory_uri(); ?>/css/monochromatic.css');
 				changeStyle("monochrome");
+				localStorage.setItem('currentStyle', 'monochrome');
 			}
 			$(document).ready(function() {
-				
+				// Check to see if a style has been set and reset it for next page if necessary
+				if ( localStorage.getItem( 'currentStyle' ) ) {
+					const style = localStorage.getItem( 'currentStyle' );
+					switch (style) {
+						case "victorian":
+							vintage();
+							break;
+						case 'eighties':
+							eighties();
+							break;
+						case 'monochrome':
+							monochromatic();
+							break;
+						default:
+							break;
+					}
+				}
 				$('#nav').click(function() {
 					$('#palette ul').hide();
 					$('#main-menu').slideToggle("fast");
