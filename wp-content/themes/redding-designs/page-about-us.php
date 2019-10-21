@@ -31,10 +31,10 @@ get_header();
                 </div>
                 <div class="beard-container container-fluid">
                     <div class="row">
-                        <div class="col-md-5 beard_logo-container" data-aos="slide-right">         
+                        <div class="col-lg-4 beard_logo-container" data-aos="slide-right">         
                             <div class="beard_logo" style="background-image: url('<?php the_field( 'beard_logo' )?>')"></div>
                         </div>
-                        <div class="col-md-7">
+                        <div class="col-lg-8">
                             <div class="beard-container-text">
                                 <section data-aos="zoom-in">
                                     <h3 class="heading">What's With the Beard?</h3>
@@ -45,17 +45,6 @@ get_header();
                         </div>
                     </div>
                 </div>
-                <!-- <div class="container-grey beard-container">
-                    <section data-aos="zoom-in">
-                        <h3 class="heading">What's With the Beard?</h3>
-                        <p>It is an elite group of businesses who can count themselves lucky enough to have the beard seal of approval on their website. At Redding Designs Inc. we don’t just create awesome websites, we create beard approved websites. What does that mean you ask?</p>
-                        <p>It means having a modern design, being mobile friendly, easy to navigate, and it must have cool, in your face, pictures and graphics. If you are not in possession of a website with the beard seal of approval give us a shout and together, using our formidable powers of design, we will correct this problem.</p>
-                    </section>
-                    
-                    <div class="latest" data-aos="slide-right">         
-                        <div class="beard_logo" style="background-image: url('<?php the_field( 'beard_logo' )?>')"></div>
-                    </div>
-                </div> -->
                 <div class="container-white">
                     <section class="meet-the-team">
                         <h1>Meet the Team</h1>
