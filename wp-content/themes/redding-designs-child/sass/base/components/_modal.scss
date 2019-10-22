@@ -1,4 +1,5 @@
 .modal {
+    position: relative !important;
     &-header {
         border: none !important;
     }
@@ -9,6 +10,24 @@
     &-body {
         .hidden-description {
             display: block !important;
+        }
+    }
+    &-inuse.cell-service {
+        width: 100%;
+        position: relative;
+        .icon-service {
+            position: absolute;
+            top: 0;
+            right: 76.5%;
+        }
+        .card-body {
+            width: 75%;
+            margin-left: auto;
+            .btn {
+                position: absolute;
+                right: 75%;
+                top: 200px;
+            }
         }
     }
 }

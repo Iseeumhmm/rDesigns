@@ -102,7 +102,12 @@
 			//  ********************************* Modal *********************************
 
 			function showModal(item) {
+				// Passing the id of the element via "item" passes the whole element :)
 				let modalBody = item.cloneNode(true);
+				modalBody.classList.add("modal-inuse");
+				modalButton = modalBody.children[1].lastChild.firstChild;
+				modalButton.href = "contact";
+				modalButton.removeAttribute("onClick");
 				document.getElementById("modal-body").appendChild(modalBody);
 				const popup = document.getElementById("popup");
 				const classesToAdd = [ 'modal-backdrop', 'show' ];
@@ -121,6 +126,7 @@
 				while (modalBody.lastChild) {
 					modalBody.removeChild(modalBody.lastChild);
 				}
+				document.location.reload(true);
 			}
 			$(document).ready(function() {
 				// Check to see if a style has been set and reset it for next page if necessary

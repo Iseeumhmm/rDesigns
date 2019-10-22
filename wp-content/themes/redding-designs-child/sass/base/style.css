@@ -144,6 +144,10 @@
   padding-bottom: 50px;
 }
 
+.modal {
+  position: relative !important;
+}
+
 .modal-header {
   border: none !important;
 }
@@ -155,6 +159,28 @@
 
 .modal-body .hidden-description {
   display: block !important;
+}
+
+.modal-inuse.cell-service {
+  width: 100%;
+  position: relative;
+}
+
+.modal-inuse.cell-service .icon-service {
+  position: absolute;
+  top: 0;
+  right: 76.5%;
+}
+
+.modal-inuse.cell-service .card-body {
+  width: 75%;
+  margin-left: auto;
+}
+
+.modal-inuse.cell-service .card-body .btn {
+  position: absolute;
+  right: 75%;
+  top: 200px;
 }
 
 .sub-banner {
