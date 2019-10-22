@@ -34,7 +34,7 @@ get_header();
                     <h1>You take care of your business . .<br>
                     <span>. . let the Beards do the rest.</span></h1>
                     <p>We believe a great website is the heart of any company and that’s where we come in.</p>
-                    <p class="btn"><a href="contact/#quote" title="Get a Quote">Get a Quote</a></p>
+                    <p class="btn"><a href="http://beardreview.com/priceestimator/hidden/" title="Get a Quote">Get a Quote</a></p>
                 </section>
             </div>
             
