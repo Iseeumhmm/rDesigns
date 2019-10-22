@@ -2,9 +2,15 @@
     .container-white--services {
         padding-top: 0;
     }
-    .cell-service p:last-child {
-        opacity: 1;
-    }
+    .cell-service {
+        p:last-child {
+            opacity: 1;
+        }
+        p:nth-last-child(4) {
+            padding-bottom: 15px;
+        }
+        
+    } 
     .card {
         &-icons {
             &--container {
@@ -39,6 +45,9 @@
                 position: relative;
                 top: 7px;
                 display: inline-block;
+            }
+            .btn {
+                font-size: 18px;
             }
             text-align: left;
         }

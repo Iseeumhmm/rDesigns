@@ -26,10 +26,12 @@
             }
             @media(max-width: 991px) {
                 padding-left: 0;
+                h3 { 
+                    text-align: center;
+                }
             }
             h3 { 
                 font-size: 48px;
-                text-align: center;
             }
             p { font-weight: 100; }
             width: 100%;

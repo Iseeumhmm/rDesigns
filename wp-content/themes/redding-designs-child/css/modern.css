@@ -89,14 +89,15 @@ body h3 {
     font-size: 24px;
     padding: 10px 15px !important;
     border-radius: 50px !important;
-    color: white !important;
-    border: 1px solid white !important;
+    border: 1px solid #29abe2 !important;
 }
 .btn a:link {
     color: white;
 }
 .btn:hover,
 .btn:focus {
+    background-color: #29abe2;
+    color: white !important;
     border: 1px solid #29abe2;
 }
 
@@ -145,6 +146,10 @@ hr {
 .beard-support {
 	background: url(../assets/modern/images/icons/beard-support.png) no-repeat center;
     background-size: 90%;
+}
+.photography-videography {
+	background: url(../assets/modern/images/icons/new/photography-videography.png) no-repeat center;
+    background-size: 70%;
 }
 
 .desktop {
@@ -479,11 +484,8 @@ nav ul .palette {
     background: url(../assets/modern/images/icons/print-media-design.png) no-repeat center;
 }
 
-.menu-icon {
+.logoDesign {
     background: url(../assets/modern/images/icons/logo-design-branding.png) no-repeat center;
-    background-size: contain;
-    width: 50px;
-    height: 50px;
 }
 
 footer {

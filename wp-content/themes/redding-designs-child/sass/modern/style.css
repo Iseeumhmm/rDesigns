@@ -2,8 +2,16 @@
   padding: 45px 0;
 }
 
+.about-us .beard-container {
+  background: #f9f9f9;
+}
+
+.about-us .beard-container section h3 {
+  color: #29abe2;
+}
+
 .container-grey .btn {
-  background-color: #29abe2;
+  color: #29abe2;
   font-family: "Montserrat", sans-serif;
   font-size: 24px;
   font-weight: 700;
@@ -16,12 +24,30 @@
   color: #29abe2;
 }
 
-.about-us .beard-container {
-  background: #f9f9f9;
+.card-body .btn {
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
 }
 
-.about-us .beard-container section h3 {
-  color: #29abe2;
+@media (max-width: 768px) {
+  .services .icon-service {
+    float: none;
+    display: block;
+  }
+}
+
+@media (max-width: 558px) {
+  .services .icon-service {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.services .card-body .menu-icon {
+  background-size: contain;
 }
 
 .about-us .container-white {
@@ -84,6 +110,10 @@
   opacity: 1;
 }
 
+.services .cell-service p:nth-last-child(4) {
+  padding-bottom: 15px;
+}
+
 .services .card-icons {
   width: calc(230px * .50);
   height: calc(230px * .50);
@@ -124,7 +154,18 @@
   display: inline-block;
 }
 
+.services .card-body .btn {
+  font-size: 18px;
+}
+
 .services .card-text {
   color: #808080 !important;
+}
+
+.services .portfolio-text--container a:link a:hover,
+.services .portfolio-text--container a:visited,
+.services .portfolio-text--container a:focus,
+.services .portfolio-text--container a:active {
+  color: #29abe2 !important;
 }
 

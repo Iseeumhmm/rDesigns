@@ -31,7 +31,7 @@ function testimonial_init() {
     $args = array(
         'labels' => $labels,
         'public' => true,
-        'has_archive' => true,
+        'has_archive' => false,
         'show_ui' => true,
         'capability_type' => 'post',
         'hierarchical' => false,
@@ -47,6 +47,49 @@ function testimonial_init() {
     
 }
 add_action( 'init', 'testimonial_init' );
+
+/**
+ * CUSTOM SERVICES POST TYPE
+ */
+
+function Service_init() {
+    // set up Service labels
+    $labels = array(
+        'name' => 'Services',
+        'singular_name' => 'Service',
+        'add_new' => 'Add New Service',
+        'add_new_item' => 'New Service',
+        'edit_item' => 'Edit Service',
+        'new_item' => 'New Service',
+        'all_items' => 'All Services',
+        'view_item' => 'View Service',
+        'search_items' => 'Search Services',
+        'not_found' =>  'No Services Found',
+        'not_found_in_trash' => 'No Services found in Trash', 
+        'parent_item_colon' => '',
+        'menu_name' => 'Services',
+    );
+    
+    // register post type
+    $args = array(
+        'labels' => $labels,
+        'public' => true,
+        'has_archive' => false,
+        'show_ui' => true,
+        'capability_type' => 'post',
+        'hierarchical' => false,
+        'rewrite' => array('slug' => 'Service'),
+        'query_var' => true,
+        'menu_icon' => 'dashicons-admin-tools',
+        'supports' => array(
+			'title',
+            'custom-fields'
+        )
+	);
+    register_post_type( 'service', $args );
+    
+}
+add_action( 'init', 'service_init' );
 
 /**
  * CUSTOM TEAM POST TYPE
@@ -74,7 +117,7 @@ function team_init() {
     $args = array(
         'labels' => $labels,
         'public' => true,
-        'has_archive' => true,
+        'has_archive' => false,
         'show_ui' => true,
         'capability_type' => 'post',
         'hierarchical' => false,

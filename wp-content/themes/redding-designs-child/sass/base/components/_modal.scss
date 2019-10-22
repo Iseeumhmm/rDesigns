@@ -1,0 +1,14 @@
+.modal {
+    &-header {
+        border: none !important;
+    }
+    &-dialog {
+        max-width: 65% !important;
+        height: auto;
+    }
+    &-body {
+        .hidden-description {
+            display: block !important;
+        }
+    }
+}

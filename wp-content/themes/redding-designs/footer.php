@@ -98,6 +98,30 @@
 				changeStyle("monochrome");
 				localStorage.setItem('currentStyle', 'monochrome');
 			}
+
+			//  ********************************* Modal *********************************
+
+			function showModal(item) {
+				let modalBody = item.cloneNode(true);
+				document.getElementById("modal-body").appendChild(modalBody);
+				const popup = document.getElementById("popup");
+				const classesToAdd = [ 'modal-backdrop', 'show' ];
+				document.getElementById("backdrop").classList.add(...classesToAdd);
+				popup.classList.add("show");
+				popup.style.display = "block";	
+			}
+
+			function closeModal() {
+				const popup = document.getElementById("popup");
+				const classesToRemove = [ 'modal-backdrop', 'show' ];
+				document.getElementById("backdrop").classList.remove(...classesToRemove);
+				popup.classList.remove("show");
+				popup.style.display = "none";
+				const modalBody = document.getElementById("modal-body");
+				while (modalBody.lastChild) {
+					modalBody.removeChild(modalBody.lastChild);
+				}
+			}
 			$(document).ready(function() {
 				// Check to see if a style has been set and reset it for next page if necessary
 				if ( localStorage.getItem( 'currentStyle' ) ) {

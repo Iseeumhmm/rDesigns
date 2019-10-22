@@ -5,4 +5,25 @@
         font-size: 24px;
         color: #29abe2;
     }
+    .btn {
+        // background-color: #29abe2;
+        background-color: transparent;
+        font-family: "Montserrat", sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+    }
+}
+
+.services {
+    .icon-service {
+        @media(  max-width: 768px) {
+            float: none;
+            display: block;
+        }
+        @media(  max-width: 558px) {
+            float: none;
+            display: block;
+            margin: 0 auto;
+        }
+    }
 }

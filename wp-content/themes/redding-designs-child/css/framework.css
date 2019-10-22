@@ -40,6 +40,9 @@ hr {
     background: #ddd;
 }
 
+p {
+    margin-bottom: 10px !important;
+}
 
 /*LINKS*/
 a:link,
