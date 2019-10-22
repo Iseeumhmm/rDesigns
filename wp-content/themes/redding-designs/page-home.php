@@ -31,10 +31,10 @@ get_header();
             
             <div class="banner-home" data-aos="fade-in">
                 <section>
-                    <h1 data-aos="slide-right">You take care of your business . .<br>
+                    <h1>You take care of your business . .<br>
                     <span>. . let the Beards do the rest.</span></h1>
-                    <p data-aos="slide-right">We believe a great website is the heart of any company and that’s where we come in.</p>
-                    <p class="btn" data-aos="zoom-in"><a href="contact/#quote" title="Get a Quote">Get a Quote</a></p>
+                    <p>We believe a great website is the heart of any company and that’s where we come in.</p>
+                    <p class="btn"><a href="contact/#quote" title="Get a Quote">Get a Quote</a></p>
                 </section>
             </div>
             

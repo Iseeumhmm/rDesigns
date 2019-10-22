@@ -1,0 +1,10 @@
+.banner-home {
+    .btn {
+        border: 1px solid white !important;
+    }
+    .btn:hover, .btn:active, .btn:focus {
+        border: 1px solid #29abe2 !important;
+        background-color: #29abe2 !important;
+        color: white;
+    }
+}

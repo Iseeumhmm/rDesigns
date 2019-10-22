@@ -162,6 +162,18 @@
   color: #808080 !important;
 }
 
+.banner-home .btn {
+  border: 1px solid white !important;
+}
+
+.banner-home .btn:hover,
+.banner-home .btn:active,
+.banner-home .btn:focus {
+  border: 1px solid #29abe2 !important;
+  background-color: #29abe2 !important;
+  color: white;
+}
+
 .services .portfolio-text--container a:link a:hover,
 .services .portfolio-text--container a:visited,
 .services .portfolio-text--container a:focus,
