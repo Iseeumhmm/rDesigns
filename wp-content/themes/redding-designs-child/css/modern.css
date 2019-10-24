@@ -124,38 +124,38 @@ hr {
     height: 145px;
 }
 .web-design-development {
-	background: url(../assets/modern/images/icons/web-design-development.png) no-repeat center;
+	background: url(../assets/modern/images/icons/web-design-development.png) no-repeat center center;
     background-size: 90%;
 }
 .digital-marketing {
-	background: url(../assets/modern/images/icons/digital-marketing.png) no-repeat center;
+	background: url(../assets/modern/images/icons/digital-marketing.png) no-repeat center center;
     background-size: 90%;
 }
 .print-media-design {
-	background: url(../assets/modern/images/icons/print-media-design.png) no-repeat center;
+	background: url(../assets/modern/images/icons/print-media-design.png) no-repeat center center;
     background-size: 90%;
 }
 .logo-branding {
-	background: url(../assets/modern/images/icons/logo-design-branding.png) no-repeat center;
+	background: url(../assets/modern/images/icons/logo-design-branding.png) no-repeat center center;
     background-size: 90%;
 }
 .internet-services {
-	background: url(../assets/modern/images/icons/internet-services.png) no-repeat center;
+	background: url(../assets/modern/images/icons/internet-services.png) no-repeat center center;
     background-size: 90%;
 }
 .beard-support {
-	background: url(../assets/modern/images/icons/beard-support.png) no-repeat center;
+	background: url(../assets/modern/images/icons/beard-support.png) no-repeat center center;
     background-size: 90%;
 }
 .photography-videography {
-	background: url(../assets/modern/images/icons/new/photography-videography.png) no-repeat center;
+	background: url(../assets/modern/images/icons/new/photography-videography.png) no-repeat center center;
     background-size: 70%;
 }
 
 .desktop {
 	width: 752px;
     height: 616px;
-    background: url(../assets/modern/images/thumbs/desktop.png) no-repeat center;
+    background: url(../assets/modern/images/thumbs/desktop.png) no-repeat center center;
     background-size: contain;
     margin-left: 5%;
     -webkit-transform: scale(.9);
@@ -166,7 +166,7 @@ hr {
     content: '';
     width: 733px;
     height: 431px;
-    background: url(../assets/modern/images/portfolio/latest/latest-desktop.jpg) no-repeat center;
+    background: url(../assets/modern/images/portfolio/latest/latest-desktop.jpg) no-repeat center center;
     background-size: cover;
     overflow: hidden;
     position: absolute;
@@ -176,7 +176,7 @@ hr {
 .tablet {
 	width: 354px;
     height: 409px;
-    background: url(../assets/modern/images/thumbs/tablet.png) no-repeat center;
+    background: url(../assets/modern/images/thumbs/tablet.png) no-repeat center center;
     background-size: contain;
     margin-left: -5%;
     margin-top: -400px;
@@ -187,7 +187,7 @@ hr {
     content: '';
     width: 293px;
     height: 333px;
-    background: url(../assets/modern/images/portfolio/latest/latest-tablet.jpg) no-repeat center;
+    background: url(../assets/modern/images/portfolio/latest/latest-tablet.jpg) no-repeat center center;
     background-size: cover;
     overflow: hidden;
     position: absolute;
@@ -197,7 +197,7 @@ hr {
 .laptop {
 	width: 576px;
     height: 350px;
-    background: url(../assets/modern/images/thumbs/laptop.png) no-repeat center;
+    background: url(../assets/modern/images/thumbs/laptop.png) no-repeat center center;
     background-size: contain;
     margin-left: 20%;
     margin-top: -340px;
@@ -208,7 +208,7 @@ hr {
     content: '';
     width: 457px;
     height: 290px;
-    background: url(../assets/modern/images/portfolio/latest/latest-laptop.jpg) no-repeat center;
+    background: url(../assets/modern/images/portfolio/latest/latest-laptop.jpg) no-repeat center center;
     background-size: cover;
     overflow: hidden;
     position: absolute;
@@ -218,7 +218,7 @@ hr {
 .phone {
 	width: 200px;
     height: 294px;
-    background: url(../assets/modern/images/thumbs/phone.png) no-repeat center;
+    background: url(../assets/modern/images/thumbs/phone.png) no-repeat center center;
     background-size: contain;
     margin-left: 7%;
     margin-top: -280px;
@@ -229,7 +229,7 @@ hr {
     content: '';
     width: 142px;
     height: 223px;
-    background: url(../assets/modern/images/portfolio/latest/latest-phone.jpg) no-repeat center;
+    background: url(../assets/modern/images/portfolio/latest/latest-phone.jpg) no-repeat center center;
     background-size: cover;
     overflow: hidden;
     position: absolute;
@@ -357,7 +357,7 @@ nav ul .palette {
 }
 
 .banner-about {
-    background: url(../assets/modern/images/banners/about-page.jpg) no-repeat center top fixed grey;
+    background: url(../assets/modern/images/banners/about-page.jpg) no-repeat left center;
     background-size: cover;
 }
 .banner-contact {
@@ -369,7 +369,7 @@ nav ul .palette {
     background-size: cover;
 }
 .banner-services {
-    background: url(../assets/modern/images/banners/services-page.jpg) no-repeat center;
+    background: url(../assets/modern/images/banners/services-page.jpg) no-repeat center center;
 }
 
 .container-white {
@@ -471,83 +471,83 @@ nav ul .palette {
 /* Services Icons */
 
 .webDevelopment {
-    background: url(../assets/modern/images/icons/web-design-development.png) no-repeat center;
+    background: url(../assets/modern/images/icons/web-design-development.png) no-repeat center center;
 }
 .digitalMarketing {
-    background: url(../assets/modern/images/icons/digital-marketing.png) no-repeat center;
+    background: url(../assets/modern/images/icons/digital-marketing.png) no-repeat center center;
 }
 .printMedia {
-    background: url(../assets/modern/images/icons/print-media-design.png) no-repeat center;
+    background: url(../assets/modern/images/icons/print-media-design.png) no-repeat center center;
 }
 
 .logoDesign {
-    background: url(../assets/modern/images/icons/logo-design-branding.png) no-repeat center;
+    background: url(../assets/modern/images/icons/logo-design-branding.png) no-repeat center center;
 }
 .customWordpress {
-    background: url(../assets/modern/images/icons/wordpress.png) no-repeat center;
+    background: url(../assets/modern/images/icons/wordpress.png) no-repeat center center;
 }
 .eCommerce {
-    background: url(../assets/modern/images/icons/ecommerce.png) no-repeat center;
+    background: url(../assets/modern/images/icons/ecommerce.png) no-repeat center center;
 }
 .cms {
-    background: url(../assets/modern/images/icons/cms.png) no-repeat center;
+    background: url(../assets/modern/images/icons/cms.png) no-repeat center center;
 }
 .googleStuff {
-    background: url(../assets/modern/images/icons/google.png) no-repeat center;
+    background: url(../assets/modern/images/icons/google.png) no-repeat center center;
 }
 .contentWriting {
-    background: url(../assets/modern/images/icons/content-writing.png) no-repeat center;
+    background: url(../assets/modern/images/icons/content-writing.png) no-repeat center center;
 }
 .socialMedia {
-    background: url(../assets/modern/images/icons/talking-head.png) no-repeat center;
+    background: url(../assets/modern/images/icons/talking-head.png) no-repeat center center;
 }
 .businessCards {
-    background: url(../assets/modern/images/icons/business-card.png) no-repeat center;
+    background: url(../assets/modern/images/icons/business-card.png) no-repeat center center;
 }
 .flyersBrochures {
-    background: url(../assets/modern/images/icons/flyer-brochure.png) no-repeat center;
+    background: url(../assets/modern/images/icons/flyer-brochure.png) no-repeat center center;
 }
 .cataloguesMenus {
-    background: url(../assets/modern/images/icons/catalogue-menu.png) no-repeat center;
+    background: url(../assets/modern/images/icons/catalogue-menu.png) no-repeat center center;
 }
 .signage {
-    background: url(../assets/modern/images/icons/signage.png) no-repeat center;
+    background: url(../assets/modern/images/icons/signage.png) no-repeat center center;
 }
 .identity {
-    background: url(../assets/modern/images/icons/branding.png) no-repeat center;
+    background: url(../assets/modern/images/icons/branding.png) no-repeat center center;
 }
 .consistantDesign {
-    background: url(../assets/modern/images/icons/new/digital-marketing.png) no-repeat center;
+    background: url(../assets/modern/images/icons/new/digital-marketing.png) no-repeat center center;
 }
 .readyForPrint {
-    background: url(../assets/modern/images/icons/new/print-media-design.png) no-repeat center;
+    background: url(../assets/modern/images/icons/new/print-media-design.png) no-repeat center center;
 }
 .readyForWeb {
-    background: url(../assets/modern/images/icons/monitor.png) no-repeat center;
+    background: url(../assets/modern/images/icons/monitor.png) no-repeat center center;
 }
 .domainRegistration {
-    background: url(../assets/modern/images/icons/internet-services.png) no-repeat center;
+    background: url(../assets/modern/images/icons/internet-services.png) no-repeat center center;
 }
 .webHosting {
-    background: url(../assets/modern/images/icons/new/internet-services.png) no-repeat center;
+    background: url(../assets/modern/images/icons/new/internet-services.png) no-repeat center center;
 }
 .emailHosting {
-    background: url(../assets/modern/images/icons/email-hosting.png) no-repeat center;
+    background: url(../assets/modern/images/icons/email-hosting.png) no-repeat center center;
 }
 .sharedVps {
-    background: url(../assets/modern/images/icons/server.png) no-repeat center;
+    background: url(../assets/modern/images/icons/server.png) no-repeat center center;
 }
 .interiorExteriorPhotography {
-    background: url(../assets/modern/images/icons/new/home.png) no-repeat center;
+    background: url(../assets/modern/images/icons/new/home.png) no-repeat center center;
 }
 .productPhotography {
-    background: url(../assets/modern/images/icons/new/photography-videography.png) no-repeat center;
+    background: url(../assets/modern/images/icons/new/photography-videography.png) no-repeat center center;
 }
 .talkingHeads {
-    background: url(../assets/modern/images/icons/new/sales.png) no-repeat center;
+    background: url(../assets/modern/images/icons/new/sales.png) no-repeat center center;
 }
 .drone {
-    background: url(../assets/modern/images/icons/drone.png) no-repeat center;
+    background: url(../assets/modern/images/icons/drone.png) no-repeat center center;
 }
 
 footer {
@@ -631,7 +631,7 @@ textarea:focus {
     }
     
     .banner-about {
-        background: url(../assets/modern/images/banners/about-page-1024.jpg) no-repeat top right;
+        background: url(../assets/modern/images/banners/about-page-1024.jpg) no-repeat center center;
     }
     
     .banner-about h1 {
@@ -649,7 +649,7 @@ textarea:focus {
         background: url(../assets/modern/images/banners/portfolio-page-1024.jpg) no-repeat center top fixed grey;
     }
     .banner-services {
-        background: url(../assets/modern/images/banners/services-page-1024.jpg) no-repeat center;
+        background: url(../assets/modern/images/banners/services-page-1024.jpg) no-repeat center center;
     }
     
     .container-feed .heading {
@@ -727,15 +727,15 @@ textarea:focus {
     }
 
     .banner-contact {
-        background: url(../assets/modern/images/banners/contact-page-600.jpg) no-repeat center;
+        background: url(../assets/modern/images/banners/contact-page-600.jpg) no-repeat center center;
     }
 
     .banner-portfolio {
-        background: url(../assets/modern/images/banners/portfolio-page-600.jpg) no-repeat center;
+        background: url(../assets/modern/images/banners/portfolio-page-600.jpg) no-repeat center center;
     }
 
     .banner-services {
-        background: url(../assets/modern/images/banners/services-page-600.jpg) no-repeat center;
+        background: url(../assets/modern/images/banners/services-page-600.jpg) no-repeat center center;
     }
     .btn {
         font-size: 16px;
