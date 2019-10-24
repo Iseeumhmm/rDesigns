@@ -114,6 +114,7 @@
 				document.getElementById("backdrop").classList.add(...classesToAdd);
 				popup.classList.add("show");
 				popup.style.display = "block";	
+				document.getElementById("top").style.overflow = "hidden";
 			}
 
 			function closeModal() {
@@ -126,6 +127,7 @@
 				while (modalBody.lastChild) {
 					modalBody.removeChild(modalBody.lastChild);
 				}
+				document.getElementById("top").style.overflow = "scroll";
 				// document.location.reload(true);
 			}
 			$(document).ready(function() {

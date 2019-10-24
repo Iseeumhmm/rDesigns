@@ -155,6 +155,11 @@
   padding-bottom: 50px;
 }
 
+.modal {
+  -webkit-overflow-scrolling: touch;
+  overflow: scroll;
+}
+
 .modal-header {
   border: none !important;
 }

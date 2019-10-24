@@ -1,4 +1,7 @@
+
 .modal {
+    -webkit-overflow-scrolling: touch ;
+    overflow: scroll;
     &-header {
         border: none !important;
     }
