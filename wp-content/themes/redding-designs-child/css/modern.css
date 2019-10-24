@@ -357,23 +357,19 @@ nav ul .palette {
 }
 
 .banner-about {
-	width: 100%;
     background: url(../assets/modern/images/banners/about-page.jpg) no-repeat center top fixed grey;
     background-size: cover;
-    padding: 250px 0;
 }
-.banner-about section {
-    width: 60%;
-    margin: 0 0 0 5%;
+.banner-contact {
+    background: url(../assets/modern/images/banners/contact-page.jpg) no-repeat center top fixed grey;
+    background-size: cover;
 }
-.banner-about h1 {
-    font-size: 3.1vw;
-    color: #222;
+.banner-portfolio {
+    background: url(../assets/modern/images/banners/portfolio-page.jpg) no-repeat center top fixed grey;
+    background-size: cover;
 }
-.banner-about p {
-    font-size: 24px;
-    line-height: 36px;
-    color: #222;
+.banner-services {
+    background: url(../assets/modern/images/banners/services-page.jpg) no-repeat center;
 }
 
 .container-white {
@@ -636,15 +632,24 @@ textarea:focus {
     
     .banner-about {
         background: url(../assets/modern/images/banners/about-page-1024.jpg) no-repeat top right;
-        background-size: cover;
-        padding: 150px 0 100px;
     }
+    
     .banner-about h1 {
         font-size: 36px;
     }
     .banner-about p {
         font-size: 18px;
         line-height: 30px;
+    }
+    .banner-contact {
+        background: url(../assets/modern/images/banners/contact-page-1024.jpg) no-repeat center top fixed grey;
+        background-size: cover;
+    }
+    .banner-portfolio {
+        background: url(../assets/modern/images/banners/portfolio-page-1024.jpg) no-repeat center top fixed grey;
+    }
+    .banner-services {
+        background: url(../assets/modern/images/banners/services-page-1024.jpg) no-repeat center;
     }
     
     .container-feed .heading {
@@ -711,15 +716,27 @@ textarea:focus {
         padding: 200px 5% 50px;
         margin: 0;
     }
-    
+    .banner-home {
+        background: url(../assets/modern/images/banners/home-page-600.jpg) no-repeat top right;
+        background-size: cover;
+    }
+
     .banner-about {
         background: url(../assets/modern/images/banners/about-page-600.jpg) no-repeat top right;
         background-size: cover;
     }
-    .banner-about section {
-        width: 90%;
+
+    .banner-contact {
+        background: url(../assets/modern/images/banners/contact-page-600.jpg) no-repeat center;
     }
-    
+
+    .banner-portfolio {
+        background: url(../assets/modern/images/banners/portfolio-page-600.jpg) no-repeat center;
+    }
+
+    .banner-services {
+        background: url(../assets/modern/images/banners/services-page-600.jpg) no-repeat center;
+    }
     .btn {
         font-size: 16px;
         padding: 10px 20px;

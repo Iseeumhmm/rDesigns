@@ -31,6 +31,17 @@
   display: inline-block;
 }
 
+@media (max-width: 582px) {
+  .container-white section {
+    width: 100%;
+  }
+
+  .container-white .cell-service {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
 .portfolio .container-white {
   padding: 0;
 }
@@ -252,7 +263,8 @@
 }
 
 .sub-banner--text_container {
-  position: relative;
+  display: flex;
+  align-items: center;
   height: 100%;
   width: 85%;
   margin: 0 auto;
@@ -261,9 +273,6 @@
 .sub-banner h1 {
   color: white !important;
   margin: 0 !important;
-  position: absolute;
-  top: 26%;
-  transform: translateY(-50%);
 }
 
 .portfolio-text-banner {

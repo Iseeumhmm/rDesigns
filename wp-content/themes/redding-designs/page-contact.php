@@ -16,7 +16,7 @@ get_header();
 ?>
             <div class="contact">
                 <div class="header-spacer"></div>
-                <div class="sub-banner" data-aos="fade-in">
+                <div class="sub-banner banner-contact" data-aos="fade-in">
                     <div class="sub-banner--text_container">
                         <h1 data-aos="slide-right">Contact Us<br>
                     </div>
