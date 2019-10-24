@@ -126,7 +126,7 @@
 				while (modalBody.lastChild) {
 					modalBody.removeChild(modalBody.lastChild);
 				}
-				document.location.reload(true);
+				// document.location.reload(true);
 			}
 			$(document).ready(function() {
 				// Check to see if a style has been set and reset it for next page if necessary

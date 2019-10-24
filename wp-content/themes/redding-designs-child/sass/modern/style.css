@@ -31,21 +31,6 @@
   font-weight: 700;
 }
 
-@media (max-width: 768px) {
-  .services .icon-service {
-    float: none;
-    display: block;
-  }
-}
-
-@media (max-width: 558px) {
-  .services .icon-service {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
-}
-
 .services .card-body .menu-icon {
   background-size: contain;
 }
@@ -159,8 +144,25 @@
   font-size: 18px;
 }
 
+@media (max-width: 768px) {
+  .services .card-body {
+    padding-top: 45px;
+  }
+}
+
 .services .card-text {
   color: #808080 !important;
+}
+
+@media (max-width: 768px) {
+  .services .icon-service {
+    width: 175px;
+    height: 175px;
+    border-radius: 100px;
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 .banner-home .btn {

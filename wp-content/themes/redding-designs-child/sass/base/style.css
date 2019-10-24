@@ -144,17 +144,33 @@
   padding-bottom: 50px;
 }
 
-.modal {
-  position: relative !important;
-}
-
 .modal-header {
   border: none !important;
 }
 
 .modal-dialog {
   max-width: 65% !important;
+  overflow-y: initial !important;
   height: auto;
+}
+
+@media (max-width: 1270px) {
+  .modal-dialog {
+    max-width: 95% !important;
+  }
+}
+
+@media (max-width: 567px) {
+  .modal-dialog {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 5px !important;
+  }
+}
+
+.modal-body {
+  height: 100vh;
+  overflow-y: auto;
 }
 
 .modal-body .hidden-description {
@@ -166,10 +182,28 @@
   position: relative;
 }
 
+@media (max-width: 567px) {
+  .modal-inuse.cell-service {
+    padding: 0;
+  }
+}
+
 .modal-inuse.cell-service .icon-service {
   position: absolute;
   top: 0;
-  right: 76.5%;
+  right: calc(87.5% - 75px);
+}
+
+@media (max-width: 768px) {
+  .modal-inuse.cell-service .icon-service {
+    width: 175px;
+    height: 175px;
+    border-radius: 100px;
+    position: relative;
+    left: 0;
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 .modal-inuse.cell-service .card-body {
@@ -177,10 +211,38 @@
   margin-left: auto;
 }
 
+@media (max-width: 768px) {
+  .modal-inuse.cell-service .card-body {
+    width: 100%;
+    padding-top: 45px;
+    padding-bottom: 75px;
+  }
+}
+
+@media (max-width: 567px) {
+  .modal-inuse.cell-service .card-body {
+    padding: 0 0 75px;
+  }
+}
+
 .modal-inuse.cell-service .card-body .btn {
   position: absolute;
-  right: 75%;
+  right: 87.5%;
+  transform: translateX(50%);
+  overflow: hidden;
+  white-space: nowrap;
   top: 200px;
+}
+
+@media (max-width: 768px) {
+  .modal-inuse.cell-service .card-body .btn {
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+    white-space: nowrap;
+  }
 }
 
 .sub-banner {

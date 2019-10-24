@@ -51,10 +51,23 @@
                 font-size: 18px;
             }
             text-align: left;
+            @media(  max-width: 768px) {
+                padding-top: 45px;
+            }
         }
         
         &-text {
             color:#808080 !important;
+        }
+    }
+    .icon-service {
+        @media(  max-width: 768px) {
+            width: 175px;
+            height: 175px;
+            border-radius: 100px;
+            float: none;
+            display: block;
+            margin: 0 auto;
         }
     }
 }

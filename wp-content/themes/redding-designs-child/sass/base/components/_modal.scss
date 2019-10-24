@@ -1,32 +1,73 @@
 .modal {
-    position: relative !important;
     &-header {
         border: none !important;
     }
     &-dialog {
         max-width: 65% !important;
+        @media(max-width: 1270px) {
+            max-width: 95% !important;
+        }
+        @media(max-width: 567px) {
+            max-width: 100% !important;
+            margin: 0 !important;
+            padding: 5px !important;
+        }
+        overflow-y: initial !important;
         height: auto;
     }
     &-body {
         .hidden-description {
             display: block !important;
         }
+        height: 100vh;
+        overflow-y: auto;
     }
     &-inuse.cell-service {
         width: 100%;
         position: relative;
+        @media(max-width: 567px) {
+            padding: 0;
+        }
         .icon-service {
             position: absolute;
             top: 0;
-            right: 76.5%;
+            right: calc(87.5% - 75px);
+            @media(max-width: 768px) {
+                width: 175px;
+                height: 175px;
+                border-radius: 100px;
+                position: relative;
+                left: 0;
+                display: block;
+                margin: 0 auto;
+            }
         }
         .card-body {
             width: 75%;
             margin-left: auto;
+            @media(max-width: 768px) {
+                width: 100%;
+                padding-top: 45px;
+                padding-bottom: 75px;
+            }
+            @media(max-width: 567px) {
+                padding: 0 0 75px;
+            }
             .btn {
                 position: absolute;
-                right: 75%;
+                right: 87.5%;
+                transform: translateX(50%);
+                overflow: hidden;
+                white-space: nowrap;
                 top: 200px;
+                @media(max-width: 768px) {
+                    position: relative;
+                    top: 0;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    overflow: hidden;
+                    white-space: nowrap;
+                }
             }
         }
     }

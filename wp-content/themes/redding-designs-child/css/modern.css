@@ -541,6 +541,18 @@ nav ul .palette {
 .sharedVps {
     background: url(../assets/modern/images/icons/server.png) no-repeat center;
 }
+.interiorExteriorPhotography {
+    background: url(../assets/modern/images/icons/new/home.png) no-repeat center;
+}
+.productPhotography {
+    background: url(../assets/modern/images/icons/new/photography-videography.png) no-repeat center;
+}
+.talkingHeads {
+    background: url(../assets/modern/images/icons/new/sales.png) no-repeat center;
+}
+.drone {
+    background: url(../assets/modern/images/icons/drone.png) no-repeat center;
+}
 
 footer {
     background: #111;

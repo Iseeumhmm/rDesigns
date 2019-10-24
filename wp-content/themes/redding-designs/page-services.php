@@ -158,6 +158,18 @@ get_header();
                                                         case "sharedVps":
                                                             $icon = '<div class="menu-icon sharedVps"></div>';
                                                             break;
+                                                        case "interiorExteriorPhotography":
+                                                            $icon = '<div class="menu-icon interiorExteriorPhotography"></div>';
+                                                            break;
+                                                        case "productPhotography":
+                                                            $icon = '<div class="menu-icon productPhotography"></div>';
+                                                            break;
+                                                        case "talkingHeads":
+                                                            $icon = '<div class="menu-icon talkingHeads"></div>';
+                                                            break;
+                                                        case "drone":
+                                                            $icon = '<div class="menu-icon drone"></div>';
+                                                            break;
                                                     }
                                                     $i++;
                                                 } else if ( $i == 1 ){

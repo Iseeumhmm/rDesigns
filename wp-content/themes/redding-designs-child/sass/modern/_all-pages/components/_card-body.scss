@@ -14,16 +14,3 @@
     }
 }
 
-.services {
-    .icon-service {
-        @media(  max-width: 768px) {
-            float: none;
-            display: block;
-        }
-        @media(  max-width: 558px) {
-            float: none;
-            display: block;
-            margin: 0 auto;
-        }
-    }
-}
