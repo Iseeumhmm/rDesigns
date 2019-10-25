@@ -23,57 +23,28 @@ get_header();
                 </div>
                 <div class="container-white">
                     <section class="meet-the-team">
-                        <div class="flex">
-                            <div class="cell-service" data-aos="zoom-in">
-                                <div class="icon-service web-design-development"></div>
-                                <div class="card-body">
-                                    <h2>Web Design &amp; Development</h2>
-                                    <p>Virtual Presence</p>
-                                    <p class="card-body-text">Lorem ipsum dolor sit amet, consectetur adipisc- ing elit. Curabitur interdum et quam aliquet laoreet. Vestibulum egestas volutpat tempus. Cras quis auctor diam. Quisque at commodo diam. Duis pre- tium tincidunt mauris, at placerat lorem ornare lac- inia. Nam elementum nisi quam, vitae rutrum felis consequat ac. Quisque urna nulla, ornare vitae arcu sed, lacinia varius eros.</p>
-                                </div>
+                            <div class="flex">
+                            <?php 
+                            $portrait_styles = array();
+                            $wpb_all_query = new WP_Query(array('post_type'=>'contact', 'post_status'=>'publish', 'posts_per_page'=>-1)); ?>
+                            <?php if ( $wpb_all_query->have_posts() ) : while ( $wpb_all_query->have_posts() ) : ?>
+                                <?php $wpb_all_query->the_post(); ?>
+                                    <div class="cell-service">
+                                        <div class="menu-icon--container">
+                                            <?php echo bulletPoints( get_field('icon') )['html'];?>
+                                        </div>
+                                        <div class="card-body">
+                                            <h2><?php the_title(); ?></h2>
+                                            <p><?php echo get_field( 'description' ); ?></p>
+                                        </div>
+                                    </div>
+                                    <?php $i++; ?>
+                                    <?php endwhile; ?>
+                                    <?php wp_reset_postdata(); ?>
+                                    <?php else : ?>
+                                        <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+                                    <?php endif; ?>
                             </div>
-                            <div class="cell-service" data-aos="zoom-in">
-                                <div class="icon-service web-design-development"></div>
-                                <div class="card-body">
-                                    <h2>Web Design &amp; Development</h2>
-                                    <p>Virtual Presence</p>
-                                    <p class="card-body-text">Lorem ipsum dolor sit amet, consectetur adipisc- ing elit. Curabitur interdum et quam aliquet laoreet. Vestibulum egestas volutpat tempus. Cras quis auctor diam. Quisque at commodo diam. Duis pre- tium tincidunt mauris, at placerat lorem ornare lac- inia. Nam elementum nisi quam, vitae rutrum felis consequat ac. Quisque urna nulla, ornare vitae arcu sed, lacinia varius eros.</p>
-                                </div>
-                            </div>
-                            <div class="cell-service" data-aos="zoom-in">
-                                <div class="icon-service web-design-development"></div>
-                                <div class="card-body">
-                                    <h2>Web Design &amp; Development</h2>
-                                    <p>Virtual Presence</p>
-                                    <p class="card-body-text">Lorem ipsum dolor sit amet, consectetur adipisc- ing elit. Curabitur interdum et quam aliquet laoreet. Vestibulum egestas volutpat tempus. Cras quis auctor diam. Quisque at commodo diam. Duis pre- tium tincidunt mauris, at placerat lorem ornare lac- inia. Nam elementum nisi quam, vitae rutrum felis consequat ac. Quisque urna nulla, ornare vitae arcu sed, lacinia varius eros.</p>
-                                </div>
-                            </div>
-                            <div class="cell-service" data-aos="zoom-in">
-                                <div class="icon-service web-design-development"></div>
-                                <div class="card-body">
-                                    <h2>Web Design &amp; Development</h2>
-                                    <p>Virtual Presence</p>
-                                    <p class="card-body-text">Lorem ipsum dolor sit amet, consectetur adipisc- ing elit. Curabitur interdum et quam aliquet laoreet. Vestibulum egestas volutpat tempus. Cras quis auctor diam. Quisque at commodo diam. Duis pre- tium tincidunt mauris, at placerat lorem ornare lac- inia. Nam elementum nisi quam, vitae rutrum felis consequat ac. Quisque urna nulla, ornare vitae arcu sed, lacinia varius eros.</p>
-                                </div>
-                            </div>
-                            <div class="cell-service" data-aos="zoom-in">
-                                <div class="icon-service web-design-development"></div>
-                                <div class="card-body">
-                                    <h2>Web Design &amp; Development</h2>
-                                    <p>Virtual Presence</p>
-                                    <p class="card-body-text">Lorem ipsum dolor sit amet, consectetur adipisc- ing elit. Curabitur interdum et quam aliquet laoreet. Vestibulum egestas volutpat tempus. Cras quis auctor diam. Quisque at commodo diam. Duis pre- tium tincidunt mauris, at placerat lorem ornare lac- inia. Nam elementum nisi quam, vitae rutrum felis consequat ac. Quisque urna nulla, ornare vitae arcu sed, lacinia varius eros.</p>
-                                </div>
-                            </div>
-                            <div class="cell-service" data-aos="zoom-in">
-                                <div class="icon-service web-design-development"></div>
-                                <div class="card-body">
-                                    <h2>Web Design &amp; Development</h2>
-                                    <p>Virtual Presence</p>
-                                    <p class="card-body-text">Lorem ipsum dolor sit amet, consectetur adipisc- ing elit. Curabitur interdum et quam aliquet laoreet. Vestibulum egestas volutpat tempus. Cras quis auctor diam. Quisque at commodo diam. Duis pre- tium tincidunt mauris, at placerat lorem ornare lac- inia. Nam elementum nisi quam, vitae rutrum felis consequat ac. Quisque urna nulla, ornare vitae arcu sed, lacinia varius eros.</p>
-                                </div>
-                            </div>
-
-                        </div>
                     </section>
                 </div>
             </div>

@@ -117,12 +117,7 @@ hr {
     display: inline-block;
     margin: 20px auto;
 }
-.cell-service:hover .icon-service,
-.cell-service:focus .icon-service {
-    border: 2px solid #29abe2;
-    width: 145px;
-    height: 145px;
-}
+
 .web-design-development {
 	background: url(../assets/modern/images/icons/web-design-development.png) no-repeat center center;
     background-size: 90%;
@@ -468,6 +463,7 @@ nav ul .palette {
     background-size: 100%;
 }
 
+
 /* Services Icons */
 
 .webDevelopment {
@@ -534,6 +530,15 @@ nav ul .palette {
 .emailHosting {
     background: url(../assets/modern/images/icons/email-hosting.png) no-repeat center center;
 }
+.hours {
+    background: url(../assets/modern/images/icons/new/hours.png) no-repeat center center;
+}
+.invoicingAdministration {
+    background: url(../assets/modern/images/icons/new/administration.png) no-repeat center center;
+}
+.location {
+    background: url(../assets/modern/images/icons/new/locations.png) no-repeat center center;
+}
 .sharedVps {
     background: url(../assets/modern/images/icons/server.png) no-repeat center center;
 }
@@ -542,6 +547,9 @@ nav ul .palette {
 }
 .productPhotography {
     background: url(../assets/modern/images/icons/new/photography-videography.png) no-repeat center center;
+}
+.photo {
+    background: url(../assets/modern/images/icons/photo.png) no-repeat center center;
 }
 .talkingHeads {
     background: url(../assets/modern/images/icons/new/sales.png) no-repeat center center;

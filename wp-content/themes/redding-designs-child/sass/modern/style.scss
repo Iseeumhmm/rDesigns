@@ -18,10 +18,12 @@
 
 //Contact Us Page
 @import"../modern/contact-us/base/base";
+@import"../modern/contact-us/components/cards";
 
 // Portfolio Page
 @import"../modern/portfolio/components/cards";
 @import"../modern/services/components/cards";
+@import"../modern/portfolio/components/text-banner";
 
 // Home Page
 @import"../modern/Home/components/main-banner";

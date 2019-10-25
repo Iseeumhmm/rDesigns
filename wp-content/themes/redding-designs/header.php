@@ -122,9 +122,6 @@
 								<span>Monochromatic</span></a></li>
 						</ul>
 					</div>
-					
-
-					
 					<br>
 					
 					<ul id="main-menu">
@@ -132,7 +129,7 @@
 							<div class="container-fluid w-100">
 								<div class="row w-100">
 									<div class="col-3">
-										<div class="menu-icon"></div>
+										<div class="menu-icon interiorExteriorPhotography"></div>
 									</div>
 									<div class="col-9">
 										<a href="<?php echo get_site_url(); ?>/" title="Home">Home<br>
@@ -145,7 +142,7 @@
 							<div class="container-fluid w-100">
 								<div class="row w-100">
 									<div class="col-3">
-										<div class="menu-icon"></div>
+										<div class="menu-icon cataloguesMenus"></div>
 									</div>
 									<div class="col-9">
 										<a href="<?php echo get_site_url(); ?>/about-us/" title="About">About<br>
@@ -158,7 +155,7 @@
 							<div class="container-fluid w-100">
 								<div class="row w-100">
 									<div class="col-3">
-										<div class="menu-icon"></div>
+										<div class="menu-icon photo"></div>
 									</div>
 									<div class="col-9">
 										<a href="<?php echo get_site_url(); ?>/portfolio/" title="Portfolio">Portfolio<br>
@@ -171,7 +168,7 @@
 							<div class="container-fluid w-100">
 								<div class="row w-100">
 									<div class="col-3">
-										<div class="menu-icon"></div>
+										<div class="menu-icon logoDesign"></div>
 									</div>
 									<div class="col-9">
 										<a href="<?php echo get_site_url(); ?>/services/" title="Services">Services<br>
@@ -184,7 +181,7 @@
 							<div class="container-fluid w-100">
 								<div class="row w-100">
 									<div class="col-3">
-										<div class="menu-icon"></div>
+										<div class="menu-icon emailHosting"></div>
 									</div>
 									<div class="col-9">
 										<a href="<?php echo get_site_url(); ?>/contact/" title="Contact">Contact<br>

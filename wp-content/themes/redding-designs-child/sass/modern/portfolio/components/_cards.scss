@@ -1,6 +1,26 @@
 .portfolio {
     .cell-service {
         padding: 0;
+        box-shadow: 1px 1px 10px #d4d4d4d4;
+        border-radius: 20px;
+        p:nth-last-child(3) {
+            padding-bottom: 15px;
+        }
+    }
+    &-main_image {
+        height: 300px;
+        width: 100%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
+    }
+    .card-body {
+        .menu-icon {
+            background-size: contain;
+            margin-right: 10px;
+        }
     }
     
     .container-white--services {

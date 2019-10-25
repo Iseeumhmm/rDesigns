@@ -155,6 +155,18 @@
   padding-bottom: 50px;
 }
 
+#main-menu div[class^="col-3"] {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu-icon {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  background-size: contain !important;
+}
+
 .modal {
   -webkit-overflow-scrolling: touch;
   overflow: scroll;
@@ -262,7 +274,6 @@
 }
 
 .sub-banner {
-  background-color: black;
   width: 100%;
   height: 250px;
 }
@@ -280,24 +291,10 @@
   margin: 0 !important;
 }
 
-.portfolio-text-banner {
-  height: 300px;
-  position: relative;
-}
-
-.portfolio-text-banner p {
-  margin: 0 !important;
-}
-
-.portfolio-text-banner section {
-  height: 100%;
-}
-
-.portfolio-text--container {
-  overflow-wrap: break-word;
-  width: 100%;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+@media (max-width: 768px) {
+  section {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
 }
 

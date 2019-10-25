@@ -6,6 +6,49 @@ function my_theme_enqueue_styles() {
 }
 
 /**
+ * CUSTOM CONTACTS POST TYPE
+ */
+
+function contact_init() {
+    // set up Contact labels
+    $labels = array(
+        'name' => 'Contacts',
+        'singular_name' => 'Contact',
+        'add_new' => 'Add New Contact',
+        'add_new_item' => 'New Contact',
+        'edit_item' => 'Edit Contact',
+        'new_item' => 'New Contact',
+        'all_items' => 'All Contacts',
+        'view_item' => 'View Contact',
+        'search_items' => 'Search Contacts',
+        'not_found' =>  'No Contacts Found',
+        'not_found_in_trash' => 'No Contacts found in Trash', 
+        'parent_item_colon' => '',
+        'menu_name' => 'Contacts',
+    );
+    
+    // register post type
+    $args = array(
+        'labels' => $labels,
+        'public' => true,
+        'has_archive' => false,
+        'show_ui' => true,
+        'capability_type' => 'post',
+        'hierarchical' => false,
+        'rewrite' => array('slug' => 'Contact'),
+        'query_var' => true,
+        'menu_icon' => 'dashicons-buddicons-pm',
+        'supports' => array(
+			'title',
+            'custom-fields'
+        )
+	);
+    register_post_type( 'contact', $args );
+    
+}
+add_action( 'init', 'contact_init' );
+
+/**
  * CUSTOM TESTIMONIALS POST TYPE
  */
 
@@ -47,6 +90,49 @@ function testimonial_init() {
     
 }
 add_action( 'init', 'testimonial_init' );
+
+/**
+ * CUSTOM PORTFOLIO POST TYPE
+ */
+
+function portfolio_init() {
+    // set up Portfolio labels
+    $labels = array(
+        'name' => 'Portfolios',
+        'singular_name' => 'Portfolio',
+        'add_new' => 'Add New Portfolio',
+        'add_new_item' => 'New Portfolio',
+        'edit_item' => 'Edit Portfolio',
+        'new_item' => 'New Portfolio',
+        'all_items' => 'All Portfolios',
+        'view_item' => 'View Portfolio',
+        'search_items' => 'Search Portfolios',
+        'not_found' =>  'No Portfolios Found',
+        'not_found_in_trash' => 'No Portfolios found in Trash', 
+        'parent_item_colon' => '',
+        'menu_name' => 'Portfolios',
+    );
+    
+    // register post type
+    $args = array(
+        'labels' => $labels,
+        'public' => true,
+        'has_archive' => false,
+        'show_ui' => true,
+        'capability_type' => 'post',
+        'hierarchical' => false,
+        'rewrite' => array('slug' => 'Portfolio'),
+        'query_var' => true,
+        'menu_icon' => 'dashicons-portfolio',
+        'supports' => array(
+			'title',
+            'custom-fields'
+        )
+	);
+    register_post_type( 'portfolio', $args );
+    
+}
+add_action( 'init', 'portfolio_init' );
 
 /**
  * CUSTOM SERVICES POST TYPE
@@ -136,15 +222,216 @@ add_action( 'init', 'team_init' );
 
 
 
+// RETURN ICON HTML
 
-
-
-
+function bulletPoints( $point ) {
+    switch ( $point ) {
+        case "webDevelopment":
+            $icon = array(
+                label   => "Web Design & Development",
+                html    => '<div class="menu-icon webDevelopment"></div>'
+            );
+            break;
+        case "webDevelopmentLarge":
+            $icon = array(
+                label   => "Web Design & Development",
+                html    => '<div class="icon-service web-design-development"></div>'
+            );
+            break;
+        case "digitalMarketing":
+            $icon = array(
+                label   => "Digital Marketing",
+                html    => '<div class="icon-service digital-marketing"></div>'
+            );
+            break;
+        case "internetServices":
+            $icon = array(
+                label   => "Internet Services",
+                html    => '<div class="icon-service internet-services"></div>'
+            );
+            break;
+        case "logoDesign":
+            $icon = array(
+                label   => "Logo Design & Branding",
+                html    => '<div class="icon-service logo-branding"></div>'
+            );
+            break;
+        case "printMedia":
+            $icon = array(
+                label   => "Print Media Design",
+                html    => '<div class="icon-service print-media-design"></div>'
+            );
+            break;
+        case "photographyVideography":
+            $icon = array(
+                label   => "Photography & Videography",
+                html    => '<div class="icon-service photography-videography"></div>'
+            );
+            break;
+        case "customWordpress":
+            $icon = array(
+                label   => "Custom Wordpress Design",
+                html    => '<div class="menu-icon customWordpress"></div>'
+            );
+            break;
+        case "eCommerce":
+            $icon = array(
+                label   => "E-Commerce Solutions",
+                html    => '<div class="menu-icon eCommerce"></div>'
+            );
+            break;
+        case "cms":
+            $icon = array(
+                label   => "CMS",
+                html    => '<div class="menu-icon cms"></div>'
+            );
+            break;
+        case "googleStuff":
+            $icon = array(
+                label   => "Google Stuff",
+                html    => '<div class="menu-icon googleStuff"></div>'
+            );
+            break;
+        case "contentWriting":
+            $icon = array(
+                label   => "Content Writing",
+                html    => '<div class="menu-icon contentWriting"></div>'
+            );
+            break;
+        case "socialMedia":
+            $icon = array(
+                label   => "Social Media Management",
+                html    => '<div class="menu-icon socialMedia"></div>'
+            );
+            break;
+        case "businessCards":
+            $icon = array(
+                label   => "Business Cards & Letterheads",
+                html    => '<div class="menu-icon businessCards"></div>'
+            );
+            break;
+        case "flyersBrochures":
+            $icon = array(
+                label   => "Flyers & Brochures",
+                html    => '<div class="menu-icon flyersBrochures"></div>'
+            );
+            break;
+        case "cataloguesMenus":
+            $icon = array(
+                label   => "Catalogues & Menus",
+                html    => '<div class="menu-icon cataloguesMenus"></div>'
+            );
+            break;
+        case "signage":
+            $icon = array(
+                label   => "Signage",
+                html    => '<div class="menu-icon signage"></div>'
+            );
+            break;
+        case "identity":
+            $icon = array(
+                label   => "New Identity",
+                html    => '<div class="menu-icon identity"></div>'
+            );
+            break;
+        case "consistantDesign":
+            $icon = array(
+                label   => "Consistant Design",
+                html    => '<div class="menu-icon consistantDesign"></div>'
+            );
+            break;
+        case "readyForPrint":
+            $icon = array(
+                label   => "Ready for Print",
+                html    => '<div class="menu-icon readyForPrint"></div>'
+            );
+            break;
+        case "readyForWeb":
+            $icon = array(
+                label   => "Ready for Web",
+                html    => '<div class="menu-icon readyForWeb"></div>'
+            );
+            break;
+        case "domainRegistration":
+            $icon = array(
+                label   => "Domain Search & Registration",
+                html    => '<div class="menu-icon domainRegistration"></div>'
+            );
+            break;
+        case "webHosting":
+            $icon = array(
+                label   => "Web Hosting",
+                html    => '<div class="menu-icon webHosting"></div>'
+            );
+            break;
+        case "emailHosting":
+            $icon = array(
+                label   => "Email Hosting",
+                html    => '<div class="menu-icon emailHosting"></div>'
+            );
+            break;
+        case "invoicingAdministration":
+            $icon = array(
+                label   => "InvoicingAdministration",
+                html    => '<div class="menu-icon invoicingAdministration"></div>'
+            );
+            break;
+        case "sharedVps":
+            $icon = array(
+                label   => "Shared & VPS Servers",
+                html    => '<div class="menu-icon sharedVps"></div>'
+            );
+            break;
+        case "hours":
+            $icon = array(
+                label   => "Hours",
+                html    => '<div class="menu-icon hours"></div>'
+            );
+            break;
+        case "interiorExteriorPhotography":
+            $icon = array(
+                label   => "Interior / Exterior Photography",
+                html    => '<div class="menu-icon interiorExteriorPhotography"></div>'
+            );
+            break;
+        case "location":
+            $icon = array(
+                label   => "Location",
+                html    => '<div class="menu-icon location"></div>'
+            );
+            break;
+        case "photo":
+            $icon = array(
+                label   => "Photos",
+                html    => '<div class="menu-icon photo"></div>'
+            );
+            break;
+        case "productPhotography":
+            $icon = array(
+                label   => "Product Photography",
+                html    => '<div class="menu-icon productPhotography"></div>'
+            );
+            break;
+        case "talkingHeads":
+            $icon = array(
+                label   => "Talking Head Videos",
+                html    => '<div class="menu-icon talkingHeads"></div>'
+            );
+            break;
+        case "drone":
+            $icon = array(
+                label   => "Drone Footage",
+                html    => '<div class="menu-icon drone"></div>'
+            );
+            break;
+    }
+    return $icon;
+}
 
 
 /**
  * 
- * DUPLICATE POSTS
+ * DUPLICATE POSTS & PAGES
  */
 
  /*
@@ -255,3 +542,4 @@ function rd_duplicate_post_link( $actions, $post ) {
 }
  
 add_filter( 'post_row_actions', 'rd_duplicate_post_link', 10, 2 );
+add_filter('page_row_actions', 'rd_duplicate_post_link', 10, 2);

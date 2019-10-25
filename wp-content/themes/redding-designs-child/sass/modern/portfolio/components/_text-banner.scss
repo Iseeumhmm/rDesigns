@@ -1,17 +1,17 @@
 .portfolio {
     &-text-banner {
         height: 300px;
-        position: relative;
         p{ margin: 0 !important; }
         section {
             height: 100%;
         }
     }
     &-text--container {
-        overflow-wrap: break-word;
+        height: 100%;
         width: 100%;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
+        overflow-wrap: break-word;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }

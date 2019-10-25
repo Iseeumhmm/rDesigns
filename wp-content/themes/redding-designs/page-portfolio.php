@@ -32,7 +32,7 @@ get_header();
                 <div class="header-spacer"></div>
                 <div class="sub-banner banner-portfolio" data-aos="fade-in">
                     <div class="sub-banner--text_container">
-                        <h1 data-aos="slide-right">Our Portfolio<br>
+                        <h1 data-aos="slide-right">Our Portfolio</h1><br>
                     </div>
                 </div>
                 
@@ -43,16 +43,15 @@ get_header();
                         </div>
                     </section>
                 </div>
-                
                 <div class="container-grey">
                     <section data-aos="zoom-in">
                         <h3 class="heading">Our Latest Adventure</h3>
                         
-                        <p><strong>Client Name</strong></p>
+                        <p><strong><?php the_field( "client_name" ); ?></strong></p>
                         
-                        <p>A short description of the website and what we did will go here.</p>
+                        <p><?php the_field( "description" ); ?></p>
                         
-                        <p class="btn"><a href="http://www.captivacasual.com" title="Visit website" target="_blank">Visit Website</a></p>
+                        <p class="btn"><a href="<?php the_field( "website" ); ?>" title="<?php the_field( "client_name" ); ?>" target="_blank">Visit Website</a></p>
                     </section>
                     
                     <div class="latest">                
@@ -62,117 +61,46 @@ get_header();
                         <div class="phone" data-aos="slide-right"></div>
                     </div>
                 </div>
-
                 <div class="container-white container-white--services">
                     <section>
                         <div class="flex">
-                            <div class="cell-service" data-aos="zoom-in">
-                                <a href="services/#web-design-development" title="Create Your Presence">
-                                    <img class="card-img-top" src="https://www.fillmurray.com/300/200" alt="website">
-                                    <div class="card-body">
-                                        <h2>Web Design &amp; Development</h2>
-                                        <p>Virtual Presence</p>
-                                        <div class="menu-icon"></div>
-                                        <p class="card-text">Contact</p><br>
-                                        <div class="menu-icon"></div>
-                                        <p class="card-text">Contact</p><br>
-                                        <div class="menu-icon"></div>
-                                        <p class="card-text">Contact</p><br>
-                                        <p class="btn"><a href="#">the specifics</a></p>
-                                    </div>
-                                </a>
+                        <?php 
+                            // Get Services from database
+                            $wpb_all_query = new WP_Query(array('post_type'=>'portfolio', 'post_status'=>'publish', 'posts_per_page'=>-1)); ?>
+                            <?php if ( $wpb_all_query->have_posts() ) : while ( $wpb_all_query->have_posts() ) : ?>
+                                <?php $wpb_all_query->the_post(); ?>
+                                <div class="cell-service" data-aos="zoom-in"> 
+                                <div class="portfolio-main_image" style="background-image: url('<?php the_field( 'image' )?>')"></div>
+                                <?php
+                                echo '<div class="card-body">';
+                                echo '<h2>' . get_the_title() . '</h2>';
+                                echo '<p>' . get_field( "sub_heading" ) . '</p>';
+                                ?>
+                                <?php
+                                    $table = get_field( 'bullet_points' );
+                                    if ( ! empty ( $table ) ) {
+                                        foreach ( $table['body'] as $tr ) {
+                                            foreach ( $tr as $td ) {
+                                                $bullets = bulletPoints( $td['c'] );
+                                                echo $bullets['html'];
+                                                echo '<p class="card-text">' . $bullets['label'] . '</p><br>';
+                                            }
+                                        }
+                                    } 
+                                    echo '<p class="btn"><a href="' . get_field( 'website' ) . '">visit website</a></p>';
+                                    echo '</div>';
+                                    ?>
                             </div>
-
-                            <div class="cell-service" data-aos="zoom-in">
-                                <a href="services/#digital-marketing" title="Let's Raise the Bar">
-                                    <img class="card-img-top" src="https://www.fillmurray.com/300/200" alt="website">
-                                        <div class="card-body">
-                                        <h2>Digital Marketing</h2>
-                                        <p>Raising the Bar</p>
-                                        <div class="menu-icon"></div>
-                                        <p class="card-text">Contact</p><br>
-                                        <div class="menu-icon"></div>
-                                        <p class="card-text">Contact</p><br>
-                                        <div class="menu-icon"></div>
-                                        <p class="card-text">Contact</p><br>
-                                        <p class="btn"><a href="#">the specifics</a></p>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="cell-service" data-aos="zoom-in">
-                                <a href="services/#print-media-design" title="Go Tangible">
-                                    <img class="card-img-top" src="https://www.fillmurray.com/300/200" alt="website">
-                                        <div class="card-body">
-                                        <h2>Print Media Design</h2>
-                                        <p>Tangible is nice</p>
-                                        <div class="menu-icon"></div>
-                                        <p class="card-text">Contact</p><br>
-                                        <div class="menu-icon"></div>
-                                        <p class="card-text">Contact</p><br>
-                                        <div class="menu-icon"></div>
-                                        <p class="card-text">Contact</p><br>
-                                        <p class="btn"><a href="#">the specifics</a></p>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="cell-service" data-aos="zoom-in">
-                                <a href="services/#logo-design-branding" title="Make a Name">
-                                    <img class="card-img-top" src="https://www.fillmurray.com/300/200" alt="website">
-                                        <div class="card-body">
-                                        <h2>Logo Design &amp; Branding</h2>
-                                        <p>Making a Name</p>
-                                        <div class="menu-icon"></div>
-                                        <p class="card-text">Contact</p><br>
-                                        <div class="menu-icon"></div>
-                                        <p class="card-text">Contact</p><br>
-                                        <div class="menu-icon"></div>
-                                        <p class="card-text">Contact</p><br>
-                                        <p class="btn"><a href="#">the specifics</a></p>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="cell-service" data-aos="zoom-in">
-                                <a href="services/#internet-services" title="We'll Spin the Web">
-                                    <img class="card-img-top" src="https://www.fillmurray.com/300/200" alt="website">
-                                        <div class="card-body">
-                                        <h2>Internet Services</h2>
-                                        <p>Spider Work</p>
-                                        <div class="menu-icon"></div>
-                                        <p class="card-text">Contact</p><br>
-                                        <div class="menu-icon"></div>
-                                        <p class="card-text">Contact</p><br>
-                                        <div class="menu-icon"></div>
-                                        <p class="card-text">Contact</p><br>
-                                        <p class="btn"><a href="#">the specifics</a></p>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="cell-service" data-aos="zoom-in">
-                                <a href="services/#beard-support" title="Custom Photography/Videography">
-                                    <img class="card-img-top" src="https://www.fillmurray.com/300/200" alt="website">
-                                        <div class="card-body">
-                                        <h2>Photography &amp; Videography</h2>
-                                        <p>Virtual Presence</p>
-                                        <div class="menu-icon"></div>
-                                        <p class="card-text">Contact</p><br>
-                                        <div class="menu-icon"></div>
-                                        <p class="card-text">Contact</p><br>
-                                        <div class="menu-icon"></div>
-                                        <p class="card-text">Contact</p><br>
-                                        <p class="btn"><a href="#">the specifics</a></p>
-                                    </div>
-                                </a>
-                            </div>
+                            <?php endwhile; ?>
+                            <?php wp_reset_postdata(); ?>
+                            <?php else : ?>
+                                <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+                            <?php endif; ?>
                         </div>
                     </section>
                 </div>
             </div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
 <?php
 get_footer();

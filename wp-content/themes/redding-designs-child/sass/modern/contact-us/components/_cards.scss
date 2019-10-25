@@ -1,0 +1,47 @@
+.contact {
+    .menu-icon--container {
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        background-color: #eee;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .menu-icon, .icon-service {
+        border-radius: 0 !important;
+        border: none;
+        background-size: contain;
+        width: 50px;
+        height: 50px;
+        border-radius: 150px;
+        display: inline-block;
+        margin: 20px auto;
+    }
+
+    .cell-service:hover {
+        .icon-service, .menu-icon {
+            width: 100px;
+            height: 100px;
+        }
+    } 
+
+    .cell-service:hover .icon-service, .cell-service:focus .icon-service {
+        border: none;
+    }
+    .card-body {
+        h2 {
+            font-size: 24px;
+        }
+        p {
+            span {
+                color: #29abe2;
+            }
+            font-family: 'Open Sans', sans-serif !important;
+            font-size: 18px;
+            font-weight: normal;
+            color: #808080 !important;
+        }
+    }
+}

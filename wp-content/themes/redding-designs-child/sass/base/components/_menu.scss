@@ -1,0 +1,14 @@
+#main-menu {
+    div[class^="col-3"] {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.menu-icon {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    background-size: contain !important;
+}
+
