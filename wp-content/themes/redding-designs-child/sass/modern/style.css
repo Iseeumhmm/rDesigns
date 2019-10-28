@@ -376,6 +376,13 @@
   text-align: left;
 }
 
+@media (max-width: 767px) {
+  .portfolio-text--container {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}
+
 .home .cell-service {
   padding: 20px 15px;
 }
