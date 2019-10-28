@@ -11,6 +11,11 @@
             height: 100%; 
             width: 85%;
             max-width: 1400px;
+            @media( max-width: 767px ) {
+                width: 100%;
+                padding-left: 15px !important;
+                padding-right: 15px !important;
+            }
         }
         &-text {
             width: 100%;

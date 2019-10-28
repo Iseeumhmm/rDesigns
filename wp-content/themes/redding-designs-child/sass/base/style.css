@@ -179,6 +179,14 @@
   max-width: 1400px;
 }
 
+@media (max-width: 767px) {
+  .about-us .beard-container .row {
+    width: 100%;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}
+
 .about-us .beard-container-text {
   width: 100%;
   height: 100%;
