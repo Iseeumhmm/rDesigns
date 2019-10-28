@@ -1,0 +1,64 @@
+.contact {
+    .container-grey {
+        margin-top: 45px;
+        background: rgb(249,249,249);
+        background: linear-gradient(to bottom, #eee 0%,#eee 75%,#FFFFFFFF 75%,#FFFFFFFF 100%);
+        min-height: 677px;
+        @media( max-width: 1065px ) {
+            min-height: auto;
+            margin: 0;
+            padding: 15px 15px 116px;
+            background: linear-gradient(to bottom, #eee 0%,#eee 100%);
+        }
+        .latest {
+            @media( max-width: 1400px ) {
+                transform: scale(1);
+            }
+        }
+        section {
+            h3 {
+                color: #29abe2;
+                font-size: 36px;
+            }
+            p { padding-top: 5px; }
+            right: 14%;
+            top: 100px;
+            .btn {
+                margin-top: 15px;
+            }
+            @media( max-width: 1065px ) {
+                position: relative;
+                top: 0;
+                right: 0;
+                margin-left: auto;
+                margin-right: 0;
+                width: 73%;
+            }
+            @media( max-width: 887px ) {
+                width: 100%;
+                padding: 0 25px;
+            }
+        }
+        .price-estimator {
+            background-size: cover;
+            width: 384px;
+            height: 578px;
+            position: absolute;
+            left: 21%;
+            @media( max-width: 1300px ) {
+                left: 13%;
+            }
+            @media( max-width: 1065px ) {
+                width: 200px;
+                height: 300px;
+                position: relative;
+                display: block;
+                left: 0;
+                bottom: 235px;
+            }
+            @media( max-width: 887px ) {
+                display: none;
+            }
+        }
+    }
+}

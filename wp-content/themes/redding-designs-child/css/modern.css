@@ -232,6 +232,10 @@ hr {
     left: 27px;
 }
 
+.price-estimator {
+    background: url(../assets/modern/images/thumbs/price-estimator.png) no-repeat center center;
+}
+
 
 /*LINKS*/
 .banner-home a:link {
