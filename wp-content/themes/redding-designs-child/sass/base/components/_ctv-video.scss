@@ -7,11 +7,49 @@
         .container-fluid {
             width: 85%;
         }
-        .video {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        .video_container {
+            &--outer {
+                position: static; 
+                clear: both; 
+                width: 80%; 
+                height: 44.2%;
+                @media( max-width: 1199px ){
+                    width: 100%; 
+                    height: 55.25%;
+                }
+                @media( max-width: 1065px ){
+                    width: 100%; 
+                    height: 55.25%;
+                    padding-top: 45px;
+                }
+            }
+            &--inner {
+                position: relative;
+                overflow: hidden;
+                padding-top: 55.25%;
+                #vidimg {
+                    position: absolute; 
+                    width: 100%;
+                    background-size: cover;
+                    background-position: center center;
+                    padding-top: 55.25%;
+                    top: 0;
+                    left: 0; 
+                    cursor: pointer; 
+                    pointer-events: none; 
+                    z-index: 2; 
+                }
+                #unlocked-video {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    border: 0;      
+                }
+            }
         }
+        
         margin-top: 45px;
         background: rgb(249,249,249);
         @media( max-width: 1065px ) {
