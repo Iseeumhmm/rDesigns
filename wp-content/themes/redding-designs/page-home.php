@@ -37,8 +37,28 @@ get_header();
                     <p class="btn"><a href="http://beardreview.com/priceestimator/hidden/" title="Get a Quote">Get a Quote</a></p>
                 </section>
             </div>
-            
             <div class="container-white home-page">
+                <div class="modal fade" id="popup">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close pr-4" onClick="closeModal()">
+                                    <span style="color: black;">&times;</span>
+                                </button>
+                            </div>
+                            <div id="modal-body" class="modal-body">
+                                <div class="">
+                                    <!-- Begin MySiteAuditor -->
+                                    <script src="//cdn.mysiteauditor.com/audit-tool.js" type="text/javascript"></script>
+                                    <h2>What's Your SEO Score?</h2> 
+                                    <p>Enter the URL of any landing page or blog article and see how optimized it is for one keyword or phrase..</p>     
+                                    <div id="seogroup-embed"  data-apikey="f0cd02027f152892acb5a3fbcbecb077f0bc9549" data-language="english" data-type="banner" data-hex-color="#f4f4f4" data-hex-cta-color="#2ea2db" data-hex-text="#FFFFFF" data-load-bar-color="#2ea2db" data-font="Lato"></div>
+                                    <!-- End MySiteAuditor -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <section>
                     <div class="flex">
                         <div class="cell-service" data-aos="zoom-in">
@@ -205,6 +225,6 @@ get_header();
         }
         echo '</style>';
     ?>
-
+    <div class="" id="backdrop"></div>
 <?php
 get_footer();

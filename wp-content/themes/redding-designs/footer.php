@@ -148,6 +148,16 @@
 							break;
 					}
 				}
+				if ( $( '.home-page' ).length && !localStorage.getItem('homePageVisited') ) {
+					// modalBody.classList.add("modal-inuse");
+					const popup = document.getElementById("popup");
+					const classesToAdd = [ 'modal-backdrop', 'show' ];
+					document.getElementById("backdrop").classList.add(...classesToAdd);
+					popup.classList.add("show");
+					popup.style.display = "block";	
+					document.getElementById("top").style.overflow = "hidden";
+					localStorage.setItem('homePageVisited', 1);
+				}
 				$('#nav').click(function() {
 					$('#palette ul').hide();
 					$('#main-menu').slideToggle("fast");
