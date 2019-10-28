@@ -5,6 +5,9 @@
     &-header {
         border: none !important;
     }
+    &-backdrop.show {
+        opacity: .8 !important;
+    }
     &-dialog {
         max-width: 65% !important;
         @media(max-width: 1270px) {

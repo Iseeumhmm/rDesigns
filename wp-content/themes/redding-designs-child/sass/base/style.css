@@ -57,6 +57,65 @@
   }
 }
 
+.about-us .container-grey {
+  min-height: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+  background: #f9f9f9;
+}
+
+.about-us .container-grey .container-fluid {
+  width: 85%;
+}
+
+.about-us .container-grey .col-xl-8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1065px) {
+  .about-us .container-grey {
+    min-height: auto;
+    margin: 0;
+    padding: 15px 15px 116px;
+    background: linear-gradient(to bottom, #eee 0%, #eee 100%);
+  }
+}
+
+@media (max-width: 1400px) {
+  .about-us .container-grey .latest {
+    transform: scale(1);
+  }
+}
+
+.about-us .container-grey section {
+  position: relative;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+
+.about-us .container-grey section span {
+  color: #29abe2;
+  font-weight: 700;
+}
+
+.about-us .container-grey section h3 {
+  font-size: 36px;
+}
+
+.about-us .container-grey section p {
+  padding-top: 5px;
+}
+
+@media (max-width: 1199px) {
+  .about-us .container-grey section {
+    padding-top: 45px;
+  }
+}
+
 .about-us .beard-container {
   height: 60vh;
   display: flex;
@@ -174,6 +233,10 @@
 
 .modal-header {
   border: none !important;
+}
+
+.modal-backdrop.show {
+  opacity: .8 !important;
 }
 
 .modal-dialog {

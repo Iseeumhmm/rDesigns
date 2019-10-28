@@ -1,0 +1,46 @@
+.about-us {
+    
+    .container-grey {
+        min-height: auto;
+        display: flex;
+        justify-content: center;
+        .container-fluid {
+            width: 85%;
+        }
+        .col-xl-8 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        margin-top: 45px;
+        background: rgb(249,249,249);
+        @media( max-width: 1065px ) {
+            min-height: auto;
+            margin: 0;
+            padding: 15px 15px 116px;
+            background: linear-gradient(to bottom, #eee 0%,#eee 100%);
+        }
+        .latest {
+            @media( max-width: 1400px ) {
+                transform: scale(1);
+            }
+        }
+        section {
+            position: relative;
+            right: 0;
+            top: 0;
+            width: 100%;
+            span { 
+                color: #29abe2; 
+                font-weight: 700;
+            }
+            h3 {
+                font-size: 36px;
+            }
+            p { padding-top: 5px; }
+            @media( max-width: 1199px ) {
+                padding-top: 45px;
+            }
+        }
+    }
+}
