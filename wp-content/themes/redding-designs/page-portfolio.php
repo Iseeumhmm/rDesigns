@@ -46,13 +46,31 @@ get_header();
                 <div class="container-grey">
                     <section data-aos="zoom-in">
                         <h3 class="heading">Our Latest Adventure</h3>
-                        
                         <p><strong><?php the_field( "client_name" ); ?></strong></p>
-                        
-                        <p><?php the_field( "description" ); ?></p>
-                        
-                        <p class="btn"><a href="<?php the_field( "website" ); ?>" title="<?php the_field( "client_name" ); ?>" target="_blank">Visit Website</a></p>
+                        <?php
+                            $table = get_field( 'portfolio_page_only_bullet_points' );
+                            if ( ! empty ( $table ) ) {
+                                foreach ( $table['body'] as $tr ) {
+                                    $i=true;
+                                    foreach ( $tr as $td ) {
+                                        if ( $i == true ) {
+                                            $bullets = bulletPoints( $td['c'] );
+                                            echo $bullets['html'];
+                                            $i=false;
+                                        } else {
+                                            echo '<p class="bullet-text">' . $td['c'] . '</p><br>';
+                                            $i=true;
+                                        }
+                                        
+                                    }
+
+                                }
+                            } 
+                        ?>
                     </section>
+                    <div class="btn-container">
+                        <p class="btn"><a href="<?php the_field( "website" ); ?>" title="<?php the_field( "client_name" ); ?>" target="_blank">Visit Website</a></p>
+                    </div>
                     
                     <div class="latest">                
                         <div class="desktop" data-aos="slide-right"></div>

@@ -91,7 +91,7 @@ get_header();
                 <div class="container-grey">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-xl-8" data-aos="slide-right">
+                            <div class="col-xl-6 video" data-aos="slide-right">
                                 <div width="560px" height="315px" style="position: static; clear: both; width: 560px; height: 315px;"><div style="position: relative"><img id="vidimg" width="560px" height="315px" src="<?php echo get_stylesheet_directory_uri() ?>/assets/modern/images/thumbs/ctv.png" style="position: absolute; top: 0; left: 0; cursor: pointer; pointer-events: none; z-index: 2;" /><iframe id="unlocked-video" style="position: absolute; top: 0; left: 0; z-index: 1;" src="https://webapps.9c9media.com/vidi-player/1.7.10/share/iframe.html?currentId=571381&config=ctvnews/share.json&kruxId=ImoeZsch&rsid=bellmedianewsprod,bellmediaglobalprod&siteName=CTVNews&cid=%5B%7B%22contentId%22%3A571381%2C%22ad%22%3A%7B%22adsite%22%3A%22ctv.ctvnews%22%2C%22adzone%22%3A%22embed%22%7D%7D%5D" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div></div>
                                 <script type="application/javascript">
                                 // Adapted from https://stackoverflow.com/a/32138108
@@ -104,7 +104,7 @@ get_header();
                                 }, 100);
                                 </script>
                                 </div>
-                            <div class="col-xl-4">
+                            <div class="col-xl-6">
                                 <section data-aos="zoom-in">
                                     <p><span>it may be old news now but...</span></p>
                                     <h3 class="heading">We were on London CTV News at 6!</h3>

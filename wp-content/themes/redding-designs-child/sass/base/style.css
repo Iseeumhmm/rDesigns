@@ -69,7 +69,7 @@
   width: 85%;
 }
 
-.about-us .container-grey .col-xl-8 {
+.about-us .container-grey .video {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -141,7 +141,6 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding-top: 45px;
 }
 
 .about-us .beard-container section {
@@ -205,9 +204,68 @@
   display: none;
 }
 
+.portfolio .icon-service {
+  float: none;
+}
+
 .portfolio .container-grey {
   background-color: transparent !important;
   padding: 0;
+}
+
+@media (max-width: 768px) {
+  .portfolio .container-grey {
+    padding-top: 45px;
+    height: 826px;
+  }
+}
+
+.portfolio .container-grey .btn-container {
+  width: 30%;
+  position: absolute;
+  right: 5%;
+  bottom: 85px;
+}
+
+@media (max-width: 768px) {
+  .portfolio .container-grey .btn-container {
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+    right: auto;
+    left: auto;
+    top: 0;
+  }
+}
+
+.portfolio .container-grey .menu-icon,
+.portfolio .container-grey .icon-service {
+  display: inline-block;
+  border: none;
+  width: 35px;
+  height: 35px;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.portfolio .container-grey .bullet-text {
+  display: inline-block;
+  position: relative;
+  bottom: 11px;
+}
+
+@media (max-width: 768px) {
+  .portfolio .container-grey .bullet-text {
+    display: inline-block !important;
+    position: relative !important;
+    bottom: 11px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio section p:first-child {
+    padding-bottom: 15px;
+  }
 }
 
 .portfolio .latest {

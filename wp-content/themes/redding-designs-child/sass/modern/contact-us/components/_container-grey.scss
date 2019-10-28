@@ -6,9 +6,19 @@
         min-height: 677px;
         @media( max-width: 1065px ) {
             min-height: auto;
-            margin: 0;
-            padding: 15px 15px 116px;
+            height: 307px;
+            margin: 0 0 81px;
+            padding: 45px 15px 0;
             background: linear-gradient(to bottom, #eee 0%,#eee 100%);
+        }
+        @media( max-width: 887px ) {
+            margin: 0;
+            height: auto;
+            padding-bottom: 145px;
+        }
+        .price-estimator--container {
+            width: 85%;
+            margin: 0 auto;
         }
         .latest {
             @media( max-width: 1400px ) {

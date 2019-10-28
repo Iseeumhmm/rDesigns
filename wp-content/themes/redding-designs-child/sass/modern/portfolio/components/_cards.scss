@@ -17,6 +17,9 @@
         background-repeat: no-repeat;
     }
     .card-body {
+        p:first-of-type {
+            font-weight: 400;
+        }
         .menu-icon {
             background-size: contain;
             margin-right: 10px;
@@ -24,6 +27,9 @@
     }
     
     .container-white--services {
-        margin: 45px 0;
+        margin: 150px 0 45px 0;
+        @media (max-width: 768px) {
+            margin: 45px 0 45px 0;
+        }
     }
 }

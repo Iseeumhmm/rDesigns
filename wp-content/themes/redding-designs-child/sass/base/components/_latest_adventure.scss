@@ -1,7 +1,53 @@
 .portfolio {
+    .icon-service {
+        float: none;
+    }
     & .container-grey {
         background-color:transparent !important;
         padding: 0;
+        @media (max-width: 768px) { 
+            padding-top: 45px;
+            height: 826px;
+        }
+        .btn-container {
+            width: 30%;
+            position: absolute;
+            right: 5%;
+            bottom: 85px;
+            @media (max-width: 768px) {
+                width: 90%;
+                position: relative;
+                margin: 0 auto;
+                right: auto;
+                left: auto;
+                top: 0;
+            }
+        }
+        .menu-icon, .icon-service{
+            display: inline-block;
+            border: none;
+            width: 35px;
+            height: 35px;
+            margin: 0;
+            margin-right: 10px;
+        }
+        .bullet-text {
+            display: inline-block;
+            position: relative;
+            bottom: 11px;
+            @media (max-width: 768px) {
+                display: inline-block !important;
+                position: relative !important;
+                bottom: 11px !important;
+            }
+        }
+    }
+    section {
+        @media (max-width: 768px) {
+            p:first-child {
+                padding-bottom: 15px;
+            }
+        }
     }
     & .latest {
         padding-bottom: 50px;
