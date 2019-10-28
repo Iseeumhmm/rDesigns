@@ -376,6 +376,10 @@
   text-align: left;
 }
 
+.home .cell-service {
+  padding: 20px 15px;
+}
+
 .banner-home .btn {
   border: 1px solid white !important;
 }
