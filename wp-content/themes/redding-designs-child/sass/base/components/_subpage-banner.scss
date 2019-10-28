@@ -1,6 +1,9 @@
 .sub-banner {
     width: 100%;
     height: 250px;
+    @media( max-width: 767px ) {
+        background-size: cover !important;
+    }
     &--text_container {
         display: flex;
         align-items: center;
