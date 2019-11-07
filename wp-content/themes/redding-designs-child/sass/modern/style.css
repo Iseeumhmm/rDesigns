@@ -17,117 +17,6 @@
   font-weight: 700;
 }
 
-.contact .container-grey,
-.portfolio .container-grey {
-  margin-top: 45px;
-  background: #f9f9f9;
-  background: linear-gradient(to bottom, #eee 0%, #eee 75%, #FFFFFFFF 75%, #FFFFFFFF 100%);
-  min-height: 677px;
-}
-
-@media (max-width: 1065px) {
-  .contact .container-grey,
-  .portfolio .container-grey {
-    min-height: auto;
-    height: 307px;
-    margin: 0 0 81px;
-    padding: 45px 15px 0;
-    background: linear-gradient(to bottom, #eee 0%, #eee 100%);
-  }
-}
-
-@media (max-width: 887px) {
-  .contact .container-grey,
-  .portfolio .container-grey {
-    margin: 0;
-    height: auto;
-    padding-bottom: 145px;
-  }
-}
-
-.contact .container-grey .price-estimator--container,
-.portfolio .container-grey .price-estimator--container {
-  width: 85%;
-  margin: 0 auto;
-}
-
-.contact .container-grey section,
-.portfolio .container-grey section {
-  right: 14%;
-  top: 100px;
-}
-
-.contact .container-grey section h3,
-.portfolio .container-grey section h3 {
-  color: #29abe2;
-  font-size: 36px;
-}
-
-.contact .container-grey section p,
-.portfolio .container-grey section p {
-  padding-top: 5px;
-}
-
-.contact .container-grey section .btn,
-.portfolio .container-grey section .btn {
-  margin-top: 15px;
-}
-
-@media (max-width: 1065px) {
-  .contact .container-grey section,
-  .portfolio .container-grey section {
-    position: relative;
-    top: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: 0;
-    width: 73%;
-  }
-}
-
-@media (max-width: 887px) {
-  .contact .container-grey section,
-  .portfolio .container-grey section {
-    width: 100%;
-    padding: 0 25px;
-  }
-}
-
-.contact .container-grey .price-estimator,
-.portfolio .container-grey .price-estimator {
-  background-size: cover;
-  width: 384px;
-  height: 578px;
-  position: absolute;
-  left: 21%;
-}
-
-@media (max-width: 1300px) {
-  .contact .container-grey .price-estimator,
-  .portfolio .container-grey .price-estimator {
-    left: 13%;
-  }
-}
-
-@media (max-width: 1065px) {
-  .contact .container-grey .price-estimator,
-  .portfolio .container-grey .price-estimator {
-    width: 200px;
-    height: 300px;
-    position: relative;
-    display: block;
-    left: 0;
-    bottom: 235px;
-  }
-}
-
-@media (max-width: 887px) {
-  .contact .container-grey .price-estimator,
-  .portfolio .container-grey .price-estimator {
-    display: none;
-  }
-}
-
 .card-body p:first-of-type {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
@@ -144,6 +33,137 @@
 
 .services .card-body .menu-icon {
   background-size: contain;
+}
+
+.contact .quote,
+.portfolio .quote {
+  padding-top: 45px;
+  background: #f9f9f9;
+  background: linear-gradient(to bottom, #eee 0%, #eee 75%, #FFFFFFFF 75%, #FFFFFFFF 100%);
+  min-height: 677px;
+}
+
+@media (max-width: 1065px) {
+  .contact .quote,
+  .portfolio .quote {
+    min-height: auto;
+    height: 307px;
+    margin: 0 0 81px;
+    padding: 45px 15px 0;
+    background: linear-gradient(to bottom, #eee 0%, #eee 100%);
+  }
+}
+
+@media (max-width: 887px) {
+  .contact .quote,
+  .portfolio .quote {
+    margin: 0;
+    height: auto;
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact .quote,
+  .portfolio .quote {
+    padding-bottom: 85px;
+  }
+
+  .contact .quote.quote-contact,
+  .portfolio .quote.quote-contact {
+    padding-bottom: 145px;
+  }
+}
+
+.contact .quote .price-estimator--container,
+.portfolio .quote .price-estimator--container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+@media (max-width: 1400px) {
+  .contact .quote .latest,
+  .portfolio .quote .latest {
+    transform: scale(1);
+    margin-bottom: 0;
+  }
+}
+
+.contact .quote section,
+.portfolio .quote section {
+  right: 14%;
+  top: 100px;
+}
+
+.contact .quote section h3,
+.portfolio .quote section h3 {
+  color: #29abe2;
+  font-size: 36px;
+}
+
+.contact .quote section p,
+.portfolio .quote section p {
+  padding-top: 5px;
+}
+
+.contact .quote section .btn,
+.portfolio .quote section .btn {
+  margin-top: 15px;
+}
+
+@media (max-width: 1065px) {
+  .contact .quote section,
+  .portfolio .quote section {
+    position: relative;
+    top: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: 0;
+    width: 73%;
+  }
+}
+
+@media (max-width: 887px) {
+  .contact .quote section,
+  .portfolio .quote section {
+    width: 100%;
+    padding: 0 25px;
+  }
+}
+
+.contact .quote .price-estimator,
+.portfolio .quote .price-estimator {
+  background-size: cover;
+  width: 384px;
+  height: 578px;
+  position: absolute;
+  left: 21%;
+}
+
+@media (max-width: 1300px) {
+  .contact .quote .price-estimator,
+  .portfolio .quote .price-estimator {
+    left: 13%;
+  }
+}
+
+@media (max-width: 1065px) {
+  .contact .quote .price-estimator,
+  .portfolio .quote .price-estimator {
+    width: 200px;
+    height: 300px;
+    position: relative;
+    display: block;
+    left: 0;
+    bottom: 235px;
+  }
+}
+
+@media (max-width: 887px) {
+  .contact .quote .price-estimator,
+  .portfolio .quote .price-estimator {
+    display: none;
+  }
 }
 
 .about-us .container-white {
@@ -360,10 +380,6 @@
     display: block;
     margin: 0 auto;
   }
-}
-
-.portfolio .container-grey {
-  padding-top: 45px;
 }
 
 .portfolio-text-banner {

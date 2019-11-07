@@ -47,7 +47,7 @@ get_header();
                         </div>
                     </section>
                 </div>
-                <div class="container-grey">
+                <div class="container-grey quote quote-contact">
                     <div class="price-estimator--container">
                         <section data-aos="zoom-in">
                             <h3 class="heading">Get a FREE Custom Quote to Suit Your Needs</h3>
