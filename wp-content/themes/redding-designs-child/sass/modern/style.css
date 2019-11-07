@@ -51,13 +51,6 @@
   margin: 0 auto;
 }
 
-@media (max-width: 1400px) {
-  .contact .container-grey .latest,
-  .portfolio .container-grey .latest {
-    transform: scale(1);
-  }
-}
-
 .contact .container-grey section,
 .portfolio .container-grey section {
   right: 14%;
