@@ -655,7 +655,8 @@ textarea:focus {
         width: 60px;
         height: 60px;
         max-width: none;
-        background: url(../assets/vintage/images/logos/rd-logo.png) no-repeat center left;
+        /* background: url(../assets/vintage/images/logos/rd-logo.png) no-repeat center left; */
+        background: transparent;
         background-size: contain;
     }
     nav ul li {

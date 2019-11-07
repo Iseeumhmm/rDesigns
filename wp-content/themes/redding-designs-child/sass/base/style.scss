@@ -2,6 +2,7 @@
 @import"../base/components/ctv-video";
 @import"../base/components/buttons";
 @import"../base/components/beard-box";
+@import"../base/components/footer";
 @import"../base/components/header";
 @import"../base/components/latest_adventure";
 @import"../base/components/menu";
@@ -11,3 +12,5 @@
 // Pages
 
 @import "../base/pages/all";
+@import "../base/pages/home";
+@import "../base/pages/seo_audit";

@@ -27,6 +27,7 @@
                 </div>
 		<footer id="colophon" class="site-footer">
 			<section>
+				<div class="footer_logo"></div>
 				<ul>
 					<li><a href="privacy-policy/" title="Privacy Policy">Privacy Policy</a></li>
 					<li>|</li>
@@ -148,16 +149,17 @@
 							break;
 					}
 				}
-				if ( $( '.home-page' ).length && !localStorage.getItem('homePageVisited') ) {
-					// modalBody.classList.add("modal-inuse");
-					const popup = document.getElementById("popup");
-					const classesToAdd = [ 'modal-backdrop', 'show' ];
-					document.getElementById("backdrop").classList.add(...classesToAdd);
-					popup.classList.add("show");
-					popup.style.display = "block";	
-					document.getElementById("top").style.overflow = "hidden";
-					localStorage.setItem('homePageVisited', 1);
-				}
+				// Home page popup first visit
+				// if ( $( '.home-page' ).length && !localStorage.getItem('homePageVisited') ) {
+				// 	console.log('visitied? ', localStorage.getItem('homePageVisited'));
+ 				// 	const popup = document.getElementById("popup");
+				// 	const classesToAdd = [ 'modal-backdrop', 'show' ];
+				// 	document.getElementById("backdrop").classList.add(...classesToAdd);
+				// 	popup.classList.add("show");
+				// 	popup.style.display = "block";	
+				// 	document.getElementById("top").style.overflow = "hidden";
+				// 	localStorage.setItem('homePageVisited', 1);
+				// }
 				$('#nav').click(function() {
 					$('#palette ul').hide();
 					$('#main-menu').slideToggle("fast");

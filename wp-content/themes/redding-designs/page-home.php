@@ -31,10 +31,11 @@ get_header();
             
             <div class="banner-home" data-aos="fade-in">
                 <section>
-                    <h1>You take care of your business . .<br>
+                    <h1>You take care of your business<br>
                     <span>. . let the Beards do the rest.</span></h1>
                     <p>We believe a great website is the heart of any company and that’s where we come in.</p>
                     <p class="btn"><a href="http://beardreview.com/priceestimator/hidden/" title="Get a Quote">Get a Quote</a></p>
+                    <p class="btn btn--free_audit"><a href="<?php echo get_site_url(); ?>/seo-audit" title="Free Audit">FREE AUDIT</a></p>
                 </section>
             </div>
             <div class="container-white home-page">
@@ -45,16 +46,6 @@ get_header();
                                 <button type="button" class="close pr-4" onClick="closeModal()">
                                     <span style="color: black;">&times;</span>
                                 </button>
-                            </div>
-                            <div id="modal-body" class="modal-body">
-                                <div class="">
-                                    <!-- Begin MySiteAuditor -->
-                                    <script src="//cdn.mysiteauditor.com/audit-tool.js" type="text/javascript"></script>
-                                    <h2>What's Your SEO Score?</h2> 
-                                    <p>Enter the URL of any landing page or blog article and see how optimized it is for one keyword or phrase..</p>     
-                                    <div id="seogroup-embed"  data-apikey="f0cd02027f152892acb5a3fbcbecb077f0bc9549" data-language="english" data-type="banner" data-hex-color="#f4f4f4" data-hex-cta-color="#2ea2db" data-hex-text="#FFFFFF" data-load-bar-color="#2ea2db" data-font="Lato"></div>
-                                    <!-- End MySiteAuditor -->
-                                </div>
                             </div>
                         </div>
                     </div>

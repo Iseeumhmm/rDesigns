@@ -52,7 +52,7 @@ get_header();
                         <section data-aos="zoom-in">
                             <h3 class="heading">Get a FREE Custom Quote to Suit Your Needs</h3>
                             <p>Use our fun and super friendly online estimator app to send us a detailed description of your website needs.</p>
-                            <p class="btn"><a href="http://beardreview.com/priceestimator/hidden/" target="_blank">get a started!</a></p>
+                            <p class="btn"><a href="http://beardreview.com/priceestimator/hidden/" target="_blank">get started!</a></p>
                         </section>
                         <div class="latest">                
                             <div class="price-estimator" data-aos="slide-right"></div>
