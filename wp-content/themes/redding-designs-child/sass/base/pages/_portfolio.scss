@@ -1,0 +1,15 @@
+.portfolio {
+    .pagination {
+        font-family: inherit;
+        color: #808080;
+        position: absolute;
+        bottom: -30px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        .page-numbers {
+            padding: 0 15px;
+            color: inherit !important;
+        }
+    }
+}

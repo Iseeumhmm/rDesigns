@@ -525,6 +525,21 @@ footer .footer_logo {
   margin-left: 15px;
 }
 
+.portfolio .pagination {
+  font-family: inherit;
+  color: #808080;
+  position: absolute;
+  bottom: -30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio .pagination .page-numbers {
+  padding: 0 15px;
+  color: inherit !important;
+}
+
 .seo_audit .seo {
   width: 85%;
   margin: 45px auto;
