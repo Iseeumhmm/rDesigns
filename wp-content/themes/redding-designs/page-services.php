@@ -78,7 +78,7 @@ get_header();
                                             }
                                         }
                                     } 
-                                    echo '<p class="btn"><a onClick="showModal(' . get_field( 'icon' ) . ')">' . get_field( 'link_button_text' ) . '</a></p>';
+                                    echo '<p class="btn"><a href="' . get_permalink() . '">' . get_field( 'link_button_text' ) . '</a></p>';
                                     echo '</div>';
                                     ?>
                             </div>

@@ -102,35 +102,35 @@
 
 			//  ********************************* Modal *********************************
 
-			function showModal(item) {
-				// Passing the id of the element via "item" passes the whole element :)
-				let modalBody = item.cloneNode(true);
-				modalBody.classList.add("modal-inuse");
-				modalButton = modalBody.children[1].lastChild.firstChild;
-				modalButton.href = "contact";
-				modalButton.removeAttribute("onClick");
-				document.getElementById("modal-body").appendChild(modalBody);
-				const popup = document.getElementById("popup");
-				const classesToAdd = [ 'modal-backdrop', 'show' ];
-				document.getElementById("backdrop").classList.add(...classesToAdd);
-				popup.classList.add("show");
-				popup.style.display = "block";	
-				document.getElementById("top").style.overflow = "hidden";
-			}
+			// function showModal(item) {
+			// 	// Passing the id of the element via "item" passes the whole element :)
+			// 	let modalBody = item.cloneNode(true);
+			// 	modalBody.classList.add("modal-inuse");
+			// 	modalButton = modalBody.children[1].lastChild.firstChild;
+			// 	modalButton.href = "contact";
+			// 	modalButton.removeAttribute("onClick");
+			// 	document.getElementById("modal-body").appendChild(modalBody);
+			// 	const popup = document.getElementById("popup");
+			// 	const classesToAdd = [ 'modal-backdrop', 'show' ];
+			// 	document.getElementById("backdrop").classList.add(...classesToAdd);
+			// 	popup.classList.add("show");
+			// 	popup.style.display = "block";	
+			// 	document.getElementById("top").style.overflow = "hidden";
+			// }
 
-			function closeModal() {
-				const popup = document.getElementById("popup");
-				const classesToRemove = [ 'modal-backdrop', 'show' ];
-				document.getElementById("backdrop").classList.remove(...classesToRemove);
-				popup.classList.remove("show");
-				popup.style.display = "none";
-				const modalBody = document.getElementById("modal-body");
-				while (modalBody.lastChild) {
-					modalBody.removeChild(modalBody.lastChild);
-				}
-				document.getElementById("top").style.overflow = "scroll";
-				// document.location.reload(true);
-			}
+			// function closeModal() {
+			// 	const popup = document.getElementById("popup");
+			// 	const classesToRemove = [ 'modal-backdrop', 'show' ];
+			// 	document.getElementById("backdrop").classList.remove(...classesToRemove);
+			// 	popup.classList.remove("show");
+			// 	popup.style.display = "none";
+			// 	const modalBody = document.getElementById("modal-body");
+			// 	while (modalBody.lastChild) {
+			// 		modalBody.removeChild(modalBody.lastChild);
+			// 	}
+			// 	document.getElementById("top").style.overflow = "scroll";
+			// 	// document.location.reload(true);
+			// }
 			$(document).ready(function() {
 				// Check to see if a style has been set and reset it for next page if necessary
 				if ( localStorage.getItem( 'currentStyle' ) ) {

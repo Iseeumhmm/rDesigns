@@ -427,6 +427,32 @@
   color: white;
 }
 
+.post-template .btn {
+  margin-top: 15px;
+  color: #808080 !important;
+  border: 1px solid #808080 !important;
+}
+
+.post-template .btn:hover {
+  border: 1px solid #1abcef !important;
+}
+
+@media (max-width: 768px) {
+  .post-template .icon-service {
+    width: 100px !important;
+    height: 100px !important;
+    float: none;
+  }
+}
+
+@media (max-width: 469px) {
+  .post-template .icon-service {
+    margin: auto;
+    width: 100px !important;
+    height: 100px !important;
+  }
+}
+
 .services .btn {
   color: #808080 !important;
   border: 1px solid #808080 !important;
