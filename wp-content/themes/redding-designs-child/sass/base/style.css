@@ -57,7 +57,9 @@
   }
 }
 
-.about-us .container-grey {
+.about-us .container-grey--video,
+.portfolio .container-grey--video {
+  padding: 90px 0;
   min-height: auto;
   display: flex;
   justify-content: center;
@@ -65,11 +67,13 @@
   background: #f9f9f9;
 }
 
-.about-us .container-grey .container-fluid {
+.about-us .container-grey--video .container-fluid,
+.portfolio .container-grey--video .container-fluid {
   width: 85%;
 }
 
-.about-us .container-grey .video_container--outer {
+.about-us .container-grey--video .video_container--outer,
+.portfolio .container-grey--video .video_container--outer {
   position: static;
   clear: both;
   width: 80%;
@@ -77,27 +81,31 @@
 }
 
 @media (max-width: 1199px) {
-  .about-us .container-grey .video_container--outer {
+  .about-us .container-grey--video .video_container--outer,
+  .portfolio .container-grey--video .video_container--outer {
     width: 100%;
     height: 55.25%;
   }
 }
 
 @media (max-width: 1065px) {
-  .about-us .container-grey .video_container--outer {
+  .about-us .container-grey--video .video_container--outer,
+  .portfolio .container-grey--video .video_container--outer {
     width: 100%;
     height: 55.25%;
     padding-top: 45px;
   }
 }
 
-.about-us .container-grey .video_container--inner {
+.about-us .container-grey--video .video_container--inner,
+.portfolio .container-grey--video .video_container--inner {
   position: relative;
   overflow: hidden;
   padding-top: 55.25%;
 }
 
-.about-us .container-grey .video_container--inner #vidimg {
+.about-us .container-grey--video .video_container--inner #vidimg,
+.portfolio .container-grey--video .video_container--inner #vidimg {
   position: absolute;
   width: 100%;
   background-size: cover;
@@ -110,7 +118,8 @@
   z-index: 2;
 }
 
-.about-us .container-grey .video_container--inner #unlocked-video {
+.about-us .container-grey--video .video_container--inner #unlocked-video,
+.portfolio .container-grey--video .video_container--inner #unlocked-video {
   position: absolute;
   top: 0;
   left: 0;
@@ -120,42 +129,49 @@
 }
 
 @media (max-width: 1065px) {
-  .about-us .container-grey {
+  .about-us .container-grey--video,
+  .portfolio .container-grey--video {
     min-height: auto;
     margin: 0;
-    padding: 15px 15px 116px;
+    padding: 15px 15px 45px;
     background: linear-gradient(to bottom, #eee 0%, #eee 100%);
   }
 }
 
 @media (max-width: 1400px) {
-  .about-us .container-grey .latest {
+  .about-us .container-grey--video .latest,
+  .portfolio .container-grey--video .latest {
     transform: scale(1);
   }
 }
 
-.about-us .container-grey section {
+.about-us .container-grey--video section,
+.portfolio .container-grey--video section {
   position: relative;
   right: 0;
   top: 0;
   width: 100%;
 }
 
-.about-us .container-grey section span {
+.about-us .container-grey--video section span,
+.portfolio .container-grey--video section span {
   color: #29abe2;
   font-weight: 700;
 }
 
-.about-us .container-grey section h3 {
+.about-us .container-grey--video section h3,
+.portfolio .container-grey--video section h3 {
   font-size: 36px;
 }
 
-.about-us .container-grey section p {
+.about-us .container-grey--video section p,
+.portfolio .container-grey--video section p {
   padding-top: 5px;
 }
 
 @media (max-width: 1199px) {
-  .about-us .container-grey section {
+  .about-us .container-grey--video section,
+  .portfolio .container-grey--video section {
     padding-top: 45px;
   }
 }
@@ -512,6 +528,23 @@ footer .footer_logo {
 .sub-banner h1 {
   color: white !important;
   margin: 0 !important;
+}
+
+.about-us .cell-service {
+  padding: 0;
+  border-radius: 15px;
+}
+
+.about-us .card-image-top {
+  padding-top: 70%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.about-us h2 {
+  font-size: 24px;
 }
 
 @media (max-width: 768px) {

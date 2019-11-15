@@ -11,7 +11,11 @@
 
 // Pages
 
-@import "../base/pages/all";
-@import "../base/pages/home";
-@import "../base/pages/portfolio";
-@import "../base/pages/seo_audit";
+  // About
+    @import"../base/pages/about/card";
+    
+  // General
+    @import "../base/pages/all";
+    @import "../base/pages/home";
+    @import "../base/pages/portfolio";
+    @import "../base/pages/seo_audit";

@@ -20,7 +20,7 @@
 .card-body p:first-of-type {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 18px;
   color: #29abe2;
 }
 
@@ -176,19 +176,6 @@
   padding: 100px 0 45px;
 }
 
-.about-us .card-image-top {
-  height: 250px;
-  width: 250px;
-  margin: 25px auto;
-  border-radius: 150px;
-  background-size: cover;
-  background-position: center center;
-}
-
-.about-us h2 {
-  font-size: 24px;
-}
-
 .about-us p {
   color: #808080;
   opacity: 1 !important;
@@ -205,10 +192,10 @@
 }
 
 .contact .menu-icon--container {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border-radius: 100px;
-  background-color: #eee;
+  border: 2px solid #eee;
   display: flex;
   align-items: center;
   justify-content: center;
