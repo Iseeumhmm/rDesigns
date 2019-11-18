@@ -145,8 +145,21 @@ get_header();
                     <div class="phone" data-aos="slide-right"></div>
                 </div>
             </div>
-            
-            <div class="container-feed">
+            <div class="container-white digital_marketing">
+                <div class="row">
+                    <section class="col-lg-6 digital_marketing-text" data-aos="zoom-in">
+                        <h3 class="heading">Digital Marketing</h3>
+                        <p><strong>A website by itself just isn't enough...these days.</strong></p>
+                        <p>A short descripton of our digital marketing services will go here.</p>
+                        <p class="btn"><a href="<?php echo get_site_url(); ?>/contact" target="_blank">Get Started Today</a></p>
+                    </section>
+                    <section class="col-lg-6 digital_marketing-laptop--container" data-aos="zoom-in">
+                        <div class="digital_marketing-laptop" style="background-image: url('<?php echo get_stylesheet_directory_uri() ?>/assets/modern/images/thumbs/digitalMarketing-laptop.png');">
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="container-feed container-feed--home">
                 <section data-aos="fade-in">
                     <h4 class="heading white">Join us on Facebook</h4>
                     

@@ -558,6 +558,122 @@ footer .footer_logo {
   margin-left: 15px;
 }
 
+.digital_marketing {
+  width: 85%;
+  margin: auto;
+  margin-top: -50px;
+  background: transparent !important;
+}
+
+@media (max-width: 767px) {
+  .digital_marketing {
+    width: 95%;
+    margin-top: 100px;
+  }
+}
+
+.digital_marketing .heading {
+  font-size: 3.1vw;
+}
+
+@media (max-width: 767px) {
+  .digital_marketing .heading {
+    font-size: 36px;
+  }
+}
+
+.digital_marketing strong {
+  font-family: 'Montserrat', sans-serif;
+  color: #29abe2;
+  font-size: 24px;
+}
+
+.digital_marketing .btn {
+  color: #29abe2;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.digital_marketing-text {
+  padding-top: 55px;
+}
+
+@media (max-width: 1525px) {
+  .digital_marketing-text {
+    padding-top: 0;
+  }
+}
+
+.digital_marketing-laptop {
+  margin: -50px 0 0 -160px;
+  width: 900px;
+  height: 475px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 1525px) {
+  .digital_marketing-laptop--container {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .digital_marketing-laptop--container {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1525px) {
+  .digital_marketing-laptop {
+    background-position: right;
+    width: 100%;
+    height: unset;
+    padding-top: 50%;
+    margin: -50px 0 0 0px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .digital_marketing-laptop {
+    width: 475px;
+    height: 250px;
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .digital_marketing-laptop {
+    margin: 0;
+    background-position: center;
+  }
+}
+
+.container-feed--home {
+  margin-top: -140px;
+  z-index: -1;
+}
+
+@media (max-width: 1525px) {
+  .container-feed--home {
+    margin-top: -75px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container-feed--home {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .fb-page {
+    top: 70px;
+  }
+}
+
 .portfolio .pagination {
   font-family: inherit;
   color: #808080;
