@@ -109,7 +109,7 @@
 				
 					<button id="nav" data-aos="slide-left">Menu</button>
 
-					<div id="palette" class="palette">
+					<div id="palette" class="palette" style="display: none;">
 
 						<ul>
 							<li><a onclick="modern();" title="Modern">Modern Look<br>
