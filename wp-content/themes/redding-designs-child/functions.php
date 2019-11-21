@@ -228,200 +228,200 @@ function bulletPoints( $point ) {
     switch ( $point ) {
         case "webDevelopment":
             $icon = array(
-                label   => "Web Design & Development",
-                html    => '<div class="menu-icon webDevelopment"></div>'
+                "label"   => "Web Design & Development",
+                "html"    => '<div class="menu-icon webDevelopment"></div>'
             );
             break;
         case "webDevelopmentLarge":
             $icon = array(
-                label   => "Web Design & Development",
-                html    => '<div class="icon-service web-design-development"></div>'
+                "label"   => "Web Design & Development",
+                "html"    => '<div class="icon-service web-design-development"></div>'
             );
             break;
         case "digitalMarketing":
             $icon = array(
-                label   => "Digital Marketing",
-                html    => '<div class="icon-service digital-marketing"></div>'
+                "label"   => "Digital Marketing",
+                "html"    => '<div class="icon-service digital-marketing"></div>'
             );
             break;
         case "internetServices":
             $icon = array(
-                label   => "Internet Services",
-                html    => '<div class="icon-service internet-services"></div>'
+                "label"   => "Internet Services",
+                "html"    => '<div class="icon-service internet-services"></div>'
             );
             break;
         case "logoDesign":
             $icon = array(
-                label   => "Logo Design & Branding",
-                html    => '<div class="icon-service logo-branding"></div>'
+                "label"   => "Logo Design & Branding",
+                "html"    => '<div class="icon-service logo-branding"></div>'
             );
             break;
         case "printMedia":
             $icon = array(
-                label   => "Print Media Design",
-                html    => '<div class="icon-service print-media-design"></div>'
+                "label"   => "Print Media Design",
+                "html"    => '<div class="icon-service print-media-design"></div>'
             );
             break;
         case "photographyVideography":
             $icon = array(
-                label   => "Photography & Videography",
-                html    => '<div class="icon-service photography-videography"></div>'
+                "label"   => "Photography & Videography",
+                "html"    => '<div class="icon-service photography-videography"></div>'
             );
             break;
         case "customWordpress":
             $icon = array(
-                label   => "Custom Wordpress Design",
-                html    => '<div class="menu-icon customWordpress"></div>'
+                "label"   => "Custom Wordpress Design",
+                "html"    => '<div class="menu-icon customWordpress"></div>'
             );
             break;
         case "eCommerce":
             $icon = array(
-                label   => "E-Commerce Solutions",
-                html    => '<div class="menu-icon eCommerce"></div>'
+                "label"   => "E-Commerce Solutions",
+                "html"    => '<div class="menu-icon eCommerce"></div>'
             );
             break;
         case "cms":
             $icon = array(
-                label   => "CMS",
-                html    => '<div class="menu-icon cms"></div>'
+                "label"   => "CMS",
+                "html"    => '<div class="menu-icon cms"></div>'
             );
             break;
         case "googleStuff":
             $icon = array(
-                label   => "Google Stuff",
-                html    => '<div class="menu-icon googleStuff"></div>'
+                "label"   => "Google Stuff",
+                "html"    => '<div class="menu-icon googleStuff"></div>'
             );
             break;
         case "contentWriting":
             $icon = array(
-                label   => "Content Writing",
-                html    => '<div class="menu-icon contentWriting"></div>'
+                "label"   => "Content Writing",
+                "html"    => '<div class="menu-icon contentWriting"></div>'
             );
             break;
         case "socialMedia":
             $icon = array(
-                label   => "Social Media Management",
-                html    => '<div class="menu-icon socialMedia"></div>'
+                "label"   => "Social Media Management",
+                "html"    => '<div class="menu-icon socialMedia"></div>'
             );
             break;
         case "businessCards":
             $icon = array(
-                label   => "Business Cards & Letterheads",
-                html    => '<div class="menu-icon businessCards"></div>'
+                "label"   => "Business Cards & Letterheads",
+                "html"    => '<div class="menu-icon businessCards"></div>'
             );
             break;
         case "flyersBrochures":
             $icon = array(
-                label   => "Flyers & Brochures",
-                html    => '<div class="menu-icon flyersBrochures"></div>'
+                "label"   => "Flyers & Brochures",
+                "html"    => '<div class="menu-icon flyersBrochures"></div>'
             );
             break;
         case "cataloguesMenus":
             $icon = array(
-                label   => "Catalogues & Menus",
-                html    => '<div class="menu-icon cataloguesMenus"></div>'
+                "label"   => "Catalogues & Menus",
+                "html"    => '<div class="menu-icon cataloguesMenus"></div>'
             );
             break;
         case "signage":
             $icon = array(
-                label   => "Signage",
-                html    => '<div class="menu-icon signage"></div>'
+                "label"   => "Signage",
+                "html"    => '<div class="menu-icon signage"></div>'
             );
             break;
         case "identity":
             $icon = array(
-                label   => "New Identity",
-                html    => '<div class="menu-icon identity"></div>'
+                "label"   => "New Identity",
+                "html"    => '<div class="menu-icon identity"></div>'
             );
             break;
         case "consistantDesign":
             $icon = array(
-                label   => "Consistant Design",
-                html    => '<div class="menu-icon consistantDesign"></div>'
+                "label"   => "Consistant Design",
+                "html"    => '<div class="menu-icon consistantDesign"></div>'
             );
             break;
         case "readyForPrint":
             $icon = array(
-                label   => "Ready for Print",
-                html    => '<div class="menu-icon readyForPrint"></div>'
+                "label"   => "Ready for Print",
+                "html"    => '<div class="menu-icon readyForPrint"></div>'
             );
             break;
         case "readyForWeb":
             $icon = array(
-                label   => "Ready for Web",
-                html    => '<div class="menu-icon readyForWeb"></div>'
+                "label"   => "Ready for Web",
+                "html"    => '<div class="menu-icon readyForWeb"></div>'
             );
             break;
         case "domainRegistration":
             $icon = array(
-                label   => "Domain Search & Registration",
-                html    => '<div class="menu-icon domainRegistration"></div>'
+                "label"   => "Domain Search & Registration",
+                "html"    => '<div class="menu-icon domainRegistration"></div>'
             );
             break;
         case "webHosting":
             $icon = array(
-                label   => "Web Hosting",
-                html    => '<div class="menu-icon webHosting"></div>'
+                "label"   => "Web Hosting",
+                "html"    => '<div class="menu-icon webHosting"></div>'
             );
             break;
         case "emailHosting":
             $icon = array(
-                label   => "Email Hosting",
-                html    => '<div class="menu-icon emailHosting"></div>'
+                "label"   => "Email Hosting",
+                "html"    => '<div class="menu-icon emailHosting"></div>'
             );
             break;
         case "invoicingAdministration":
             $icon = array(
-                label   => "InvoicingAdministration",
-                html    => '<div class="menu-icon invoicingAdministration"></div>'
+                "label"   => "InvoicingAdministration",
+                "html"    => '<div class="menu-icon invoicingAdministration"></div>'
             );
             break;
         case "sharedVps":
             $icon = array(
-                label   => "Shared & VPS Servers",
-                html    => '<div class="menu-icon sharedVps"></div>'
+                "label"   => "Shared & VPS Servers",
+                "html"    => '<div class="menu-icon sharedVps"></div>'
             );
             break;
         case "hours":
             $icon = array(
-                label   => "Hours",
-                html    => '<div class="menu-icon hours"></div>'
+                "label"   => "Hours",
+                "html"    => '<div class="menu-icon hours"></div>'
             );
             break;
         case "interiorExteriorPhotography":
             $icon = array(
-                label   => "Interior / Exterior Photography",
-                html    => '<div class="menu-icon interiorExteriorPhotography"></div>'
+                "label"   => "Interior / Exterior Photography",
+                "html"    => '<div class="menu-icon interiorExteriorPhotography"></div>'
             );
             break;
         case "location":
             $icon = array(
-                label   => "Location",
-                html    => '<div class="menu-icon location"></div>'
+                "label"   => "Location",
+                "html"    => '<div class="menu-icon location"></div>'
             );
             break;
         case "photo":
             $icon = array(
-                label   => "Photos",
-                html    => '<div class="menu-icon photo"></div>'
+                "label"   => "Photos",
+                "html"    => '<div class="menu-icon photo"></div>'
             );
             break;
         case "productPhotography":
             $icon = array(
-                label   => "Product Photography",
-                html    => '<div class="menu-icon productPhotography"></div>'
+                "label"   => "Product Photography",
+                "html"    => '<div class="menu-icon productPhotography"></div>'
             );
             break;
         case "talkingHeads":
             $icon = array(
-                label   => "Talking Head Videos",
-                html    => '<div class="menu-icon talkingHeads"></div>'
+                "label"   => "Talking Head Videos",
+                "html"    => '<div class="menu-icon talkingHeads"></div>'
             );
             break;
         case "drone":
             $icon = array(
-                label   => "Drone Footage",
-                html    => '<div class="menu-icon drone"></div>'
+                "label"   => "Drone Footage",
+                "html"    => '<div class="menu-icon drone"></div>'
             );
             break;
     }
