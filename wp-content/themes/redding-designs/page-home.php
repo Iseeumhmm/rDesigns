@@ -35,7 +35,7 @@ get_header();
                     <span>. . let the Beards do the rest.</span></h1>
                     <p>We believe a great website is the heart of any company and that’s where we come in.</p>
                     <p class="btn"><a href="http://beardreview.com/priceestimator/hidden/" title="Get a Quote">Get a Quote</a></p>
-                    <p class="btn btn--free_audit"><a href="<?php echo get_site_url(); ?>/seo-audit" title="Free Audit">FREE AUDIT</a></p>
+                    <!-- <a class="btn btn--free_audit"><a href="<?php echo get_site_url(); ?>/seo-audit" title="Free Audit">FREE AUDIT</a></p> -->
                 </section>
             </div>
             <div class="container-white home-page">
