@@ -134,7 +134,7 @@ get_header();
                     
                     <p><?php the_field( "description" ); ?></p>
                     
-                    <p class="btn"><a href="<?php the_field( "website" ); ?>" title="<?php the_field( "client_name" ); ?>" target="_blank">View Case Study</a></p>
+                    <p class="btn"><a href="<?php the_field( "portfolio_permalink" ); ?>" title="<?php the_field( "portfolio_permalink" ); ?>" target="_blank">View Case Study</a></p>
                 </section>
                 
                 <div class="latest">                
