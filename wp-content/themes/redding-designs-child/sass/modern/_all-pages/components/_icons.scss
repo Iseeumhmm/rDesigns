@@ -5,3 +5,22 @@
         }
     }
 }
+.portfolio {
+    .container-grey {
+        .menu-icon, .icon-service{
+            display: inline-block;
+            border: none;
+            border-radius: 0;
+            width: 35px;
+            height: 35px;
+            margin: 0;
+            margin-right: 10px;
+        }
+    }
+}
+.menu-icon {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    background-size: contain !important;
+}

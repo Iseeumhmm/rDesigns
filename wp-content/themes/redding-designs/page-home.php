@@ -31,8 +31,7 @@ get_header();
             
             <div class="banner-home" data-aos="fade-in">
                 <section>
-                    <h1>You take care of your business<br>
-                    <span>. . let the Beards do the rest.</span></h1>
+                    <h1>You take care of your business.  Let the Beards do the rest.</span></h1>
                     <p>We believe a great website is the heart of any company and that’s where we come in.</p>
                     <p class="btn"><a href="http://beardreview.com/priceestimator/hidden/" title="Get a Quote">Get a Quote</a></p>
                     <!-- <a class="btn btn--free_audit"><a href="<?php echo get_site_url(); ?>/seo-audit" title="Free Audit">FREE AUDIT</a></p> -->
@@ -113,8 +112,8 @@ get_header();
                         </div>
 
                         <div class="cell-service" data-aos="zoom-in">
-                            <a href="services/#beard-support" title="Custom Photography/Videography">
-                                <div class="icon-service beard-support"></div>
+                            <a href="services/#photographyVideography" title="Custom Photography/Videography">
+                                <div class="icon-service photography-videography"></div>
 
                                 <h2>Photography & Videography</h2>
 
@@ -129,13 +128,13 @@ get_header();
             
             <div class="container-grey">
                 <section data-aos="zoom-in">
-                    <h3 class="heading">Our Latest Adventure</h3>
+                    <h3 class="heading">Featured Adventure</h3>
                     
                     <p><strong><?php the_field( "client_name" ); ?></strong></p>
                     
                     <p><?php the_field( "description" ); ?></p>
                     
-                    <p class="btn"><a href="<?php the_field( "website" ); ?>" title="<?php the_field( "client_name" ); ?>" target="_blank">Visit Website</a></p>
+                    <p class="btn"><a href="<?php the_field( "website" ); ?>" title="<?php the_field( "client_name" ); ?>" target="_blank">View Case Study</a></p>
                 </section>
                 
                 <div class="latest">                
@@ -220,6 +219,18 @@ get_header();
                     </div>
                 </section>
             </div> 
+            <div class="container-grey quote quote-contact">
+                    <div class="price-estimator--container">
+                        <section data-aos="zoom-in">
+                            <h3 class="heading">Get a FREE Custom Quote to Suit Your Needs</h3>
+                            <p>Use our fun and super friendly online estimator app to send us a detailed description of your website needs.</p>
+                            <p class="btn"><a href="http://beardreview.com/priceestimator/hidden/" target="_blank">get started!</a></p>
+                        </section>
+                        <div class="latest">                
+                            <div class="price-estimator" data-aos="slide-right"></div>
+                        </div>
+                    </div>
+                </div>
 		</main><!-- #main -->
     </div><!-- #primary -->
     <?php 

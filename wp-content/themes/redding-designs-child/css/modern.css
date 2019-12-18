@@ -117,6 +117,10 @@ hr {
     display: inline-block;
     margin: 20px auto;
 }
+.services .icon-service, .home .icon-service {
+    padding: 25px;
+    background-origin: content-box;
+}
 
 .web-design-development {
 	background: url(../assets/modern/images/icons/web-design-development.png) no-repeat center center;
@@ -143,7 +147,7 @@ hr {
     background-size: 90%;
 }
 .photography-videography {
-	background: url(../assets/modern/images/icons/new/photography-videography.png) no-repeat center center;
+	background: url(../assets/modern/images/icons/photography-videography.png) no-repeat center center;
     background-size: 70%;
 }
 
@@ -518,10 +522,10 @@ nav ul .palette {
     background: url(../assets/modern/images/icons/branding.png) no-repeat center center;
 }
 .consistantDesign {
-    background: url(../assets/modern/images/icons/new/digital-marketing.png) no-repeat center center;
+    background: url(../assets/modern/images/icons/digital-marketing.png) no-repeat center center;
 }
 .readyForPrint {
-    background: url(../assets/modern/images/icons/new/print-media-design.png) no-repeat center center;
+    background: url(../assets/modern/images/icons/print-media-design.png) no-repeat center center;
 }
 .readyForWeb {
     background: url(../assets/modern/images/icons/monitor.png) no-repeat center center;
@@ -530,34 +534,34 @@ nav ul .palette {
     background: url(../assets/modern/images/icons/internet-services.png) no-repeat center center;
 }
 .webHosting {
-    background: url(../assets/modern/images/icons/new/internet-services.png) no-repeat center center;
+    background: url(../assets/modern/images/icons/internet-services.png) no-repeat center center;
 }
 .emailHosting {
     background: url(../assets/modern/images/icons/email-hosting.png) no-repeat center center;
 }
 .hours {
-    background: url(../assets/modern/images/icons/new/hours.png) no-repeat center center;
+    background: url(../assets/modern/images/icons/hours.png) no-repeat center center;
 }
 .invoicingAdministration {
-    background: url(../assets/modern/images/icons/new/administration.png) no-repeat center center;
+    background: url(../assets/modern/images/icons/administration.png) no-repeat center center;
 }
 .location {
-    background: url(../assets/modern/images/icons/new/locations.png) no-repeat center center;
+    background: url(../assets/modern/images/icons/locations.png) no-repeat center center;
 }
 .sharedVps {
     background: url(../assets/modern/images/icons/server.png) no-repeat center center;
 }
 .interiorExteriorPhotography {
-    background: url(../assets/modern/images/icons/new/home.png) no-repeat center center;
+    background: url(../assets/modern/images/icons/home.png) no-repeat center center;
 }
 .productPhotography {
-    background: url(../assets/modern/images/icons/new/photography-videography.png) no-repeat center center;
+    background: url(../assets/modern/images/icons/photography-videography.png) no-repeat center center;
 }
 .photo {
     background: url(../assets/modern/images/icons/photo.png) no-repeat center center;
 }
 .talkingHeads {
-    background: url(../assets/modern/images/icons/new/sales.png) no-repeat center center;
+    background: url(../assets/modern/images/icons/sales.png) no-repeat center center;
 }
 .drone {
     background: url(../assets/modern/images/icons/drone.png) no-repeat center center;

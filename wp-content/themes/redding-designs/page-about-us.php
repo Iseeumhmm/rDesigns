@@ -76,6 +76,9 @@ get_header();
                                         <div class="card-body">
                                             <h2><?php the_title(); ?></h2>
                                             <p><?php the_field('title');?></p>
+                                            <?php if( get_field('phone_number') ): ?>
+                                                <p class="team-phone_number">Phone: <?php the_field('phone_number'); ?></p>
+                                            <?php endif; ?>
                                             <p><?php echo get_field( 'bio' ); ?></p>
                                         </div>
                                     </div>
