@@ -66,6 +66,82 @@
   }
 }
 
+.case-study h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #29abe2;
+}
+
+.case-study .beard-container-text {
+  align-items: flex-start !important;
+  padding-top: 17px;
+}
+
+.case-study .beard-container-text--subheading {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.case-study .beard-container-text--subheading:last-child {
+  padding-top: 30px;
+}
+
+.case-study .beard-container {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.case-study .beard-container:last-child {
+  padding-top: 0;
+}
+
+.case-study .beard-container.single_column {
+  padding-top: 30px;
+  height: auto;
+}
+
+.case-study .beard-container.single_column .beard_logo-container {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.case-study .beard-container.two_column {
+  height: 80vh;
+}
+
+@media (max-width: 991px) {
+  .case-study .beard-container.two_column {
+    height: auto;
+  }
+}
+
+.case-study .single-column-image {
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+.case-study .two-column-image {
+  height: 70vh;
+  width: 90%;
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (max-width: 991px) {
+  .case-study .two-column-image {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .case-study h1 {
+    font-size: 36px;
+  }
+}
+
 .about-us .container-grey--video,
 .portfolio .container-grey--video {
   padding: 90px 0;
@@ -185,34 +261,39 @@
   }
 }
 
-.about-us .beard-container {
+.about-us .beard-container,
+.case-study .beard-container {
   height: 60vh;
   display: flex;
   justify-content: center;
 }
 
 @media (max-width: 992px) {
-  .about-us .beard-container {
+  .about-us .beard-container,
+  .case-study .beard-container {
     height: auto;
     padding: 75px 0;
   }
 }
 
-.about-us .beard-container .row {
+.about-us .beard-container .row,
+.case-study .beard-container .row {
   height: 100%;
   width: 85%;
   max-width: 1400px;
 }
 
 @media (max-width: 767px) {
-  .about-us .beard-container .row {
+  .about-us .beard-container .row,
+  .case-study .beard-container .row {
     width: 100%;
     padding-left: 15px !important;
     padding-right: 15px !important;
   }
 }
 
-.about-us .beard-container-text {
+.about-us .beard-container-text,
+.case-study .beard-container-text {
   width: 100%;
   height: 100%;
   display: flex;
@@ -220,36 +301,43 @@
   justify-content: flex-start;
 }
 
-.about-us .beard-container section {
+.about-us .beard-container section,
+.case-study .beard-container section {
   width: 100%;
 }
 
 @media (max-width: 1200px) {
-  .about-us .beard-container section {
+  .about-us .beard-container section,
+  .case-study .beard-container section {
     padding-left: 10%;
   }
 }
 
 @media (max-width: 991px) {
-  .about-us .beard-container section {
+  .about-us .beard-container section,
+  .case-study .beard-container section {
     padding-left: 0;
   }
 
-  .about-us .beard-container section h3 {
+  .about-us .beard-container section h3,
+  .case-study .beard-container section h3 {
     text-align: center;
     padding-top: 45px;
   }
 }
 
-.about-us .beard-container section h3 {
+.about-us .beard-container section h3,
+.case-study .beard-container section h3 {
   font-size: 48px;
 }
 
-.about-us .beard-container section p {
+.about-us .beard-container section p,
+.case-study .beard-container section p {
   font-weight: 100;
 }
 
-.about-us .beard-container .beard_logo {
+.about-us .beard-container .beard_logo,
+.case-study .beard-container .beard_logo {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -257,7 +345,8 @@
   padding-top: 300px;
 }
 
-.about-us .beard-container .beard_logo-container {
+.about-us .beard-container .beard_logo-container,
+.case-study .beard-container .beard_logo-container {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -266,13 +355,15 @@
 }
 
 @media (max-width: 1200px) {
-  .about-us .beard-container .beard_logo-container {
+  .about-us .beard-container .beard_logo-container,
+  .case-study .beard-container .beard_logo-container {
     justify-content: center;
   }
 }
 
 @media (max-width: 352px) {
-  .about-us .beard-container .beard_logo {
+  .about-us .beard-container .beard_logo,
+  .case-study .beard-container .beard_logo {
     width: 250px;
     padding-top: 250px;
   }

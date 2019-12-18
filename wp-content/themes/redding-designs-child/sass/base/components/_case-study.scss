@@ -1,0 +1,64 @@
+
+
+.case-study {
+    h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: #29abe2;
+    }
+    .beard {
+        &-container-text {
+            align-items: flex-start !important;
+            padding-top: 17px;
+            &--subheading {
+                width: 100%;
+                margin: 0 auto;
+            }
+            &--subheading:last-child {
+                padding-top: 30px;
+            }
+        }
+        &-container {
+            padding-top: 45px;
+            padding-bottom: 45px;
+            &:last-child {
+                padding-top: 0;
+            }
+            &.single_column {
+                padding-top: 30px;
+                height: auto;
+                .beard_logo-container {
+                    justify-content: center;
+                    align-items: flex-start;
+                }
+            }
+            &.two_column {
+                height: 80vh;
+                @media( max-width: 991px ) {
+                    height: auto;
+                }
+            }
+        }
+    }
+    .single-column-image {
+        height: 500px;
+        width: 100%;
+        background-size: cover;
+        background-position: center center;
+    }
+    .two-column-image {
+        height: 70vh;
+        width: 90%;
+        background-size: cover;
+        background-position: center center;
+        @media( max-width: 991px ) {
+            width: 100%;
+        }
+    }
+    @media( max-width: 991px ) {
+        h1 {
+            font-size: 36px;
+        }
+    }
+}

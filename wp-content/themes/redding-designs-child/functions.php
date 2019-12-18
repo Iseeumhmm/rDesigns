@@ -4,7 +4,6 @@ function my_theme_enqueue_styles() {
     wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
  
 }
-
 /**
  * CUSTOM CONTACTS POST TYPE
  */
@@ -126,7 +125,8 @@ function portfolio_init() {
         'menu_icon' => 'dashicons-portfolio',
         'supports' => array(
 			'title',
-            'custom-fields'
+            'custom-fields',
+            'thumbnail'
         )
 	);
     register_post_type( 'portfolio', $args );

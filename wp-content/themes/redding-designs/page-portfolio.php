@@ -110,7 +110,8 @@ get_header();
                                                 }
                                             }
                                         } 
-                                        echo '<p class="btn"><a href="' . get_field( 'website' ) . '">visit website</a></p>';
+                                        // echo '<p class="btn"><a href="' . get_field( 'website' ) . '">visit website</a></p>';
+                                        echo '<p class="btn"><a href="' . get_post_permalink() . '">visit website</a></p>';
                                         echo '</div>';
                                     ?>
                             </div>
