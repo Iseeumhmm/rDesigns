@@ -116,6 +116,10 @@
   }
 }
 
+.case-study .beard-container.two_column-top {
+  padding: 45px;
+}
+
 .case-study .single-column-image {
   height: 500px;
   width: 100%;

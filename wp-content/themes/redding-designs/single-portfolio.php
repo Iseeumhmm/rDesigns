@@ -42,8 +42,13 @@ get_header();
                     </div>
                 <?php endif; ?>
                 <?php if( $layout == "Double Column" || $layout == "Both" ): ?>
-                <!-- ***************** Double Column ***************** -->
+                    <!-- ***************** Double Column ***************** -->
+                    <?php if( $layout == "Double Column" ): ?>
+                    <!-- This if statement adds padding to the double column when displayed by itself -->
+                    <div class="beard-container two_column-top two_column container-fluid">
+                    <?php else: ?>
                     <div class="beard-container two_column container-fluid">
+                    <?php endif; ?>
                         <div class="row">
                             <div class="col-lg-6 beard_logo-container" data-aos="slide-right">         
                                 <div class="two-column-image" style="background-image: url('<?php the_field( 'two_column_image' )?>')" title="Portfilio Image"></div>
