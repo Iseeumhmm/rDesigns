@@ -608,7 +608,7 @@ footer .footer_logo {
 }
 
 .embedded_map iframe {
-  margin: 15px 0;
+  margin: 5px 0 15px;
   max-width: calc(100% + 40px + 2.5rem);
   height: 150px;
   position: relative;
