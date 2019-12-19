@@ -767,6 +767,12 @@ footer .footer_logo {
   margin: 0 !important;
 }
 
+@media (max-width: 1024px) {
+  .sub-banner h1 {
+    font-size: 36px;
+  }
+}
+
 .contact .quote,
 .portfolio .quote,
 .home .quote,

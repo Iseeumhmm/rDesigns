@@ -14,5 +14,8 @@
     & h1 {
         color: white !important;
         margin: 0 !important;
+        @media (max-width: 1024px) {
+            font-size: 36px;
+        }
     }
 }
