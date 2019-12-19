@@ -7,16 +7,28 @@
         font-size: 18px;
         color: #29abe2;
     }
+    .arrow_container {
+        width: 85%;
+        margin: 0 auto;
+        padding-top: 45px;
+    }
     .beard {
         &-container-text {
             align-items: flex-start !important;
             padding-top: 17px;
             &--subheading {
+                padding-bottom: 15px;
                 width: 100%;
                 margin: 0 auto;
+                &.first_body {
+                    padding-top: 30px !important;
+                }
             }
             &--subheading:last-child {
                 padding-top: 30px;
+            }
+            &--subheading:first-child {
+                padding-top: 0;
             }
         }
         &-container {
@@ -26,7 +38,7 @@
                 padding-top: 0;
             }
             &.single_column {
-                padding-top: 30px;
+                padding-top: 45px;
                 height: auto;
                 .beard_logo-container {
                     justify-content: center;
@@ -35,11 +47,14 @@
             }
             &.two_column {
                 height: 80vh;
+                .heading {
+                    padding-bottom: 10px;
+                }
                 @media( max-width: 991px ) {
                     height: auto;
                 }
                 &-top {
-                    padding: 45px;
+                    padding: 60px;
                 }
             }
         }

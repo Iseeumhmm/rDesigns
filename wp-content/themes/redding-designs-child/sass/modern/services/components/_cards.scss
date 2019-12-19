@@ -1,6 +1,13 @@
 .services {
     .container-white--services {
         padding-top: 0;
+        .cell-service:hover {
+            .btn {
+                background-color: #29abe2;
+                color: white !important;
+                border: 1px solid #29abe2 !important;
+            }
+        }
     }
     .cell-service {
         p:last-child {

@@ -13,31 +13,32 @@
     .menu-icon, .icon-service {
         border-radius: 0 !important;
         border: none;
-        background-size: contain;
-        width: 50px;
-        height: 50px;
+        background-size: cover;
+        height: 90%;
+        width: 90%;
+        padding: 25px;
+        background-origin: content-box;
         border-radius: 150px;
         display: inline-block;
         margin: 20px auto;
     }
 
-    .cell-service:hover {
-        .icon-service, .menu-icon {
-            width: 100px;
-            height: 100px;
-        }
-    } 
-
+    .cell-service p:last-child { 
+        font-weight: normal;
+    }
     .cell-service:hover .icon-service, .cell-service:focus .icon-service {
         border: none;
     }
     .card-body {
         h2 {
             padding-top: 15px;
-            font-size: 24px;
+            font-size: 36px;
         }
         p {
             span {
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 700;
+                font-size: 18px;
                 color: #29abe2;
             }
             font-family: 'Open Sans', sans-serif !important;

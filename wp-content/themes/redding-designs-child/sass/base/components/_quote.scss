@@ -1,7 +1,8 @@
-.contact, .portfolio, .home {
+.contact, .portfolio, .home, .services {
     .quote {
         padding-top: 45px;
         min-height: 677px;
+        background: #fff;
         @media( max-width: 1065px ) {
             min-height: auto;
             height: 307px;
@@ -77,5 +78,10 @@
                 display: none;
             }
         }
+    }
+}
+.services {
+    .container-white {
+        padding-bottom: 0;
     }
 }

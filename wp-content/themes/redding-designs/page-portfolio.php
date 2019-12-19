@@ -80,7 +80,7 @@ get_header();
                     </div>
                 </div>
                 
-                <div class="container-white container-white--services">
+                <div id="profile_cards" class="container-white container-white--services">
                     <section>
                         <div class="flex">
                         <?php
@@ -93,7 +93,8 @@ get_header();
                             $loop = new WP_Query( $args );
                             while ( $loop->have_posts() ) : $loop->the_post(); ?>
                             <div class="cell-service" data-aos="zoom-in"> 
-                                <div class="portfolio-main_image" style="background-image: url('<?php the_field( 'image' )?>')"></div>
+                                <a href="<?php echo get_post_permalink(); ?>">
+                                    <div class="portfolio-main_image" style="background-image: url('<?php the_field( 'image' )?>')"></div>
                                     <?php
                                     echo '<div class="card-body">';
                                     echo '<h2>' . get_the_title() . '</h2>';
@@ -111,9 +112,10 @@ get_header();
                                             }
                                         } 
                                         // echo '<p class="btn"><a href="' . get_field( 'website' ) . '">visit website</a></p>';
-                                        echo '<p class="btn"><a href="' . get_post_permalink() . '">visit website</a></p>';
+                                        // echo '<p class="btn"><a href="' . get_post_permalink() . '">visit website</a></p>';
                                         echo '</div>';
                                     ?>
+                                </a>
                             </div>
                             <?php endwhile; ?>
                             <div class="pagination">
@@ -121,7 +123,7 @@ get_header();
                                 $big = 999999999;
                                 echo paginate_links( array(
                                     'base' => str_replace( $big, '%#%', get_pagenum_link( $big ) ),
-                                    'format' => '?paged=%#%',
+                                    'format' => '?page=%#%',
                                     'current' => max( 1, get_query_var('paged') ),
                                     'total' => $loop->max_num_pages,
                                     'prev_text' => '&laquo;',

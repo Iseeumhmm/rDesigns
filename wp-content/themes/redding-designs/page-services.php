@@ -26,11 +26,24 @@ get_header();
                     <section>
                         <div class="portfolio-text--container">
                             <p>We cover a wide range of services from anything to do with developing or updating your website to all your printing needs.</p><br>
-                            <p>If you are not a current client and would like to know if your website could use some improvement, <a href=" https://reddingdesigns.com/free-site-audit.html">click here for a free website audit.</a></p>
+                            <p>If you are not a current client and would like to know if your website could use improvement, <a href="mailto: marketing@reddingdesigns.com">click here to contact our digital marketing department.</a></p>
                         </div>
                     </section>
                 </div>
-
+                <div class="container-white digital_marketing">
+                <div class="row">
+                    <section class="col-lg-6 digital_marketing-text" data-aos="zoom-in">
+                        <h3 class="heading">Digital Marketing</h3>
+                        <p><strong>A website by itself just isn't enough...these days.</strong></p>
+                        <p>A short descripton of our digital marketing services will go here.</p>
+                        <p class="btn"><a href="<?php echo get_site_url(); ?>/contact" target="_blank">Get Started Today</a></p>
+                    </section>
+                    <section class="col-lg-6 digital_marketing-laptop--container" data-aos="zoom-in">
+                        <div class="digital_marketing-laptop" style="background-image: url('<?php echo get_stylesheet_directory_uri() ?>/assets/modern/images/thumbs/digitalMarketing-laptop.png');">
+                        </div>
+                    </section>
+                </div>
+            </div>
                 <div class="container-white container-white--services">
                     <div class="modal fade" id="popup">
                         <div class="modal-dialog modal-dialog-centered">
@@ -89,6 +102,18 @@ get_header();
                             <?php endif; ?>
                         </div>
                     </section>
+                    <div class="container-grey quote quote-contact">
+                    <div class="price-estimator--container">
+                        <section data-aos="zoom-in">
+                            <h3 class="heading">Get a FREE Custom Quote to Suit Your Needs</h3>
+                            <p>Use our fun and super friendly online estimator app to send us a detailed description of your website needs.</p>
+                            <p class="btn"><a href="http://beardreview.com/priceestimator/hidden/" target="_blank">get started!</a></p>
+                        </section>
+                        <div class="latest">                
+                            <div class="price-estimator" data-aos="slide-right"></div>
+                        </div>
+                    </div>
+                </div>
                 </div>
             </div>
 		</main><!-- #main -->

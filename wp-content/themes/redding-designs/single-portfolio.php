@@ -16,6 +16,11 @@ get_header();
                         <h1 data-aos="slide-right"><?php the_title();?><br>
                     </div>
                 </div>
+                <div class="arrow_container">
+                    <a href="javascript:history.back()">
+                        <div class="left-arrow"></div>
+                    </a>
+                </div>
                 <?php $layout = get_field( 'case_study_layout' )?>
                 <?php if( $layout == "Single Column" || $layout == "Both" ): ?>
                     <!-- ***************** Single Column ***************** -->
@@ -32,7 +37,7 @@ get_header();
                                 <div class="single-column-image" style="background-image: url('<?php the_field( 'single_column_image' )?>')" title="Portfilio Image"></div>
                             </div>
                             <div class="col-lg-12">
-                                <div class="beard-container-text--subheading">
+                                <div class="beard-container-text--subheading first_body">
                                     <section data-aos="zoom-in">
                                     <p><?php echo get_field( 'two_column_body' )?></p>
                                     </section>

@@ -73,18 +73,33 @@
   color: #29abe2;
 }
 
+.case-study .arrow_container {
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 45px;
+}
+
 .case-study .beard-container-text {
   align-items: flex-start !important;
   padding-top: 17px;
 }
 
 .case-study .beard-container-text--subheading {
+  padding-bottom: 15px;
   width: 100%;
   margin: 0 auto;
 }
 
+.case-study .beard-container-text--subheading.first_body {
+  padding-top: 30px !important;
+}
+
 .case-study .beard-container-text--subheading:last-child {
   padding-top: 30px;
+}
+
+.case-study .beard-container-text--subheading:first-child {
+  padding-top: 0;
 }
 
 .case-study .beard-container {
@@ -97,7 +112,7 @@
 }
 
 .case-study .beard-container.single_column {
-  padding-top: 30px;
+  padding-top: 45px;
   height: auto;
 }
 
@@ -110,6 +125,10 @@
   height: 80vh;
 }
 
+.case-study .beard-container.two_column .heading {
+  padding-bottom: 10px;
+}
+
 @media (max-width: 991px) {
   .case-study .beard-container.two_column {
     height: auto;
@@ -117,7 +136,7 @@
 }
 
 .case-study .beard-container.two_column-top {
-  padding: 45px;
+  padding: 60px;
 }
 
 .case-study .single-column-image {
@@ -262,6 +281,116 @@
   .about-us .container-grey--video section,
   .portfolio .container-grey--video section {
     padding-top: 45px;
+  }
+}
+
+.digital_marketing {
+  width: 85%;
+  margin: auto;
+  margin-top: -50px;
+  background: transparent !important;
+}
+
+@media (max-width: 767px) {
+  .digital_marketing {
+    width: 95%;
+    margin-top: 100px;
+  }
+}
+
+.digital_marketing .heading {
+  font-size: 3.1vw;
+}
+
+@media (max-width: 767px) {
+  .digital_marketing .heading {
+    font-size: 36px;
+  }
+}
+
+.digital_marketing strong {
+  font-family: 'Montserrat', sans-serif;
+  color: #29abe2;
+  font-size: 18px;
+}
+
+.digital_marketing .btn {
+  color: #29abe2;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.digital_marketing-text {
+  padding-top: 55px;
+}
+
+@media (max-width: 1525px) {
+  .digital_marketing-text {
+    padding-top: 0;
+  }
+}
+
+.digital_marketing-laptop {
+  margin: -50px 0 0 -160px;
+  width: 900px;
+  height: 475px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 1525px) {
+  .digital_marketing-laptop--container {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .digital_marketing-laptop--container {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1525px) {
+  .digital_marketing-laptop {
+    background-position: right;
+    width: 100%;
+    height: unset;
+    padding-top: 50%;
+    margin: -50px 0 0 0px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .digital_marketing-laptop {
+    width: 475px;
+    height: 250px;
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .digital_marketing-laptop {
+    margin: 0;
+    background-position: center;
+  }
+}
+
+.services .digital_marketing {
+  margin-top: 15px;
+  margin-bottom: 60px;
+}
+
+@media (max-width: 767px) {
+  .services .digital_marketing {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .services .digital_marketing {
+    margin-bottom: 0;
   }
 }
 
@@ -478,6 +607,14 @@ footer .footer_logo {
   padding-bottom: 50px;
 }
 
+.embedded_map iframe {
+  margin: 15px 0;
+  max-width: calc(100% + 40px + 2.5rem);
+  height: 150px;
+  position: relative;
+  left: -40px;
+}
+
 #main-menu div[class^="col-3"] {
   display: flex;
   justify-content: flex-end;
@@ -619,15 +756,18 @@ footer .footer_logo {
 
 .contact .quote,
 .portfolio .quote,
-.home .quote {
+.home .quote,
+.services .quote {
   padding-top: 45px;
   min-height: 677px;
+  background: #fff;
 }
 
 @media (max-width: 1065px) {
   .contact .quote,
   .portfolio .quote,
-  .home .quote {
+  .home .quote,
+  .services .quote {
     min-height: auto;
     height: 307px;
     margin: 0 0 81px;
@@ -638,7 +778,8 @@ footer .footer_logo {
 @media (max-width: 887px) {
   .contact .quote,
   .portfolio .quote,
-  .home .quote {
+  .home .quote,
+  .services .quote {
     margin: 0;
     height: auto;
     padding-bottom: 40px;
@@ -648,20 +789,23 @@ footer .footer_logo {
 @media (max-width: 767px) {
   .contact .quote,
   .portfolio .quote,
-  .home .quote {
+  .home .quote,
+  .services .quote {
     padding-bottom: 85px;
   }
 
   .contact .quote.quote-contact,
   .portfolio .quote.quote-contact,
-  .home .quote.quote-contact {
+  .home .quote.quote-contact,
+  .services .quote.quote-contact {
     padding-bottom: 145px;
   }
 }
 
 .contact .quote .price-estimator--container,
 .portfolio .quote .price-estimator--container,
-.home .quote .price-estimator--container {
+.home .quote .price-estimator--container,
+.services .quote .price-estimator--container {
   width: 85%;
   margin: 0 auto;
 }
@@ -669,7 +813,8 @@ footer .footer_logo {
 @media (max-width: 1400px) {
   .contact .quote .latest,
   .portfolio .quote .latest,
-  .home .quote .latest {
+  .home .quote .latest,
+  .services .quote .latest {
     transform: scale(1);
     margin-bottom: 0;
   }
@@ -677,33 +822,38 @@ footer .footer_logo {
 
 .contact .quote section,
 .portfolio .quote section,
-.home .quote section {
+.home .quote section,
+.services .quote section {
   right: 14%;
   top: 100px;
 }
 
 .contact .quote section h3,
 .portfolio .quote section h3,
-.home .quote section h3 {
+.home .quote section h3,
+.services .quote section h3 {
   font-size: 36px;
 }
 
 .contact .quote section p,
 .portfolio .quote section p,
-.home .quote section p {
+.home .quote section p,
+.services .quote section p {
   padding-top: 5px;
 }
 
 .contact .quote section .btn,
 .portfolio .quote section .btn,
-.home .quote section .btn {
+.home .quote section .btn,
+.services .quote section .btn {
   margin-top: 15px;
 }
 
 @media (max-width: 1065px) {
   .contact .quote section,
   .portfolio .quote section,
-  .home .quote section {
+  .home .quote section,
+  .services .quote section {
     position: relative;
     top: 0;
     right: 0;
@@ -716,7 +866,8 @@ footer .footer_logo {
 @media (max-width: 887px) {
   .contact .quote section,
   .portfolio .quote section,
-  .home .quote section {
+  .home .quote section,
+  .services .quote section {
     width: 100%;
     padding: 0 25px;
   }
@@ -724,7 +875,8 @@ footer .footer_logo {
 
 .contact .quote .price-estimator,
 .portfolio .quote .price-estimator,
-.home .quote .price-estimator {
+.home .quote .price-estimator,
+.services .quote .price-estimator {
   background-size: cover;
   width: 384px;
   height: 578px;
@@ -735,7 +887,8 @@ footer .footer_logo {
 @media (max-width: 1300px) {
   .contact .quote .price-estimator,
   .portfolio .quote .price-estimator,
-  .home .quote .price-estimator {
+  .home .quote .price-estimator,
+  .services .quote .price-estimator {
     left: 13%;
   }
 }
@@ -743,7 +896,8 @@ footer .footer_logo {
 @media (max-width: 1065px) {
   .contact .quote .price-estimator,
   .portfolio .quote .price-estimator,
-  .home .quote .price-estimator {
+  .home .quote .price-estimator,
+  .services .quote .price-estimator {
     width: 200px;
     height: 300px;
     position: relative;
@@ -756,9 +910,14 @@ footer .footer_logo {
 @media (max-width: 887px) {
   .contact .quote .price-estimator,
   .portfolio .quote .price-estimator,
-  .home .quote .price-estimator {
+  .home .quote .price-estimator,
+  .services .quote .price-estimator {
     display: none;
   }
+}
+
+.services .container-white {
+  padding-bottom: 0;
 }
 
 .about-us .cell-service {
@@ -787,99 +946,6 @@ footer .footer_logo {
 
 .banner-home .btn--free_audit {
   margin-left: 15px;
-}
-
-.digital_marketing {
-  width: 85%;
-  margin: auto;
-  margin-top: -50px;
-  background: transparent !important;
-}
-
-@media (max-width: 767px) {
-  .digital_marketing {
-    width: 95%;
-    margin-top: 100px;
-  }
-}
-
-.digital_marketing .heading {
-  font-size: 3.1vw;
-}
-
-@media (max-width: 767px) {
-  .digital_marketing .heading {
-    font-size: 36px;
-  }
-}
-
-.digital_marketing strong {
-  font-family: 'Montserrat', sans-serif;
-  color: #29abe2;
-  font-size: 24px;
-}
-
-.digital_marketing .btn {
-  color: #29abe2;
-  font-family: "Montserrat", sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-}
-
-.digital_marketing-text {
-  padding-top: 55px;
-}
-
-@media (max-width: 1525px) {
-  .digital_marketing-text {
-    padding-top: 0;
-  }
-}
-
-.digital_marketing-laptop {
-  margin: -50px 0 0 -160px;
-  width: 900px;
-  height: 475px;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-@media (max-width: 1525px) {
-  .digital_marketing-laptop--container {
-    display: flex;
-    align-items: center;
-  }
-}
-
-@media (max-width: 992px) {
-  .digital_marketing-laptop--container {
-    justify-content: center;
-  }
-}
-
-@media (max-width: 1525px) {
-  .digital_marketing-laptop {
-    background-position: right;
-    width: 100%;
-    height: unset;
-    padding-top: 50%;
-    margin: -50px 0 0 0px;
-  }
-}
-
-@media (max-width: 1200px) {
-  .digital_marketing-laptop {
-    width: 475px;
-    height: 250px;
-    padding-top: 0;
-  }
-}
-
-@media (max-width: 992px) {
-  .digital_marketing-laptop {
-    margin: 0;
-    background-position: center;
-  }
 }
 
 .container-feed--home {

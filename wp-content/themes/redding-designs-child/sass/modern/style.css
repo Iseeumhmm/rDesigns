@@ -17,6 +17,12 @@
   font-weight: 700;
 }
 
+@media (max-width: 767px) {
+  .container-grey .btn {
+    font-size: 18px;
+  }
+}
+
 .card-body p:first-of-type {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
@@ -114,18 +120,18 @@
 .contact .icon-service {
   border-radius: 0 !important;
   border: none;
-  background-size: contain;
-  width: 50px;
-  height: 50px;
+  background-size: cover;
+  height: 90%;
+  width: 90%;
+  padding: 25px;
+  background-origin: content-box;
   border-radius: 150px;
   display: inline-block;
   margin: 20px auto;
 }
 
-.contact .cell-service:hover .icon-service,
-.contact .cell-service:hover .menu-icon {
-  width: 100px;
-  height: 100px;
+.contact .cell-service p:last-child {
+  font-weight: normal;
 }
 
 .contact .cell-service:hover .icon-service,
@@ -135,7 +141,7 @@
 
 .contact .card-body h2 {
   padding-top: 15px;
-  font-size: 24px;
+  font-size: 36px;
 }
 
 .contact .card-body p {
@@ -146,6 +152,9 @@
 }
 
 .contact .card-body p span {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
   color: #29abe2;
 }
 
@@ -201,6 +210,12 @@
 
 .services .container-white--services {
   padding-top: 0;
+}
+
+.services .container-white--services .cell-service:hover .btn {
+  background-color: #29abe2;
+  color: white !important;
+  border: 1px solid #29abe2 !important;
 }
 
 .services .cell-service p:last-child {
@@ -283,6 +298,10 @@
 
 .portfolio-text-banner p {
   margin: 0 !important;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700 !important;
+  font-size: 18px;
+  color: #29abe2;
 }
 
 .portfolio-text-banner section {

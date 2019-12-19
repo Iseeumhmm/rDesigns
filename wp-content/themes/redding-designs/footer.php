@@ -168,6 +168,10 @@
 					$('#main-menu').hide();
 					$('#palette ul').slideToggle("fast");
 				});
+				$('.pagination a').each(function(){
+				var theLink = $(this).attr('href');
+				$(this).attr('href', theLink+'#profile_cards');
+				});
 			});
 		</script>
 		<!--smooth scroll-->

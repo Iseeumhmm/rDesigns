@@ -35,6 +35,9 @@ get_header();
                                     </div>
                                     <div class="card-body">
                                         <h2><?php the_title(); ?></h2>
+                                        <?php if( get_field('map') ): ?>
+                                            <div class="embedded_map"><?php the_field('map'); ?></div>
+                                        <?php endif; ?>
                                         <p><?php echo get_field( 'description' ); ?></p>
                                     </div>
                                 </div>

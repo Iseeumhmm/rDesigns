@@ -121,6 +121,16 @@ hr {
     padding: 25px;
     background-origin: content-box;
 }
+@media( max-width: 767px ){
+    .home .icon-service {
+        padding: 15px;
+    }
+}
+@media( max-width: 414px ){
+    .home .icon-service {
+        padding: 15px;
+    }
+}
 
 .web-design-development {
 	background: url(../assets/modern/images/icons/web-design-development.png) no-repeat center center;
@@ -213,6 +223,18 @@ hr {
     position: absolute;
     top: 20px;
     left: 60px;
+}
+.left-arrow {
+    width:50px;
+    height: 50px;
+    background-color: #eee;
+    background-image: url('../assets/modern/images/icons/left-arrow.svg');
+    border-radius: 25px;
+    padding: 15px;
+    background-origin: content-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 .phone {
 	width: 200px;

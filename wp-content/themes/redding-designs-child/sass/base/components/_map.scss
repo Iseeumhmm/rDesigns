@@ -1,0 +1,9 @@
+.embedded_map {
+    iframe {
+        margin: 15px 0;
+        max-width: calc(100% + 40px + 2.5rem);
+        height: 150px;
+        position: relative;
+        left: -40px;
+    }
+}
