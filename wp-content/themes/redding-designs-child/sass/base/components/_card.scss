@@ -23,6 +23,9 @@
             font-size: 18px;
             color: #808080 !important;
         }
+        @media( max-width: 582px ){
+            padding: 0 !important;
+        }
     }
     &-text {
         display: inline-block;

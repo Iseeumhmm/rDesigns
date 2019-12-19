@@ -27,6 +27,12 @@
   color: #808080 !important;
 }
 
+@media (max-width: 582px) {
+  .card-body {
+    padding: 0 !important;
+  }
+}
+
 .card-text {
   display: inline-block;
 }
@@ -613,6 +619,13 @@ footer .footer_logo {
   height: 150px;
   position: relative;
   left: -40px;
+}
+
+@media (max-width: 582px) {
+  .embedded_map iframe {
+    max-width: 100%;
+    left: 0;
+  }
 }
 
 #main-menu div[class^="col-3"] {
