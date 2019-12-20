@@ -220,17 +220,17 @@ get_header();
                 </section>
             </div> 
             <div class="container-grey quote quote-contact">
-                    <div class="price-estimator--container">
-                        <section data-aos="zoom-in">
-                            <h3 class="heading">Get a FREE Custom Quote to Suit Your Needs</h3>
-                            <p>Use our fun and super friendly online estimator app to send us a detailed description of your website needs.</p>
-                            <p class="btn"><a href="http://beardreview.com/priceestimator/hidden/" target="_blank">get started!</a></p>
-                        </section>
-                        <div class="latest">                
-                            <div class="price-estimator" data-aos="slide-right"></div>
-                        </div>
+                <div class="price-estimator--container">
+                    <section data-aos="zoom-in">
+                        <h3 class="heading">Get a FREE Custom Quote to Suit Your Needs</h3>
+                        <p>Use our fun and super friendly online estimator app to send us a detailed description of your website needs.</p>
+                        <p class="btn"><a href="http://beardreview.com/priceestimator/hidden/" target="_blank">get started!</a></p>
+                    </section>
+                    <div class="latest">                
+                        <div class="price-estimator" data-aos="slide-right"></div>
                     </div>
                 </div>
+            </div>
 		</main><!-- #main -->
     </div><!-- #primary -->
     <?php 

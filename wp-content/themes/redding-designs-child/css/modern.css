@@ -118,10 +118,10 @@ hr {
     display: inline-block;
     margin: 20px auto;
 }
-.portfolio .icon-service, .card-body .icon-service {
+.portfolio .icon-service, .card-body .icon-service, .services-modal .card-text .icon-service {
     background-color: unset !important;
 }
-.services .icon-service, .home .icon-service {
+.services .icon-service, .home .icon-service, .services-modal .icon-service {
     padding: 25px;
     background-origin: content-box;
 }

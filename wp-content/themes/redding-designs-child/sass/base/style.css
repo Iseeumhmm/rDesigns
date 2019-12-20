@@ -633,114 +633,74 @@ footer .footer_logo {
   justify-content: flex-end;
 }
 
-.modal {
-  -webkit-overflow-scrolling: touch;
-  overflow: scroll;
+.services-modal .arrow_container a {
+  padding-right: 10px;
 }
 
-.modal-header {
-  border: none !important;
+.services-modal .left-arrow {
+  display: inline-block;
 }
 
-.modal-backdrop.show {
-  opacity: .8 !important;
+.services-modal .arrow_container .menu-icon {
+  padding: 10px;
+  background-origin: content-box;
+  background-color: #eee;
 }
 
-.modal-dialog {
-  max-width: 65% !important;
-  overflow-y: initial !important;
-  height: auto;
+.services-modal .border {
+  border: 2px solid #29abe2 !important;
 }
 
-@media (max-width: 1270px) {
-  .modal-dialog {
-    max-width: 95% !important;
-  }
+.services-modal .flex {
+  padding-top: 45px;
 }
 
-@media (max-width: 567px) {
-  .modal-dialog {
-    max-width: 100% !important;
-    margin: 0 !important;
-    padding: 5px !important;
-  }
+.services-modal .large_icon {
+  padding-right: 60px;
 }
 
-.modal-body {
-  height: 75vh;
-  overflow-y: auto;
+.services-modal .card-body {
+  width: 65%;
 }
 
-.modal-body .hidden-description {
-  display: block !important;
+.services-modal p.card-text {
+  margin-bottom: 15px !important;
 }
 
-.modal-inuse.cell-service {
-  width: 100%;
-  position: relative;
+.services-modal .bullets p {
+  margin: 0 !important;
+  font-weight: normal;
 }
 
-@media (max-width: 567px) {
-  .modal-inuse.cell-service {
-    padding: 0;
-  }
+.services-modal .bullets p:first-of-type {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #29abe2;
 }
 
-.modal-inuse.cell-service .icon-service {
-  position: absolute;
-  top: 0;
-  right: calc(87.5% - 75px);
+.services-modal p.btn {
+  border-color: #29abe2 !important;
 }
 
-@media (max-width: 768px) {
-  .modal-inuse.cell-service .icon-service {
-    width: 175px;
-    height: 175px;
-    border-radius: 100px;
-    position: relative;
-    left: 0;
-    display: block;
-    margin: 0 auto;
-  }
+.services-modal p.btn a {
+  color: #29abe2 !important;
 }
 
-.modal-inuse.cell-service .card-body {
-  width: 75%;
-  margin-left: auto;
+.services-modal p.btn a:hover {
+  color: white !important;
 }
 
-@media (max-width: 768px) {
-  .modal-inuse.cell-service .card-body {
-    width: 100%;
-    padding-top: 45px;
-    padding-bottom: 75px;
-  }
+.services-modal .container-white--services {
+  padding-bottom: 30px;
 }
 
-@media (max-width: 567px) {
-  .modal-inuse.cell-service .card-body {
-    padding: 0 0 75px;
-  }
+.services-modal .container-white--services section {
+  padding-bottom: 30px;
 }
 
-.modal-inuse.cell-service .card-body .btn {
-  position: absolute;
-  right: 87.5%;
-  transform: translateX(50%);
-  overflow: hidden;
-  white-space: nowrap;
-  top: 200px;
-}
-
-@media (max-width: 768px) {
-  .modal-inuse.cell-service .card-body .btn {
-    position: relative;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    overflow: hidden;
-    white-space: nowrap;
-  }
+.services-modal .quote.quote-contact {
+  padding-top: 60px;
 }
 
 .sub-banner {
@@ -776,7 +736,8 @@ footer .footer_logo {
 .contact .quote,
 .portfolio .quote,
 .home .quote,
-.services .quote {
+.services .quote,
+.services-modal .quote {
   padding-top: 45px;
   min-height: 677px;
   background: #fff;
@@ -786,7 +747,8 @@ footer .footer_logo {
   .contact .quote,
   .portfolio .quote,
   .home .quote,
-  .services .quote {
+  .services .quote,
+  .services-modal .quote {
     min-height: auto;
     height: 307px;
     margin: 0 0 81px;
@@ -798,7 +760,8 @@ footer .footer_logo {
   .contact .quote,
   .portfolio .quote,
   .home .quote,
-  .services .quote {
+  .services .quote,
+  .services-modal .quote {
     margin: 0;
     height: auto;
     padding-bottom: 40px;
@@ -809,14 +772,16 @@ footer .footer_logo {
   .contact .quote,
   .portfolio .quote,
   .home .quote,
-  .services .quote {
+  .services .quote,
+  .services-modal .quote {
     padding-bottom: 85px;
   }
 
   .contact .quote.quote-contact,
   .portfolio .quote.quote-contact,
   .home .quote.quote-contact,
-  .services .quote.quote-contact {
+  .services .quote.quote-contact,
+  .services-modal .quote.quote-contact {
     padding-bottom: 145px;
   }
 }
@@ -824,7 +789,8 @@ footer .footer_logo {
 .contact .quote .price-estimator--container,
 .portfolio .quote .price-estimator--container,
 .home .quote .price-estimator--container,
-.services .quote .price-estimator--container {
+.services .quote .price-estimator--container,
+.services-modal .quote .price-estimator--container {
   width: 85%;
   margin: 0 auto;
 }
@@ -833,7 +799,8 @@ footer .footer_logo {
   .contact .quote .latest,
   .portfolio .quote .latest,
   .home .quote .latest,
-  .services .quote .latest {
+  .services .quote .latest,
+  .services-modal .quote .latest {
     transform: scale(1);
     margin-bottom: 0;
   }
@@ -842,7 +809,8 @@ footer .footer_logo {
 .contact .quote section,
 .portfolio .quote section,
 .home .quote section,
-.services .quote section {
+.services .quote section,
+.services-modal .quote section {
   right: 14%;
   top: 100px;
 }
@@ -850,21 +818,24 @@ footer .footer_logo {
 .contact .quote section h3,
 .portfolio .quote section h3,
 .home .quote section h3,
-.services .quote section h3 {
+.services .quote section h3,
+.services-modal .quote section h3 {
   font-size: 36px;
 }
 
 .contact .quote section p,
 .portfolio .quote section p,
 .home .quote section p,
-.services .quote section p {
+.services .quote section p,
+.services-modal .quote section p {
   padding-top: 5px;
 }
 
 .contact .quote section .btn,
 .portfolio .quote section .btn,
 .home .quote section .btn,
-.services .quote section .btn {
+.services .quote section .btn,
+.services-modal .quote section .btn {
   margin-top: 15px;
 }
 
@@ -872,7 +843,8 @@ footer .footer_logo {
   .contact .quote section,
   .portfolio .quote section,
   .home .quote section,
-  .services .quote section {
+  .services .quote section,
+  .services-modal .quote section {
     position: relative;
     top: 0;
     right: 0;
@@ -886,7 +858,8 @@ footer .footer_logo {
   .contact .quote section,
   .portfolio .quote section,
   .home .quote section,
-  .services .quote section {
+  .services .quote section,
+  .services-modal .quote section {
     width: 100%;
     padding: 0 25px;
   }
@@ -895,7 +868,8 @@ footer .footer_logo {
 .contact .quote .price-estimator,
 .portfolio .quote .price-estimator,
 .home .quote .price-estimator,
-.services .quote .price-estimator {
+.services .quote .price-estimator,
+.services-modal .quote .price-estimator {
   background-size: cover;
   width: 384px;
   height: 578px;
@@ -907,7 +881,8 @@ footer .footer_logo {
   .contact .quote .price-estimator,
   .portfolio .quote .price-estimator,
   .home .quote .price-estimator,
-  .services .quote .price-estimator {
+  .services .quote .price-estimator,
+  .services-modal .quote .price-estimator {
     left: 13%;
   }
 }
@@ -916,7 +891,8 @@ footer .footer_logo {
   .contact .quote .price-estimator,
   .portfolio .quote .price-estimator,
   .home .quote .price-estimator,
-  .services .quote .price-estimator {
+  .services .quote .price-estimator,
+  .services-modal .quote .price-estimator {
     width: 200px;
     height: 300px;
     position: relative;
@@ -930,7 +906,8 @@ footer .footer_logo {
   .contact .quote .price-estimator,
   .portfolio .quote .price-estimator,
   .home .quote .price-estimator,
-  .services .quote .price-estimator {
+  .services .quote .price-estimator,
+  .services-modal .quote .price-estimator {
     display: none;
   }
 }

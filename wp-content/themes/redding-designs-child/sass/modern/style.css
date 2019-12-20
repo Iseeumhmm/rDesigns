@@ -61,7 +61,8 @@
 
 .contact .quote,
 .portfolio .quote,
-.home .quote {
+.home .quote,
+.services-modal .quote {
   background: #f9f9f9;
   background: linear-gradient(to bottom, #eee 0%, #eee 75%, #FFFFFFFF 75%, #FFFFFFFF 100%);
 }
@@ -69,14 +70,16 @@
 @media (max-width: 1065px) {
   .contact .quote,
   .portfolio .quote,
-  .home .quote {
+  .home .quote,
+  .services-modal .quote {
     background: linear-gradient(to bottom, #eee 0%, #eee 100%);
   }
 }
 
 .contact .quote section h3,
 .portfolio .quote section h3,
-.home .quote section h3 {
+.home .quote section h3,
+.services-modal .quote section h3 {
   color: #29abe2;
 }
 

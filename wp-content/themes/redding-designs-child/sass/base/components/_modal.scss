@@ -1,80 +1,135 @@
-
-.modal {
-    -webkit-overflow-scrolling: touch ;
-    overflow: scroll;
-    &-header {
-        border: none !important;
+.services-modal {
+    .arrow_container a{
+        padding-right: 10px;
     }
-    &-backdrop.show {
-        opacity: .8 !important;
+    .left-arrow {
+        display: inline-block;
     }
-    &-dialog {
-        max-width: 65% !important;
-        @media(max-width: 1270px) {
-            max-width: 95% !important;
-        }
-        @media(max-width: 567px) {
-            max-width: 100% !important;
+    .arrow_container .menu-icon {
+        padding: 10px;
+        background-origin: content-box;
+        background-color: #eee;
+    }
+    .border {
+        border: 2px solid #29abe2 !important;
+    }
+    .flex {
+        padding-top: 45px;
+    }
+    .large_icon {
+        padding-right: 60px;
+    }
+    .card-body {
+        width: 65%;
+    }
+    p.card-text {
+        margin-bottom: 15px !important;
+    }
+    .bullets {
+        p {
             margin: 0 !important;
-            padding: 5px !important;
+            font-weight: normal;
         }
-        overflow-y: initial !important;
-        height: auto;
+        p:first-of-type {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+            color: #29abe2;
+        }
     }
-    &-body {
-        .hidden-description {
-            display: block !important;
-        }
-        height: 75vh;
-        overflow-y: auto;
+    p.btn {
+        a {color: #29abe2 !important;}
+        a:hover { color: white !important;}
+        border-color: #29abe2 !important;
     }
-    &-inuse.cell-service {
-        width: 100%;
-        position: relative;
-        @media(max-width: 567px) {
-            padding: 0;
+    .container-white--services {
+        section {
+            padding-bottom: 30px;
         }
-        .icon-service {
-            position: absolute;
-            top: 0;
-            right: calc(87.5% - 75px);
-            @media(max-width: 768px) {
-                width: 175px;
-                height: 175px;
-                border-radius: 100px;
-                position: relative;
-                left: 0;
-                display: block;
-                margin: 0 auto;
-            }
-        }
-        .card-body {
-            width: 75%;
-            margin-left: auto;
-            @media(max-width: 768px) {
-                width: 100%;
-                padding-top: 45px;
-                padding-bottom: 75px;
-            }
-            @media(max-width: 567px) {
-                padding: 0 0 75px;
-            }
-            .btn {
-                position: absolute;
-                right: 87.5%;
-                transform: translateX(50%);
-                overflow: hidden;
-                white-space: nowrap;
-                top: 200px;
-                @media(max-width: 768px) {
-                    position: relative;
-                    top: 0;
-                    left: 50%;
-                    transform: translateX(-50%);
-                    overflow: hidden;
-                    white-space: nowrap;
-                }
-            }
-        }
+        padding-bottom: 30px;
+    }
+    .quote.quote-contact {
+        padding-top: 60px;
     }
 }
+
+
+// .modal {
+//     -webkit-overflow-scrolling: touch ;
+//     overflow: scroll;
+//     &-header {
+//         border: none !important;
+//     }
+//     &-backdrop.show {
+//         opacity: .8 !important;
+//     }
+//     &-dialog {
+//         max-width: 65% !important;
+//         @media(max-width: 1270px) {
+//             max-width: 95% !important;
+//         }
+//         @media(max-width: 567px) {
+//             max-width: 100% !important;
+//             margin: 0 !important;
+//             padding: 5px !important;
+//         }
+//         overflow-y: initial !important;
+//         height: auto;
+//     }
+//     &-body {
+//         .hidden-description {
+//             display: block !important;
+//         }
+//         height: 75vh;
+//         overflow-y: auto;
+//     }
+//     &-inuse.cell-service {
+//         width: 100%;
+//         position: relative;
+//         @media(max-width: 567px) {
+//             padding: 0;
+//         }
+//         .icon-service {
+//             position: absolute;
+//             top: 0;
+//             right: calc(87.5% - 75px);
+//             @media(max-width: 768px) {
+//                 width: 175px;
+//                 height: 175px;
+//                 border-radius: 100px;
+//                 position: relative;
+//                 left: 0;
+//                 display: block;
+//                 margin: 0 auto;
+//             }
+//         }
+//         .card-body {
+//             width: 75%;
+//             margin-left: auto;
+//             @media(max-width: 768px) {
+//                 width: 100%;
+//                 padding-top: 45px;
+//                 padding-bottom: 75px;
+//             }
+//             @media(max-width: 567px) {
+//                 padding: 0 0 75px;
+//             }
+//             .btn {
+//                 position: absolute;
+//                 right: 87.5%;
+//                 transform: translateX(50%);
+//                 overflow: hidden;
+//                 white-space: nowrap;
+//                 top: 200px;
+//                 @media(max-width: 768px) {
+//                     position: relative;
+//                     top: 0;
+//                     left: 50%;
+//                     transform: translateX(-50%);
+//                     overflow: hidden;
+//                     white-space: nowrap;
+//                 }
+//             }
+//         }
+//     }
+// }

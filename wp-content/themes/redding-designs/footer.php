@@ -169,8 +169,15 @@
 					$('#palette ul').slideToggle("fast");
 				});
 				$('.pagination a').each(function(){
-				var theLink = $(this).attr('href');
-				$(this).attr('href', theLink+'#profile_cards');
+					var theLink = $(this).attr('href');
+					$(this).attr('href', theLink+'#profile_cards');
+				});
+				var pageLabel = $('#page-label').attr('data-id');
+				$('.page_icon').each(function() { 
+					if ( this.getAttribute('data-id') == pageLabel ) {
+						this.classList.add("border");
+					}
+
 				});
 			});
 		</script>
