@@ -699,6 +699,12 @@ footer .footer_logo {
   padding-bottom: 30px;
 }
 
+@media (max-width: 886px) {
+  .services-modal .container-white--services {
+    padding-bottom: 0px;
+  }
+}
+
 .services-modal .quote.quote-contact {
   padding-top: 60px;
 }

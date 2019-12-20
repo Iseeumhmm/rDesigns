@@ -47,6 +47,9 @@
             padding-bottom: 30px;
         }
         padding-bottom: 30px;
+        @media( max-width: 886px ) {
+            padding-bottom: 0px;
+        }
     }
     .quote.quote-contact {
         padding-top: 60px;
