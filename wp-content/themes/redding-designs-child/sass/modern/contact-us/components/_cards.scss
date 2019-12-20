@@ -3,15 +3,17 @@
         width: 150px;
         height: 150px;
         border-radius: 100px;
-        // background-color: #eee;
+        background-color: #eee;
         border: 2px solid #eee;
         display: flex;
         align-items: center;
         justify-content: center;
         margin: 0 auto;
+        .icon-service {
+            border-radius: 100px;
+        }
     }
     .menu-icon, .icon-service {
-        border-radius: 0 !important;
         border: none;
         background-size: cover;
         height: 90%;

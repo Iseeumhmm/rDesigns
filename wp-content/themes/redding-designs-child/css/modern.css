@@ -112,10 +112,14 @@ hr {
 .icon-service {
 	width: 150px;
     height: 150px;
-    border: 2px solid #eee;
+    /* border: 2px solid #eee; */
+    background-color: #eee !important;
     border-radius: 150px;
     display: inline-block;
     margin: 20px auto;
+}
+.portfolio .icon-service, .card-body .icon-service {
+    background-color: unset !important;
 }
 .services .icon-service, .home .icon-service {
     padding: 25px;
