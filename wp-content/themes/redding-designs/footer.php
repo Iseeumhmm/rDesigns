@@ -177,8 +177,9 @@
 					if ( this.getAttribute('data-id') == pageLabel ) {
 						this.classList.add("border");
 					}
-
 				});
+				console.log(pageLabel);
+				$('.services-modal .header-text').text(pageLabel);
 			});
 		</script>
 		<!--smooth scroll-->

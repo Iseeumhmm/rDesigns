@@ -14,7 +14,7 @@ get_header();
             <div class="header-spacer"></div>
             <div class="sub-banner banner-services">
                 <div class="sub-banner--text_container">
-                    <h1 data-aos="slide-right"></h1><br>
+                    <h1 class="header-text" data-aos="slide-right"></h1><br>
                 </div>
             </div>
 		    <div class="container-white container-white--services">
