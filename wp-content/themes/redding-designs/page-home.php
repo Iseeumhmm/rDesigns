@@ -52,7 +52,7 @@ get_header();
                 <section>
                     <div class="flex">
                         <div class="cell-service" data-aos="zoom-in">
-                            <a href="services/#web-design-development" title="Create Your Presence">
+                            <a href="<?php echo get_site_url(); ?>/Service/web-design-development" title="Create Your Presence">
                                 <div class="icon-service web-design-development"></div>
 
                                 <h2>Web Design &amp; Development</h2>
@@ -64,7 +64,7 @@ get_header();
                         </div>
 
                         <div class="cell-service" data-aos="zoom-in">
-                            <a href="services/#digital-marketing" title="Let's Raise the Bar">
+                            <a href="<?php echo get_site_url(); ?>/Service/digital-marketing" title="Let's Raise the Bar">
                                 <div class="icon-service digital-marketing"></div>
 
                                 <h2>Digital Marketing</h2>
@@ -76,7 +76,7 @@ get_header();
                         </div>
 
                         <div class="cell-service" data-aos="zoom-in">
-                            <a href="services/#print-media-design" title="Go Tangible">
+                            <a href="<?php echo get_site_url(); ?>/Service/print-media-design" title="Go Tangible">
                                 <div class="icon-service print-media-design"></div>
 
                                 <h2>Print Media Design</h2>
@@ -88,7 +88,7 @@ get_header();
                         </div>
 
                         <div class="cell-service" data-aos="zoom-in">
-                            <a href="services/#logo-design-branding" title="Make a Name">
+                            <a href="<?php echo get_site_url(); ?>/Service/logo-design-branding" title="Make a Name">
                                 <div class="icon-service logo-branding"></div>
 
                                 <h2>Logo Design &amp; Branding</h2>
@@ -100,7 +100,7 @@ get_header();
                         </div>
 
                         <div class="cell-service" data-aos="zoom-in">
-                            <a href="services/#internet-services" title="We'll Spin the Web">
+                            <a href="<?php echo get_site_url(); ?>/Service/internet-services" title="We'll Spin the Web">
                                 <div class="icon-service internet-services"></div>
 
                                 <h2>Internet Services</h2>
@@ -112,7 +112,7 @@ get_header();
                         </div>
 
                         <div class="cell-service" data-aos="zoom-in">
-                            <a href="services/#photographyVideography" title="Custom Photography/Videography">
+                            <a href="<?php echo get_site_url(); ?>/Service/photography-videography" title="Custom Photography/Videography">
                                 <div class="icon-service photography-videography"></div>
 
                                 <h2>Photography & Videography</h2>
