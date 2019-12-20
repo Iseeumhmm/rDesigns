@@ -35,7 +35,7 @@ get_header();
                         <a class="modal-service_icon" href="<?php echo get_site_url(); ?>/Service/logo-design-branding">
                             <div data-id="Logo Design & Branding" class="page_icon left-arrow menu-icon logoDesign"></div>
                         </a>
-                        <a class="modal-service_icon" href="<?php echo get_site_url(); ?>/Service/logo-design-branding">
+                        <a class="modal-service_icon" href="<?php echo get_site_url(); ?>/Service/internet-services">
                             <div data-id="Internet Services" class="page_icon left-arrow menu-icon domainRegistration"></div>
                         </a>
                         <a class="modal-service_icon" href="<?php echo get_site_url(); ?>/Service/photography-videography">
