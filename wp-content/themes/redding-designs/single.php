@@ -23,22 +23,22 @@ get_header();
                         <a href="javascript:history.back()">
                             <div class="left-arrow first"></div>
                         </a>
-                        <a class="modal-service_icon" href="">
+                        <a class="modal-service_icon" href="<?php echo get_site_url(); ?>/Service/web-design-development">
                             <div data-id="Web Design & Development" class="page_icon left-arrow menu-icon webDevelopment"></div>
                         </a>
-                        <a class="modal-service_icon" href="">
+                        <a class="modal-service_icon" href="<?php echo get_site_url(); ?>/Service/digital-marketing">
                             <div  data-id="Digital Marketing" class="page_icon left-arrow menu-icon consistantDesign"></div>
                         </a>
-                        <a class="modal-service_icon" href="">
+                        <a class="modal-service_icon" href="<?php echo get_site_url(); ?>/Service/print-media-design">
                             <div data-id="Print Media Design" class="page_icon left-arrow menu-icon readyForPrint"></div>
                         </a>
-                        <a class="modal-service_icon" href="">
+                        <a class="modal-service_icon" href="<?php echo get_site_url(); ?>/Service/logo-design-branding">
                             <div data-id="Logo Design & Branding" class="page_icon left-arrow menu-icon logoDesign"></div>
                         </a>
-                        <a class="modal-service_icon" href="">
+                        <a class="modal-service_icon" href="<?php echo get_site_url(); ?>/Service/logo-design-branding">
                             <div data-id="Internet Services" class="page_icon left-arrow menu-icon domainRegistration"></div>
                         </a>
-                        <a class="modal-service_icon" href="">
+                        <a class="modal-service_icon" href="<?php echo get_site_url(); ?>/Service/photography-videography">
                             <div data-id="Photography & Videography" class="page_icon left-arrow menu-icon productPhotography"></div>
                         </a>
                     </div>
