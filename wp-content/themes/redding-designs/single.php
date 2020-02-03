@@ -12,7 +12,7 @@ get_header();
 	<div id="primary" class="content-area services-modal post-template">
 		<main id="main" class="site-main">
             <div class="header-spacer"></div>
-            <div class="sub-banner banner-services">
+            <div class="sub-banner <?php echo getPage( get_field( 'icon' ))?>">
                 <div class="sub-banner--text_container">
                     <h1 class="header-text" data-aos="slide-right"></h1><br>
                 </div>

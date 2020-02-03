@@ -401,6 +401,27 @@ nav ul .palette {
 .banner-services {
     background: url(../assets/modern/images/banners/services-page.jpg) no-repeat center center;
 }
+/* ********************** SERVICES BANNERS ********************** */
+
+.banner-webDevelopmentLarge {
+    background: url(../assets/modern/images/banners/web-development.jpg) no-repeat center center;
+}
+.banner-digitalMarketing {
+    background: url(../assets/modern/images/banners/digital-marketing.jpg) no-repeat center center;
+}
+.banner-internetServices {
+    background: url(../assets/modern/images/banners/internet-services.jpg) no-repeat center center;
+}
+.banner-logoDesign {
+    background: url(../assets/modern/images/banners/logo-branding.jpg) no-repeat center center;
+}
+.banner-printMedia {
+    background: url(../assets/modern/images/banners/print-media.jpg) no-repeat center center;
+}
+.banner-photographyVideography {
+    background: url(../assets/modern/images/banners/photography.jpg) no-repeat center center;
+}
+
 
 .container-white {
     background: white;
@@ -736,6 +757,26 @@ textarea:focus {
         -webkit-transform: scale(.6);
         transform: scale(.6);
     }
+    /* ********************** SERVICES BANNERS ********************** */
+
+    .banner-webDevelopmentLarge {
+        background: url(../assets/modern/images/banners/web-development-1024.jpg) no-repeat center center;
+    }
+    .banner-digitalMarketing {
+        background: url(../assets/modern/images/banners/digital-marketing-1024.jpg) no-repeat center center;
+    }
+    .banner-internetServices {
+        background: url(../assets/modern/images/banners/internet-services-1024.jpg) no-repeat center center;
+    }
+    .banner-logoDesign {
+        background: url(../assets/modern/images/banners/logo-branding-1024.jpg) no-repeat center center;
+    }
+    .banner-printMedia {
+        background: url(../assets/modern/images/banners/print-media-1024.jpg) no-repeat center center;
+    }
+    .banner-photographyVideography {
+        background: url(../assets/modern/images/banners/photography-1024.jpg) no-repeat center center;
+    }
 }
 
 
@@ -837,7 +878,28 @@ textarea:focus {
     }
 }
 
-
+@media(max-width: 600px) {
+    
+    /* ********************** SERVICES BANNERS ********************** */
+    .banner-webDevelopmentLarge {
+        background: url(../assets/modern/images/banners/web-development-600.jpg) no-repeat center center;
+    }
+    .banner-digitalMarketing {
+        background: url(../assets/modern/images/banners/digital-marketing-600.jpg) no-repeat center center;
+    }
+    .banner-internetServices {
+        background: url(../assets/modern/images/banners/internet-services-600.jpg) no-repeat center center;
+    }
+    .banner-logoDesign {
+        background: url(../assets/modern/images/banners/logo-branding-600.jpg) no-repeat center center;
+    }
+    .banner-printMedia {
+        background: url(../assets/modern/images/banners/print-media-600.jpg) no-repeat center center;
+    }
+    .banner-photographyVideography {
+        background: url(../assets/modern/images/banners/photography-600.jpg) no-repeat center center;
+    }
+}
 @media (max-width:565px) {    
     nav .logo {
         width: 60px;

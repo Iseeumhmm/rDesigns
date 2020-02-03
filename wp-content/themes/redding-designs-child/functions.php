@@ -220,7 +220,31 @@ function team_init() {
 }
 add_action( 'init', 'team_init' );
 
+// RETURN BANNER HTML
 
+function getPage( $page ) {
+    switch ( $page ) {
+        case "webDevelopmentLarge":
+            $icon = 'banner-webDevelopmentLarge';
+            break;
+        case "digitalMarketing":
+            $icon = 'banner-digitalMarketing';
+            break;
+        case "internetServices":
+            $icon = 'banner-internetServices';
+            break;
+        case "logoDesign":
+            $icon = 'banner-logoDesign';
+            break;
+        case "printMedia":
+            $icon = 'banner-printMedia';
+            break;
+        case "photographyVideography":
+            $icon = 'banner-photographyVideography';
+            break;
+    }
+    return $icon;
+}
 
 // RETURN ICON HTML
 
