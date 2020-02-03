@@ -43,9 +43,47 @@ get_header();
                         </a>
                     </div>
                     <div class="flex">
-                        <?php while ( have_posts() ) :
+                        <?php while ( have_posts() ) 
+                        : the_post(); ?>
+                        <?php
+                            echo '<div class="large_icon">';
+                            echo bulletPoints( get_field( 'icon' ) )['html'];
+                            echo '</div>';
+                            echo '<div id="page-label" data-id="' . bulletPoints( get_field( 'icon' ) )['label'] . '" style="display: hidden;"></div>';
+                            echo '<div class="card-body">';
+                            echo '<h2>' . get_the_title() . '</h2>';
+                            echo '<p>' . get_field( "sub_heading" ) . '</p>';
+                            // check if the repeater field has rows of data
+                            if( have_rows('descriptions') ):
+                                // loop through the rows of data
+                                while ( have_rows('descriptions') ) : the_row();
+                                     // display a sub field value
+                                    echo '<div class="bullets">';
+                                    echo bulletPoints( get_sub_field('icon') )['html'];
+                                    echo '<p class="card-text"/>' . get_sub_field('sub_heading') . '</p><br>';
+                                    echo '</div>';
+                                    echo '<p class="card-text"/>' . get_sub_field('description') . '</p>';
+                                    if( have_rows('logos') ): 
+                                    while ( have_rows('logos') ) : the_row();
+                                    $image = get_sub_field('logo');
+                                    if( !empty( $image ) ): ?>
+                                        <img class="small_logo" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+                                    <?php endif;
+                                    endwhile;
+                                else :
+                                     // no rows found
+                                endif;
+                               
+                                endwhile;
+                            else :
+                                // no rows found
+                            endif;  ?>
+                            <?php endwhile; ?>
+                            <?php wp_reset_postdata();
+                        ?>
+                        <!-- <?php while ( have_posts() ) :
                         the_post(); ?>
-                        <?php //echo '<div class="cell-service" id="' . get_field( 'icon' ) . '" data-aos="zoom-in">'; 
+                        <?php echo '<div class="cell-service" id="' . get_field( 'icon' ) . '" data-aos="zoom-in">'; 
                         echo '<div class="large_icon">';
                         echo bulletPoints( get_field( 'icon' ) )['html'];
                         echo '</div>';
@@ -77,9 +115,8 @@ get_header();
                                 }
                             } 
                         ?>
-                        <!-- </div> -->
                         <?php endwhile; ?>
-                        <?php wp_reset_postdata(); ?>
+                        <?php wp_reset_postdata(); ?>  -->
                     </div>
                 </section>
                 <div class="container-grey quote quote-contact">
