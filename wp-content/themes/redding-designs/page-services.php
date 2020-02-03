@@ -70,27 +70,39 @@ get_header();
                                 echo '<div class="card-body">';
                                 echo '<h2>' . get_the_title() . '</h2>';
                                 echo '<p>' . get_field( "sub_heading" ) . '</p>';
-                                ?>
+                            
+
+                                if( have_rows('descriptions') ):
+                                    // loop through the rows of data
+                                    while ( have_rows('descriptions') ) : the_row();
+                                        // display a sub field value
+                                        echo bulletPoints( get_sub_field('icon') )['html'];
+                                        echo '<p class="card-text"/>' . get_sub_field('sub_heading') . '</p><br>';
+                                    endwhile;
+                                else :
+                                    // no rows found
+                                endif;  ?>
+
                                 <?php
-                                    $table = get_field( 'sub_descriptions' );
-                                    if ( ! empty ( $table ) ) {
-                                        foreach ( $table['body'] as $tr ) {
-                                            $i=0;
-                                            $icon="";
-                                            foreach ( $tr as $td ) {
-                                                if ( $i == 0 ) {
-                                                    $icon = bulletPoints( $td['c'] )['html'];
-                                                    $i++;
-                                                } else if ( $i == 1 ){
-                                                    echo $icon;
-                                                    echo '<p class="card-text"/>' . $td['c'] . '</p><br>';
-                                                    $i++;
-                                                } else if ( $i == 2 ) {
-                                                    echo '<p style="display: none;" class="card-text hidden-description"/>' . $td['c'] . '</p>';
-                                                }
-                                            }
-                                        }
-                                    } 
+                                    // $table = get_field( 'sub_descriptions' );
+                                    // if ( ! empty ( $table ) ) {
+                                    //     foreach ( $table['body'] as $tr ) {
+                                    //         $i=0;
+                                    //         $icon="";
+                                    //         foreach ( $tr as $td ) {
+                                    //             if ( $i == 0 ) {
+                                    //                 $icon = bulletPoints( $td['c'] )['html'];
+                                    //                 $i++;
+                                    //             } else if ( $i == 1 ){
+                                    //                 echo $icon;
+                                    //                 echo '<p class="card-text"/>' . $td['c'] . '</p><br>';
+                                    //                 $i++;
+                                    //             } else if ( $i == 2 ) {
+                                    //                 echo '<p style="display: none;" class="card-text hidden-description"/>' . $td['c'] . '</p>';
+                                    //             }
+                                    //         }
+                                    //     }
+                                    // } 
                                     echo '<p class="btn"><a href="' . get_permalink() . '">' . get_field( 'link_button_text' ) . '</a></p>';
                                     echo '</div>';
                                     ?>
