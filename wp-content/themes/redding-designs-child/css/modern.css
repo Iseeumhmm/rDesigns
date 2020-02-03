@@ -552,9 +552,6 @@ nav ul .palette {
 .contentWriting {
     background: url(../assets/modern/images/icons/content-writing.png) no-repeat center center;
 }
-.socialMedia {
-    background: url(../assets/modern/images/icons/talking-head.png) no-repeat center center;
-}
 .businessCards {
     background: url(../assets/modern/images/icons/business-card.png) no-repeat center center;
 }
@@ -578,6 +575,18 @@ nav ul .palette {
 }
 .readyForWeb {
     background: url(../assets/modern/images/icons/monitor.png) no-repeat center center;
+}
+.seo {
+    background: url(../assets/modern/images/icons/seo.png) no-repeat center center;
+}
+.socialMedia {
+    background: url(../assets/modern/images/icons/talking-head.png) no-repeat center center;
+}
+.socialMediaAds {
+    background: url(../assets/modern/images/icons/social-media-ads.png) no-repeat center center;
+}
+.socialMediaManagement {
+    background: url(../assets/modern/images/icons/social-media-management.png) no-repeat center center;
 }
 .domainRegistration {
     background: url(../assets/modern/images/icons/internet-services.png) no-repeat center center;

@@ -298,12 +298,6 @@ function bulletPoints( $point ) {
                 "html"    => '<div class="menu-icon contentWriting"></div>'
             );
             break;
-        case "socialMedia":
-            $icon = array(
-                "label"   => "Social Media Management",
-                "html"    => '<div class="menu-icon socialMedia"></div>'
-            );
-            break;
         case "businessCards":
             $icon = array(
                 "label"   => "Business Cards & Letterheads",
@@ -410,6 +404,30 @@ function bulletPoints( $point ) {
             $icon = array(
                 "label"   => "Product Photography",
                 "html"    => '<div class="menu-icon productPhotography"></div>'
+            );
+            break;
+        case "seo":
+            $icon = array(
+                "label"   => "SEO",
+                "html"    => '<div class="menu-icon seo"></div>'
+            );
+            break;
+        case "socialMedia":
+            $icon = array(
+                "label"   => "Social Media Management",
+                "html"    => '<div class="menu-icon socialMedia"></div>'
+            );
+            break;
+        case "socialMediaAds":
+            $icon = array(
+                "label"   => "Social Media Ads",
+                "html"    => '<div class="menu-icon socialMediaAds"></div>'
+            );
+            break;
+        case "socialMediaManagement":
+            $icon = array(
+                "label"   => "Social Media Ads",
+                "html"    => '<div class="menu-icon socialMediaManagement"></div>'
             );
             break;
         case "talkingHeads":
