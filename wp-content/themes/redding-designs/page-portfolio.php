@@ -30,7 +30,7 @@ get_header();
             </style>
             <div class="portfolio">
                 <div class="header-spacer"></div>
-                <div class="sub-banner banner-portfolio" data-aos="fade-in">
+                <div class="sub-banner banner-portfolio" style="background-image: url('<?php the_field( "main_image" ); ?>');" data-aos="fade-in">
                     <div class="sub-banner--text_container">
                         <h1 data-aos="slide-right">Our Portfolio</h1><br>
                     </div>
