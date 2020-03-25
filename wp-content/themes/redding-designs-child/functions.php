@@ -1,14 +1,15 @@
 <?php
-add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
-function my_theme_enqueue_styles() {
-    wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
- 
+add_action('wp_enqueue_scripts', 'my_theme_enqueue_styles');
+function my_theme_enqueue_styles()
+{
+    wp_enqueue_style('parent-style', get_template_directory_uri() . '/style.css');
 }
 /**
  * CUSTOM CONTACTS POST TYPE
  */
 
-function contact_init() {
+function contact_init()
+{
     // set up Contact labels
     $labels = array(
         'name' => 'Contacts',
@@ -21,11 +22,11 @@ function contact_init() {
         'view_item' => 'View Contact',
         'search_items' => 'Search Contacts',
         'not_found' =>  'No Contacts Found',
-        'not_found_in_trash' => 'No Contacts found in Trash', 
+        'not_found_in_trash' => 'No Contacts found in Trash',
         'parent_item_colon' => '',
         'menu_name' => 'Contacts',
     );
-    
+
     // register post type
     $args = array(
         'labels' => $labels,
@@ -38,20 +39,20 @@ function contact_init() {
         'query_var' => true,
         'menu_icon' => 'dashicons-buddicons-pm',
         'supports' => array(
-			'title',
+            'title',
             'custom-fields'
         )
-	);
-    register_post_type( 'contact', $args );
-    
+    );
+    register_post_type('contact', $args);
 }
-add_action( 'init', 'contact_init' );
+add_action('init', 'contact_init');
 
 /**
  * CUSTOM TESTIMONIALS POST TYPE
  */
 
-function testimonial_init() {
+function testimonial_init()
+{
     // set up testimonial labels
     $labels = array(
         'name' => 'Testimonials',
@@ -64,11 +65,11 @@ function testimonial_init() {
         'view_item' => 'View Testimonial',
         'search_items' => 'Search Testimonials',
         'not_found' =>  'No Testimonials Found',
-        'not_found_in_trash' => 'No Testimonials found in Trash', 
+        'not_found_in_trash' => 'No Testimonials found in Trash',
         'parent_item_colon' => '',
         'menu_name' => 'Testimonials',
     );
-    
+
     // register post type
     $args = array(
         'labels' => $labels,
@@ -81,20 +82,20 @@ function testimonial_init() {
         'query_var' => true,
         'menu_icon' => 'dashicons-star-half',
         'supports' => array(
-			'title',
+            'title',
             'custom-fields'
         )
-	);
-    register_post_type( 'Testimonial', $args );
-    
+    );
+    register_post_type('Testimonial', $args);
 }
-add_action( 'init', 'testimonial_init' );
+add_action('init', 'testimonial_init');
 
 /**
  * CUSTOM PORTFOLIO POST TYPE
  */
 
-function portfolio_init() {
+function portfolio_init()
+{
     // set up Portfolio labels
     $labels = array(
         'name' => 'Portfolios',
@@ -107,11 +108,11 @@ function portfolio_init() {
         'view_item' => 'View Portfolio',
         'search_items' => 'Search Portfolios',
         'not_found' =>  'No Portfolios Found',
-        'not_found_in_trash' => 'No Portfolios found in Trash', 
+        'not_found_in_trash' => 'No Portfolios found in Trash',
         'parent_item_colon' => '',
         'menu_name' => 'Portfolios',
     );
-    
+
     // register post type
     $args = array(
         'labels' => $labels,
@@ -124,21 +125,21 @@ function portfolio_init() {
         'query_var' => true,
         'menu_icon' => 'dashicons-portfolio',
         'supports' => array(
-			'title',
+            'title',
             'custom-fields',
             'thumbnail'
         )
-	);
-    register_post_type( 'portfolio', $args );
-    
+    );
+    register_post_type('portfolio', $args);
 }
-add_action( 'init', 'portfolio_init' );
+add_action('init', 'portfolio_init');
 
 /**
  * CUSTOM SERVICES POST TYPE
  */
 
-function Service_init() {
+function Service_init()
+{
     // set up Service labels
     $labels = array(
         'name' => 'Services',
@@ -151,11 +152,11 @@ function Service_init() {
         'view_item' => 'View Service',
         'search_items' => 'Search Services',
         'not_found' =>  'No Services Found',
-        'not_found_in_trash' => 'No Services found in Trash', 
+        'not_found_in_trash' => 'No Services found in Trash',
         'parent_item_colon' => '',
         'menu_name' => 'Services',
     );
-    
+
     // register post type
     $args = array(
         'labels' => $labels,
@@ -168,20 +169,20 @@ function Service_init() {
         'query_var' => true,
         'menu_icon' => 'dashicons-admin-tools',
         'supports' => array(
-			'title',
+            'title',
             'custom-fields'
         )
-	);
-    register_post_type( 'service', $args );
-    
+    );
+    register_post_type('service', $args);
 }
-add_action( 'init', 'service_init' );
+add_action('init', 'service_init');
 
 /**
  * CUSTOM TEAM POST TYPE
  */
 
-function team_init() {
+function team_init()
+{
     // set up Team labels
     $labels = array(
         'name' => 'Team',
@@ -194,11 +195,11 @@ function team_init() {
         'view_item' => 'View Team Member',
         'search_items' => 'Search Team Members',
         'not_found' =>  'No Team Members Found',
-        'not_found_in_trash' => 'No Teams Members found in Trash', 
+        'not_found_in_trash' => 'No Teams Members found in Trash',
         'parent_item_colon' => '',
         'menu_name' => 'Team Members',
     );
-    
+
     // register post type
     $args = array(
         'labels' => $labels,
@@ -211,19 +212,19 @@ function team_init() {
         'query_var' => true,
         'menu_icon' => 'dashicons-buddicons-buddypress-logo',
         'supports' => array(
-			'title',
+            'title',
             'custom-fields'
         )
-	);
-    register_post_type( 'Team', $args );
-    
+    );
+    register_post_type('Team', $args);
 }
-add_action( 'init', 'team_init' );
+add_action('init', 'team_init');
 
 // RETURN BANNER HTML
 
-function getPage( $page ) {
-    switch ( $page ) {
+function getPage($page)
+{
+    switch ($page) {
         case "webDevelopmentLarge":
             $icon = 'banner-webDevelopmentLarge';
             break;
@@ -248,8 +249,9 @@ function getPage( $page ) {
 
 // RETURN ICON HTML
 
-function bulletPoints( $point ) {
-    switch ( $point ) {
+function bulletPoints($point)
+{
+    switch ($point) {
         case "webDevelopment":
             $icon = array(
                 "label"   => "Web Design & Development",
@@ -326,6 +328,12 @@ function bulletPoints( $point ) {
             $icon = array(
                 "label"   => "Business Cards & Letterheads",
                 "html"    => '<div class="menu-icon businessCards"></div>'
+            );
+            break;
+        case "digitalMarketingMenu":
+            $icon = array(
+                "label"   => "Digital Marketing",
+                "html"    => '<div class="menu-icon digital-marketing"></div>'
             );
             break;
         case "flyersBrochures":
@@ -476,112 +484,114 @@ function bulletPoints( $point ) {
  * DUPLICATE POSTS & PAGES
  */
 
- /*
+/*
  * Function for post duplication. Dups appear as drafts. User is redirected to the edit screen
  */
-function rd_duplicate_post_as_draft(){
-	global $wpdb;
-	if (! ( isset( $_GET['post']) || isset( $_POST['post'])  || ( isset($_REQUEST['action']) && 'rd_duplicate_post_as_draft' == $_REQUEST['action'] ) ) ) {
-		wp_die('No post to duplicate has been supplied!');
-	}
- 
-	/*
+function rd_duplicate_post_as_draft()
+{
+    global $wpdb;
+    if (!(isset($_GET['post']) || isset($_POST['post'])  || (isset($_REQUEST['action']) && 'rd_duplicate_post_as_draft' == $_REQUEST['action']))) {
+        wp_die('No post to duplicate has been supplied!');
+    }
+
+    /*
 	 * Nonce verification
 	 */
-	if ( !isset( $_GET['duplicate_nonce'] ) || !wp_verify_nonce( $_GET['duplicate_nonce'], basename( __FILE__ ) ) )
-		return;
- 
-	/*
+    if (!isset($_GET['duplicate_nonce']) || !wp_verify_nonce($_GET['duplicate_nonce'], basename(__FILE__)))
+        return;
+
+    /*
 	 * get the original post id
 	 */
-	$post_id = (isset($_GET['post']) ? absint( $_GET['post'] ) : absint( $_POST['post'] ) );
-	/*
+    $post_id = (isset($_GET['post']) ? absint($_GET['post']) : absint($_POST['post']));
+    /*
 	 * and all the original post data then
 	 */
-	$post = get_post( $post_id );
- 
-	/*
+    $post = get_post($post_id);
+
+    /*
 	 * if you don't want current user to be the new post author,
 	 * then change next couple of lines to this: $new_post_author = $post->post_author;
 	 */
-	$current_user = wp_get_current_user();
-	$new_post_author = $current_user->ID;
- 
-	/*
+    $current_user = wp_get_current_user();
+    $new_post_author = $current_user->ID;
+
+    /*
 	 * if post data exists, create the post duplicate
 	 */
-	if (isset( $post ) && $post != null) {
- 
-		/*
+    if (isset($post) && $post != null) {
+
+        /*
 		 * new post data array
 		 */
-		$args = array(
-			'comment_status' => $post->comment_status,
-			'ping_status'    => $post->ping_status,
-			'post_author'    => $new_post_author,
-			'post_content'   => $post->post_content,
-			'post_excerpt'   => $post->post_excerpt,
-			'post_name'      => $post->post_name,
-			'post_parent'    => $post->post_parent,
-			'post_password'  => $post->post_password,
-			'post_status'    => 'draft',
-			'post_title'     => $post->post_title,
-			'post_type'      => $post->post_type,
-			'to_ping'        => $post->to_ping,
-			'menu_order'     => $post->menu_order
-		);
- 
-		/*
+        $args = array(
+            'comment_status' => $post->comment_status,
+            'ping_status'    => $post->ping_status,
+            'post_author'    => $new_post_author,
+            'post_content'   => $post->post_content,
+            'post_excerpt'   => $post->post_excerpt,
+            'post_name'      => $post->post_name,
+            'post_parent'    => $post->post_parent,
+            'post_password'  => $post->post_password,
+            'post_status'    => 'draft',
+            'post_title'     => $post->post_title,
+            'post_type'      => $post->post_type,
+            'to_ping'        => $post->to_ping,
+            'menu_order'     => $post->menu_order
+        );
+
+        /*
 		 * insert the post by wp_insert_post() function
 		 */
-		$new_post_id = wp_insert_post( $args );
- 
-		/*
+        $new_post_id = wp_insert_post($args);
+
+        /*
 		 * get all current post terms ad set them to the new post draft
 		 */
-		$taxonomies = get_object_taxonomies($post->post_type); // returns array of taxonomy names for post type, ex array("category", "post_tag");
-		foreach ($taxonomies as $taxonomy) {
-			$post_terms = wp_get_object_terms($post_id, $taxonomy, array('fields' => 'slugs'));
-			wp_set_object_terms($new_post_id, $post_terms, $taxonomy, false);
-		}
- 
-		/*
+        $taxonomies = get_object_taxonomies($post->post_type); // returns array of taxonomy names for post type, ex array("category", "post_tag");
+        foreach ($taxonomies as $taxonomy) {
+            $post_terms = wp_get_object_terms($post_id, $taxonomy, array('fields' => 'slugs'));
+            wp_set_object_terms($new_post_id, $post_terms, $taxonomy, false);
+        }
+
+        /*
 		 * duplicate all post meta just in two SQL queries
 		 */
-		$post_meta_infos = $wpdb->get_results("SELECT meta_key, meta_value FROM $wpdb->postmeta WHERE post_id=$post_id");
-		if (count($post_meta_infos)!=0) {
-			$sql_query = "INSERT INTO $wpdb->postmeta (post_id, meta_key, meta_value) ";
-			foreach ($post_meta_infos as $meta_info) {
-				$meta_key = $meta_info->meta_key;
-				if( $meta_key == '_wp_old_slug' ) continue;
-				$meta_value = addslashes($meta_info->meta_value);
-				$sql_query_sel[]= "SELECT $new_post_id, '$meta_key', '$meta_value'";
-			}
-			$sql_query.= implode(" UNION ALL ", $sql_query_sel);
-			$wpdb->query($sql_query);
-		}
- 
- 
-		/*
+        $post_meta_infos = $wpdb->get_results("SELECT meta_key, meta_value FROM $wpdb->postmeta WHERE post_id=$post_id");
+        if (count($post_meta_infos) != 0) {
+            $sql_query = "INSERT INTO $wpdb->postmeta (post_id, meta_key, meta_value) ";
+            foreach ($post_meta_infos as $meta_info) {
+                $meta_key = $meta_info->meta_key;
+                if ($meta_key == '_wp_old_slug') continue;
+                $meta_value = addslashes($meta_info->meta_value);
+                $sql_query_sel[] = "SELECT $new_post_id, '$meta_key', '$meta_value'";
+            }
+            $sql_query .= implode(" UNION ALL ", $sql_query_sel);
+            $wpdb->query($sql_query);
+        }
+
+
+        /*
 		 * finally, redirect to the edit post screen for the new draft
 		 */
-		wp_redirect( admin_url( 'post.php?action=edit&post=' . $new_post_id ) );
-		exit;
-	} else {
-		wp_die('Post creation failed, could not find original post: ' . $post_id);
-	}
+        wp_redirect(admin_url('post.php?action=edit&post=' . $new_post_id));
+        exit;
+    } else {
+        wp_die('Post creation failed, could not find original post: ' . $post_id);
+    }
 }
-add_action( 'admin_action_rd_duplicate_post_as_draft', 'rd_duplicate_post_as_draft' );
- 
+add_action('admin_action_rd_duplicate_post_as_draft', 'rd_duplicate_post_as_draft');
+
 /*
  * Add the duplicate link to action list for post_row_actions
  */
-function rd_duplicate_post_link( $actions, $post ) {
-	if (current_user_can('edit_posts')) {
-		$actions['duplicate'] = '<a href="' . wp_nonce_url('admin.php?action=rd_duplicate_post_as_draft&post=' . $post->ID, basename(__FILE__), 'duplicate_nonce' ) . '" title="Duplicate this item" rel="permalink">Duplicate</a>';
-	}
-	return $actions;
+function rd_duplicate_post_link($actions, $post)
+{
+    if (current_user_can('edit_posts')) {
+        $actions['duplicate'] = '<a href="' . wp_nonce_url('admin.php?action=rd_duplicate_post_as_draft&post=' . $post->ID, basename(__FILE__), 'duplicate_nonce') . '" title="Duplicate this item" rel="permalink">Duplicate</a>';
+    }
+    return $actions;
 }
- 
-add_filter( 'post_row_actions', 'rd_duplicate_post_link', 10, 2 );
+
+add_filter('post_row_actions', 'rd_duplicate_post_link', 10, 2);
 add_filter('page_row_actions', 'rd_duplicate_post_link', 10, 2);
